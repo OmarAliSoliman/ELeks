@@ -1,0 +1,27 @@
+<svg width="77" height="80" viewBox="0 0 77 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tait-logo-white.svg" clip-path="url(#clip0_68_6212)">
+<g id="Clip path group">
+<mask id="mask0_68_6212" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="77" height="80">
+<g id="clip0_288_5395">
+<path id="Vector" d="M76.49 0H0.48999V80H76.49V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_68_6212)">
+<g id="Group">
+<path id="Vector_2" d="M0.48999 29.0286H24.5754V36.3143H0.48999V29.0286Z" fill="black"/>
+<path id="Vector_3" d="M8.4303 29.0286H16.6352V51.4H8.4303V29.0286Z" fill="black"/>
+<path id="Vector_4" d="M52.4543 29.0286H76.5397V36.3143H52.4543V29.0286Z" fill="black"/>
+<path id="Vector_5" d="M60.3948 29.0286H68.5997V51.4H60.3948V29.0286Z" fill="black"/>
+<path id="Vector_6" d="M43.7203 29.0286H51.9252V51.4H43.7203V29.0286Z" fill="black"/>
+<path id="Vector_7" d="M30.2218 28L34.5008 35.8429L25.987 51.4H17.4292L30.2218 28Z" fill="black"/>
+<path id="Vector_8" d="M28.5453 40.6429L34.4208 51.4H42.9786L32.7726 32.7143L28.5453 40.6429Z" fill="black"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_68_6212">
+<rect width="76" height="80" fill="white" transform="translate(0.48999)"/>
+</clipPath>
+</defs>
+</svg>
