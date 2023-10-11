@@ -33,6 +33,60 @@ $(document).ready(function () {
       ],
     });
   }
+
+
+  if($(".what_you_get_slider").length){
+
+    var $slider = $('.what_you_get_slider');
+    var $progressBar = $('.what_you_get_slider_progressbar');
+    var $progressBarLabel = $( '.what_you_get_slider_progressbar .slider__label' );
+    
+    $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
+      var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+      
+      $progressBar
+        .css('background-size', calc + '% 100%')
+        .attr('aria-valuenow', calc );
+      
+      $progressBarLabel.text( calc + '% completed' );
+    });
+
+
+       
+
+
+    $(".what_you_get_slider").slick(
+      {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: true,
+        speed: 300,
+        infinite: true,
+        autoplaySpeed: 5000,
+        autoplay: true,
+        centerMode: true,
+        prevArrow: $('.custom_arrow_next'),
+        nextArrow: $('.custom_arrow_prev'),
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      }
+    )
+  }
+
+
 });
 
 // $(window).on("load", function () {
