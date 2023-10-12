@@ -12,6 +12,8 @@
   <!-- for english version please change bootstrap to en bootstrap ./assets/css/bootstrap.min.css -->
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/nice-select.css" />
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
 
 
   <link rel="stylesheet" href="./assets/css/animate.css">
@@ -181,14 +183,83 @@
 
 
   <div class="home_blog">
-    <div class="container">
+    <div class="container-fluid">
       <div class="home_blog_wrapper">
         <div class="section_header">
           <h5>Our Blog</h5>
         </div>
         <div class="blogs_cards">
-          <div class="row">
-            <div class="col-lg-4">
+          <div class="blogs_cards_slider">
+            <div class="slider_item">
+              <div class="blog_card">
+                <div class="card_img">
+                  <div class="img_parent">
+                    <img src="./assets/images/blog1.png" alt="">
+                  </div>
+                </div>
+                <div class="card_body">
+                  <span class="date">November 4 ,2023 in UAE</span>
+                  <h5 class="card_title">
+                    ELEKS and Sustain.Life Announce Strategic Partnership to Bring Carbon
+                    Accounting And…
+                  </h5>
+                  <p class="card_text">
+                    Ajman, UAE – ELEKS Software Middle East LLC, ELEKS's regional partner in the Middle…
+                  </p>
+                  <div class="btn_view">
+                    <a href="" class="btn_style">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider_item">
+              <div class="blog_card">
+                <div class="card_img">
+                  <div class="img_parent">
+                    <img src="./assets/images/blog1.png" alt="">
+                  </div>
+                </div>
+                <div class="card_body">
+                  <span class="date">November 4 ,2023 in UAE</span>
+                  <h5 class="card_title">
+                    ELEKS and Sustain.Life Announce Strategic Partnership to Bring Carbon
+                    Accounting And…
+                  </h5>
+                  <p class="card_text">
+                    Ajman, UAE – ELEKS Software Middle East LLC, ELEKS's regional partner in the Middle…
+                  </p>
+                  <div class="btn_view">
+                    <a href="" class="btn_style">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider_item">
+              <div class="blog_card">
+                <div class="card_img">
+                  <div class="img_parent">
+                    <img src="./assets/images/blog1.png" alt="">
+                  </div>
+                </div>
+                <div class="card_body">
+                  <span class="date">November 4 ,2023 in UAE</span>
+                  <h5 class="card_title">
+                    ELEKS and Sustain.Life Announce Strategic Partnership to Bring Carbon
+                    Accounting And…
+                  </h5>
+                  <p class="card_text">
+                    Ajman, UAE – ELEKS Software Middle East LLC, ELEKS's regional partner in the Middle…
+                  </p>
+                  <div class="btn_view">
+                    <a href="" class="btn_style">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider_item">
               <div class="blog_card">
                 <div class="card_img">
                   <div class="img_parent">
@@ -211,6 +282,19 @@
               </div>
             </div>
           </div>
+
+          <div class="custom_progress_arrows">
+            <div class="custom_arrow custom_arrow_next">
+              <img src="./assets/images/ep_arrow-left-bold.svg" alt="">
+            </div>
+            <div class="blogs_cards_slider_progressbar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+              <span class="slider__label sr-only">
+            </div>
+            <div class="custom_arrow custom_arrow_prev">
+              <img src="./assets/images/ep_arrow-right-bold.svg" alt="">
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -275,7 +359,15 @@
                         <textarea name="" id="" class="form-control"></textarea>
                       </div>
                     </div>
-                    <div class="col-sm-12 col-lg-12">Add an attachment</div>
+                    <div class="col-sm-12 col-lg-12">
+                      <input type="file" id="imageInput">
+                      <label for="imageInput" class="imageInput_label">
+                        <div class="file_link">
+                          <img src="./assets/images/filelink.svg" alt="">
+                        </div>
+                        <span>Add an attachment</span>
+                      </label>
+                    </div>
                     <div class="col-sm-12 col-lg-12">
                       <div class="conditions">
                         <input type="checkbox" name="" id="approveconditions">
@@ -342,7 +434,7 @@
             <div class="col-sm-12 col-lg-7">
               <div class="links_wrpper">
                 <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-sm-12 col-md-3 col-lg-3">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
                       <li><a href="">About us</a></li>
@@ -356,7 +448,7 @@
                       <li><a href="">Contact Us</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-sm-12 col-md-3 col-lg-3">
                     <h5>Services</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Product and service design</a></li>
@@ -378,7 +470,7 @@
                       <li><a href="">Support</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-sm-12 col-md-3 col-lg-3">
                     <h5>Industries</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Logistics</a></li>
@@ -393,7 +485,7 @@
                       <li><a href="">Government</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-sm-12 col-md-3 col-lg-3">
                     <h5>Expertise</h5>
                     <ul class="list-unstyled">
                       <li><a href="">DevOps</a></li>
@@ -441,6 +533,7 @@
   <script src="./assets/js/jquery.nice-select.min.js"></script>
   <script src="./assets/js/wow.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
   <script src="./assets/js/main.js"></script>
 </body>
 

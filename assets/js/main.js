@@ -19,6 +19,62 @@ $(document).ready(function () {
       centerMode: true,
       responsive: [
         {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2.2,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  }
+
+  if ($(".what_you_get_slider").length) {
+    var $slider = $(".what_you_get_slider");
+    var $progressBar = $(".what_you_get_slider_progressbar");
+    var $progressBarLabel = $(
+      ".what_you_get_slider_progressbar .slider__label"
+    );
+
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
+
+        $progressBarLabel.text(calc + "% completed");
+      }
+    );
+
+    $(".what_you_get_slider").slick({
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      prevArrow: $(".custom_arrow_next"),
+      nextArrow: $(".custom_arrow_prev"),
+      responsive: [
+        {
           breakpoint: 991,
           settings: {
             slidesToShow: 3,
@@ -34,59 +90,61 @@ $(document).ready(function () {
     });
   }
 
+  if ($(".blogs_cards_slider").length) {
+    var $slider = $(".blogs_cards_slider");
+    var $progressBar = $(".blogs_cards_slider_progressbar");
+    var $progressBarLabel = $(".blogs_cards_slider_progressbar .slider__label");
 
-  if($(".what_you_get_slider").length){
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-    var $slider = $('.what_you_get_slider');
-    var $progressBar = $('.what_you_get_slider_progressbar');
-    var $progressBarLabel = $( '.what_you_get_slider_progressbar .slider__label' );
-    
-    $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {   
-      var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
-      
-      $progressBar
-        .css('background-size', calc + '% 100%')
-        .attr('aria-valuenow', calc );
-      
-      $progressBarLabel.text( calc + '% completed' );
-    });
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
 
-
-       
-
-
-    $(".what_you_get_slider").slick(
-      {
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        arrows: true,
-        dots: true,
-        speed: 300,
-        infinite: true,
-        autoplaySpeed: 5000,
-        autoplay: true,
-        centerMode: true,
-        prevArrow: $('.custom_arrow_next'),
-        nextArrow: $('.custom_arrow_prev'),
-        responsive: [
-          {
-            breakpoint: 991,
-            settings: {
-              slidesToShow: 3,
-            },
-          },
-          {
-            breakpoint: 767,
-            settings: {
-              slidesToShow: 1,
-            },
-          },
-        ],
+        $progressBarLabel.text(calc + "% completed");
       }
-    )
+    );
+
+    $(".blogs_cards_slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      prevArrow: $(".custom_arrow_next"),
+      nextArrow: $(".custom_arrow_prev"),
+      responsive: [
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 2,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          },
+        },
+      ],
+    });
   }
-
-
 });
 
 // $(window).on("load", function () {
