@@ -145,6 +145,186 @@ $(document).ready(function () {
       ],
     });
   }
+
+
+  if ($(".help_cards_slider").length) {
+    var $slider = $(".help_cards_slider");
+    var $progressBar = $(".help_cards_slider_progressbar");
+    var $progressBarLabel = $(
+      ".help_cards_slider_progressbar .slider__label"
+    );
+
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
+
+        $progressBarLabel.text(calc + "% completed");
+      }
+    );
+
+    $(".help_cards_slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: false,
+      prevArrow: $(".help_cards_slider_custom_arrow_next"),
+      nextArrow: $(".help_cards_slider_custom_arrow_prev"),
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  }
+  
+
+  if ($(".our_produc_design_success_slider").length) {
+    var $slider = $(".our_produc_design_success_slider");
+    var $progressBar = $(".our_produc_design_success_slider_progressbar");
+    var $progressBarLabel = $(
+      ".our_produc_design_success_slider_progressbar .slider__label"
+    );
+
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
+
+        $progressBarLabel.text(calc + "% completed");
+      }
+    );
+
+    $(".our_produc_design_success_slider").slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: false,
+      prevArrow: $(".our_product_design_successـcustom_arrow_next"),
+      nextArrow: $(".our_product_design_successـcustom_arrow_prev"),
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  }
+
+
+  if ($(".custom_our_blog_slider").length) {
+    var $slider = $(".custom_our_blog_slider");
+    var $progressBar = $(".custom_our_blog_slider_progressbar");
+    var $progressBarLabel = $(
+      ".custom_our_blog_slider_progressbar .slider__label"
+    );
+
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
+
+        $progressBarLabel.text(calc + "% completed");
+      }
+    );
+
+    $(".custom_our_blog_slider").slick({
+      slidesToShow: 5.1,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: false,
+      prevArrow: $(".custom_our_blog_custom_arrow_next"),
+      nextArrow: $(".custom_our_blog_custom_arrow_prev"),
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    });
+  }
+
+  if($(".what_you_get_with_slider").length){
+    $(".what_you_get_with_slider").slick({
+      slidesToShow: 6.1,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: false,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: false,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
+
 });
 
 // $(window).on("load", function () {
