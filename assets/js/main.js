@@ -2,6 +2,48 @@ $(document).ready(function () {
   var currentDir = $("a").css("direction");
   console.log(currentDir);
 
+  if($(".awards_logo_slider").length){
+    $(".awards_logo_slider").slick({
+      slidesToShow: 7,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      responsive: [
+        {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 6.5,
+          },
+        },
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 4,
+          },
+        },
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 2.2,
+            centerMode: false,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            centerMode: false,
+          },
+        },
+      ],
+    })
+  }
+
   if ($(".nice_select").length) {
     $(".nice_select").niceSelect();
   }
@@ -122,6 +164,13 @@ $(document).ready(function () {
       nextArrow: $(".custom_arrow_prev"),
       responsive: [
         {
+          breakpoint: 1300,
+          settings: {
+            slidesToShow: 2.3,
+            centerMode: false,
+          },
+        },
+        {
           breakpoint: 1025,
           settings: {
             slidesToShow: 2,
@@ -131,7 +180,7 @@ $(document).ready(function () {
         {
           breakpoint: 991,
           settings: {
-            slidesToShow: 2,
+            slidesToShow:1.5,
             centerMode: false,
           },
         },
@@ -145,7 +194,6 @@ $(document).ready(function () {
       ],
     });
   }
-
 
   if ($(".help_cards_slider").length) {
     var $slider = $(".help_cards_slider");
@@ -408,6 +456,14 @@ $(document).ready(function () {
           },
         },
       ],
+    })
+  }
+
+
+  if($(".contact_us_section").length){
+    $(".contact_us_section #imageInput").on('change', function(e){
+      var fname = e.target.files[0].name;
+      $(this).parent().find('.file_name').text(fname);
     })
   }
 
