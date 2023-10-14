@@ -325,6 +325,92 @@ $(document).ready(function () {
   }
 
 
+  if($(".what_our_clients_say_slider").length){
+    $(".what_our_clients_say_slider").slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
+  if($(".sunstan_our_partners_slider").length){
+    $(".sunstan_our_partners_slider").slick({
+      slidesToShow: 4.2,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
+
+  // sunstan_our_partners_erp_slider
+  if($(".sunstan_our_partners_erp_slider").length){
+    $(".sunstan_our_partners_erp_slider").slick({
+      slidesToShow: 7,
+      slidesToScroll: 1,
+      arrows: false,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      centerMode: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
 });
 
 // $(window).on("load", function () {

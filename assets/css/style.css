@@ -1009,7 +1009,7 @@ p {
 }
 
 .custom_home_awards {
-  background: rgba(8, 46, 181, 0.1);
+  background: rgba(8, 46, 181, 0.03);
   padding: 60px 0;
 }
 
@@ -2520,6 +2520,9 @@ p {
   width: fit-content;
   margin-bottom: 16px;
 }
+.services_header .type.solution {
+  background: #e81f26;
+}
 
 .product_service_advisory .section_header {
   text-align: center;
@@ -2618,17 +2621,17 @@ p {
   margin: 0;
   margin-right: 10px;
 }
-.product_service_advisory .what_you_get {
+.product_service_advisory .what_you_get_half_sentences {
   padding: 180px 0;
 }
-.product_service_advisory .what_you_get h5 {
+.product_service_advisory .what_you_get_half_sentences h5 {
   color: #252525;
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 50px; /* 150% */
 }
-.product_service_advisory .what_you_get p {
+.product_service_advisory .what_you_get_half_sentences p {
   color: #373737;
   font-size: 1.2rem;
   font-style: normal;
@@ -2673,6 +2676,30 @@ p {
   font-weight: 700;
   line-height: 30px; /* 187.5% */
 }
+.product_service_advisory .three_element_expanded ul li .expand_card .link {
+  display: block;
+  text-align: right;
+  justify-content: end;
+}
+.product_service_advisory .three_element_expanded ul li .expand_card .link img {
+  filter: none;
+}
+.product_service_advisory .three_element_expanded ul li .expand_card .link span {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.product_service_advisory .three_element_expanded ul li .expand_card .link .arrow {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #fff;
+}
 .product_service_advisory .three_element_expanded ul li .pargraph {
   text-align: left;
   color: #252525;
@@ -2683,6 +2710,30 @@ p {
   transition: all 0.5s ease-in-out;
   display: none;
   line-height: 30px; /* 187.5% */
+}
+.product_service_advisory .three_element_expanded ul li .pargraph .lista {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product_service_advisory .three_element_expanded ul li .pargraph .lista > div {
+  width: 50%;
+  position: relative;
+  padding-left: 10px;
+}
+.product_service_advisory .three_element_expanded ul li .pargraph .lista > div::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 0;
+  top: 12px;
+}
+.product_service_advisory .three_element_expanded ul li .pargraph .lista > div p {
+  font-size: 0.9rem;
 }
 .product_service_advisory .three_element_expanded ul li:hover {
   flex-grow: 4;
@@ -3135,6 +3186,881 @@ p {
   width: 100% !important;
 }
 
+/* ================================================================ */
+.services_header_with_images .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services_header_with_images .content_img {
+  display: flex;
+  align-items: center;
+}
+.services_header_with_images img {
+  flex: none;
+  margin-left: 40px;
+}
+
+.data_stratigy_service .what_you_get_in_strategy {
+  padding: 120px 0;
+}
+.data_stratigy_service .what_you_get_in_strategy .card_img {
+  border-radius: 20px;
+  height: 900px;
+}
+.data_stratigy_service .what_you_get_in_strategy .card_img img {
+  border-radius: 20px;
+}
+.data_stratigy_service .what_you_get_in_strategy_content .contente_head {
+  margin-bottom: 50px;
+  color: #252525;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 50px; /* 150% */
+}
+.data_stratigy_service .data_strategy_consulting_process {
+  background: #252525;
+  padding: 80px 0 200px 0;
+}
+.data_stratigy_service .data_strategy_consulting_process .section_header {
+  text-align: left;
+  margin-bottom: 100px;
+}
+.data_stratigy_service .data_strategy_consulting_process .section_header h5 {
+  color: #fff;
+  font-size: 2.7rem;
+  font-weight: 500;
+  line-height: 58.5px; /* 117% */
+}
+.data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
+  padding: 0 40px;
+  position: relative;
+}
+.data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #fff;
+}
+.data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content.noLine::after {
+  content: "";
+  display: none;
+}
+.data_stratigy_service .data_strategy_consulting_process .head {
+  margin-bottom: 45px;
+}
+.data_stratigy_service .data_strategy_consulting_process .head img {
+  width: 70px;
+}
+.data_stratigy_service .data_strategy_consulting_process .head h5 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 24px;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item {
+  background: #373737;
+  border-top-color: #e81f26;
+  border-radius: 0;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item .accordion-body {
+  background: #373737;
+  border-radius: 0;
+  border: 0;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item .accordion-body p {
+  color: #fff;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item p {
+  color: #fff;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item .accordion-button {
+  background: #373737;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+.data_stratigy_service .data_strategy_consulting_process .accordion-item .accordion-button::after {
+  background-image: url("../images/Polygon white1.svg");
+}
+.data_stratigy_service .key_deliverables {
+  padding: 100px 0;
+}
+.data_stratigy_service .key_deliverables .section_header {
+  margin-bottom: 50px;
+}
+.data_stratigy_service .key_deliverables .section_header h5 {
+  color: #252525;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+}
+.data_stratigy_service .key_deliverables .double_row {
+  margin-bottom: 90px;
+}
+.data_stratigy_service .key_deliverables .double_row h5 {
+  position: relative;
+  padding-left: 20px;
+}
+.data_stratigy_service .key_deliverables .double_row h5::after {
+  position: absolute;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 6px;
+  background: #0045e6;
+  top: 0;
+}
+.data_stratigy_service .key_deliverables h5 {
+  color: #373737;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.data_stratigy_service .key_deliverables p {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 200% */
+}
+.data_stratigy_service .industries_we_serve {
+  background: #252525;
+  padding: 85px 0 80px 0;
+  text-align: center;
+}
+.data_stratigy_service .industries_we_serve h5 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+}
+.data_stratigy_service .industries_we_serve p {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 222.222% */
+}
+.data_stratigy_service .three_element_expanded li {
+  box-shadow: unset !important;
+  border: 1px solid rgba(216, 216, 216, 0.307);
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy {
+  padding: 60px 0 100px 0;
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .head {
+  margin-bottom: 60px;
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .head h5 {
+  color: #252525;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 150% */
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .head p {
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img {
+  height: 427px;
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content ul {
+  position: relative;
+}
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content ul::before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 100%;
+  width: 1px;
+  background: #d9d9d9;
+  content: "";
+}
+.data_stratigy_service .what_our_clients_say {
+  background: #f8f8f9;
+  padding: 100px 0 90px 0;
+}
+.data_stratigy_service .what_our_clients_say .section_header {
+  margin-bottom: 60px;
+}
+.data_stratigy_service .what_our_clients_say .slider_item {
+  padding-top: 35px;
+  transition: all 0.3s ease-in-out;
+}
+.data_stratigy_service .what_our_clients_say .what_our_clients_say_slider {
+  padding-bottom: 60px;
+}
+.data_stratigy_service .what_our_clients_say .what_our_clients_say_slider .slick-current {
+  transform: translateY(-20px);
+}
+.data_stratigy_service .what_our_clients_say .slick-dots li button::before {
+  width: 17px;
+  height: 17px;
+  background-color: #ddd;
+  border-radius: 50%;
+  content: "";
+}
+.data_stratigy_service .what_our_clients_say .slick-dots li.slick-active button::before {
+  background-color: #373737;
+}
+.data_stratigy_service .data_strategy_leader {
+  padding: 100px 0;
+}
+.data_stratigy_service .data_strategy_leader .section_header {
+  margin-bottom: 67px;
+}
+.data_stratigy_service .data_strategy_leader .section_header h5 {
+  margin-bottom: 40px;
+}
+.data_stratigy_service .data_strategy_leader .section_header p {
+  color: #373737;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.data_stratigy_service .data_strategy_leader .data_strategy_leader_img .card_img {
+  height: 500px;
+}
+.data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn {
+  padding-left: 64px;
+}
+.data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn h5 {
+  color: #252525;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 156.25% */
+}
+.data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn h6 {
+  color: #00267b;
+  font-size: 1rem;
+  margin: 24px 0 50px 0;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+}
+.data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn p {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.pd-70 {
+  padding: 0 40px;
+}
+
+.list_card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.list_card .list_img {
+  width: 100px;
+  height: 100px;
+  background-color: #373737;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  margin-right: 32px;
+}
+.list_card h5 {
+  color: #252525;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.36px;
+}
+.list_card p {
+  color: rgba(37, 37, 37, 0.5);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 25px;
+}
+
+.deliverables_card {
+  margin-bottom: 100px;
+}
+.deliverables_card h5 {
+  color: #252525;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 166.667% */
+  position: relative;
+  padding-left: 30px;
+}
+.deliverables_card h5::after {
+  content: url("../images/entypo_check.svg");
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+.deliverables_card p {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 200% */
+  padding-left: 30px;
+}
+
+.why_eleks_as_your_data_strategy_card {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+.why_eleks_as_your_data_strategy_card .have_question h5 {
+  margin-bottom: 0;
+  margin-right: 30px;
+}
+.why_eleks_as_your_data_strategy_card .have_question .link {
+  color: #0045e6;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.why_eleks_as_your_data_strategy_card .have_question .link img {
+  margin-left: 10px;
+}
+.why_eleks_as_your_data_strategy_card .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 7px 19px rgba(0, 0, 0, 0.13);
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.why_eleks_as_your_data_strategy_card .circle span {
+  width: 10px;
+  height: 10px;
+  background-color: #0045e6;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.why_eleks_as_your_data_strategy_card h5 {
+  color: #252525;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 156.25% */
+  margin-bottom: 25px;
+}
+.why_eleks_as_your_data_strategy_card p {
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+.why_eleks_as_your_data_strategy_card:last-child .circle span {
+  background-color: #e81f26;
+}
+
+.testemonial_card {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+  padding: 37px 12px;
+  margin: 0 15px;
+}
+.testemonial_card .person_info {
+  display: flex;
+  align-items: flex-start;
+}
+.testemonial_card .card_img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin-right: 11px;
+}
+.testemonial_card .card_img img {
+  border-radius: 50%;
+}
+.testemonial_card .person_body h5 {
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.testemonial_card .person_body p {
+  color: #000;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin: 0;
+  margin: 5px 0;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+}
+.testemonial_card .person_body .rate i {
+  color: #ffa033;
+  font-size: 0.9rem;
+  margin-right: 3px;
+}
+.testemonial_card .card_body h5 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.testemonial_card .card_body p {
+  color: #252525;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.testemonial_card .card_footer {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testemonial_card .card_footer .logo {
+  width: 100px;
+}
+.testemonial_card .card_footer .link {
+  display: flex;
+  align-items: center;
+}
+.testemonial_card .card_footer .link .arrow {
+  width: 20px;
+  height: 20px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.testemonial_card .card_footer .link span {
+  color: #252525;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 250% */
+}
+
+/* ================================================================ */
+.sustainability_consulting_service .industries_we_serve_wrapper h5 {
+  color: #252525;
+}
+.sustainability_consulting_service .industries_we_serve {
+  background-color: #fff;
+}
+.sustainability_consulting_service .product_strategy_consulting .product_strategy_consulting_img .card_img {
+  height: 950px;
+}
+.sustainability_consulting_service .product_strategy_consulting h5 {
+  color: #fff;
+  font-size: 2rem !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58.5px; /* 146.25% */
+}
+.sustainability_consulting_service .product_strategy_consulting li {
+  margin-top: 45px;
+}
+.sustainability_consulting_service .product_strategy_consulting h6 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 93.75% */
+}
+.sustainability_consulting_service .sunstan_our_partners_slider .slider_item {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sustainability_consulting_service .sunstan_our_partners_slider img {
+  width: 220px;
+  margin: auto;
+  flex: none;
+}
+.sustainability_consulting_service .data_strategy_leader {
+  background: rgba(8, 46, 181, 0.03);
+}
+
+/* ================================================================ */
+.pos_service .solutions_and_processes {
+  padding: 120px 0;
+}
+.pos_service .solutions_processes_card {
+  margin-top: 30px;
+}
+.pos_service .solutions_processes_card .card_header {
+  background: #373737;
+  padding: 15px 20px 15px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pos_service .solutions_processes_card .card_header h5 {
+  color: #fff;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -1.8px;
+}
+.pos_service .solutions_processes_card .card_body {
+  margin-top: 26px;
+  background: rgba(216, 216, 216, 0.22);
+  padding: 50px 30px;
+  min-height: 316px;
+}
+.pos_service .solutions_processes_card .card_body li {
+  margin-bottom: 10px;
+}
+.pos_service .solutions_processes_card .card_body p {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* ================================================================ */
+.custom_application_developer .what_we_offer .what_we_offer_img {
+  padding-right: 30px;
+}
+.custom_application_developer .what_we_offer .what_we_offer_img h5 {
+  color: #252525;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.custom_application_developer .what_we_offer .what_we_offer_img h6 {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.custom_application_developer .what_we_offer .what_we_offer_img p {
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+/* ================================================================ */
+.enterprise_application_developer .secure_your_software {
+  background: rgba(226, 226, 231, 0.402);
+  padding-top: 60px;
+}
+.enterprise_application_developer .secure_your_software .section_header {
+  padding-bottom: 60px;
+  text-align: left;
+  position: relative;
+}
+.enterprise_application_developer .secure_your_software .section_header h6 {
+  color: #252525;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.9px; /* 133% */
+  position: relative;
+  padding-left: 15px;
+}
+.enterprise_application_developer .secure_your_software .section_header h6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: #e81f26;
+}
+.enterprise_application_developer .secure_your_software .section_header a {
+  text-align: right;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.enterprise_application_developer .secure_your_software .section_header a span {
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.enterprise_application_developer .secure_your_software .section_header .arrow {
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_img .card_img {
+  height: 600px;
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_content {
+  background: #252525;
+  padding: 65px 80px;
+  height: 100%;
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_content img {
+  margin-bottom: 30px;
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_content p {
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 80%;
+  line-height: 30px; /* 187.5% */
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_content h5 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 39.9px; /* 166.25% */
+  margin-top: 60px;
+  width: 80%;
+  margin-bottom: 70px;
+}
+.enterprise_application_developer .secure_your_software .secure_your_software_content span {
+  display: block;
+  color: #fff;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.enterprise_application_developer .three_element_wrapper .section_header {
+  margin: 100px 0 60px 0;
+}
+.enterprise_application_developer .ready_for_relize h5 {
+  position: relative;
+  padding-left: 15px;
+  width: 80%;
+  margin: auto;
+}
+.enterprise_application_developer .ready_for_relize h5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: #e81f26;
+}
+.enterprise_application_developer .sunstan_our_partners {
+  padding: 140px 0 70px 0;
+}
+.enterprise_application_developer .sunstan_our_partners .slider_item img {
+  width: 400px;
+}
+.enterprise_application_developer .sunstan_our_partners .section_header h5 {
+  color: #252525;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.enterprise_application_developer .sunstan_our_partners .section_header p {
+  margin-top: 30px;
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.enterprise_application_developer .our_enterprise_application {
+  padding: 120px 0 500px 0;
+  background: rgba(226, 226, 231, 0.323);
+}
+.enterprise_application_developer .our_produc_design_success_parent {
+  margin-top: -400px;
+}
+
+/* ================================================================ */
+.erp_service .three_element_expanded .expand_card .pargraph {
+  width: 70%;
+}
+.erp_service .three_element_expanded .expand_card .pargraph > div p {
+  margin-bottom: 10px;
+}
+.erp_service .industries_we_serve {
+  padding-bottom: 0;
+}
+.erp_service .sunstan_our_partners .sunstan_our_partners_slider img {
+  width: 250px;
+}
+.erp_service .our_produc_design_success_parent {
+  margin-top: 0;
+}
+
+/* ================================================================ */
+.crm_service .three_element_expanded .expand_card .lista > div {
+  width: 100% !important;
+}
+
+.crm_card {
+  padding: 80px;
+  border: 1px solid rgba(37, 37, 37, 0.2);
+  min-height: 353px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.crm_card h5 {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+/* ================================================================ */
+.services_header_with_boxes_down {
+  min-height: 90vh;
+}
+.services_header_with_boxes_down .header_boxes_down {
+  border-radius: 10px;
+  border: 1px solid var(--gradient-01, #6ddcff);
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.services_header_with_boxes_down .header_boxes_down li {
+  padding: 30px 50px;
+  position: relative;
+  width: 25%;
+}
+.services_header_with_boxes_down .header_boxes_down li::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
+  height: 150px;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 1px;
+}
+.services_header_with_boxes_down .header_boxes_down h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.services_header_with_boxes_down .header_boxes_down p {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.8px; /* 115.556% */
+}
+/* ================================================================ */
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img {
+  width: 600px;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .play_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .play_btn .btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .play_btn span {
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .cardinfo {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .cardinfo p {
+  color: #fff;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 500;
+  width: 70%;
+  line-height: 25px;
+}
+.smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img .cardinfo a {
+  padding: 6px 17px;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  display: inline-flex;
+  color: #fff;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.smart_team_service .our_produc_design_success_parent {
+  background: rgba(0, 69, 230, 0.03);
+}
+.smart_team_service .custom_home_awards {
+  margin-bottom: 100px;
+}
+
+/* ================================================================ */
+/* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
