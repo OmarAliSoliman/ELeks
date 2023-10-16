@@ -88,16 +88,22 @@
     <div class="container">
       <div class="header_boxes">
         <div class="box first_box">
-          <h5>150+</h5>
-          <p>Active client account</p>
+          <div class="wrap">
+            <h5>150+</h5>
+            <p>Active client account</p>
+          </div>
         </div>
         <div class="box">
-          <h5>2000+</h5>
-          <p>Specialists</p>
+          <div class="wrap">
+            <h5>2000+</h5>
+            <p>Specialists</p>
+          </div>
         </div>
         <div class="box">
-          <h5>700+</h5>
-          <p>End to end projects</p>
+          <div class="wrap">
+            <h5>700+</h5>
+            <p>End to end projects</p>
+          </div>
         </div>
       </div>
       <div class="header_content col-lg-6">
@@ -311,31 +317,31 @@
     </div>
 
     <div class="our_presence">
-      <div class="container">
+      <div class="container-fluid pd-150">
         <div class="our_presence_wrapper">
           <div class="section_header">
             <h5>Our presence</h5>
             <p>We have offices and teams all around the world.</p>
           </div>
-
-
+  
+  
           <div class="map_info col-lg-10 mx-auto">
             <div class="row">
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="info_card">
                   <h5>Support</h5>
                   <p>Our friendly team is here to help.</p>
                   <a href="mailto:support@untitledui.com">support@untitledui.com</a>
                 </div>
               </div>
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="info_card">
                   <h5>Sales</h5>
                   <p>Questions or queries? Get in touch!</p>
                   <a href="mailto:sales@untitledui.com">sales@untitledui.com</a>
                 </div>
               </div>
-              <div class="col-sm-12 col-lg-4">
+              <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="info_card">
                   <h5>Phone</h5>
                   <p>Mon-Fri from 8am to 5pm.</p>
@@ -354,13 +360,52 @@
           <div class="col-lg-7 no-padding">
             <div class="how_we_corprate_content">
               <h5>How We Cooperate</h5>
-              <div class="box_accordion">
-                <h6>Sales Team</h6>
-                <img src="./assets/images/Polygon 1.svg" alt="">
-              </div>
-              <div class="box_accordion">
-                <h6>Custom Software Development</h6>
-                <img src="./assets/images/Polygon 1.svg" alt="">
+              <div class="what_we_offer_accordion">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <span> Product Ideation</span>
+                        <!-- <img src="./assets/images/Polygon1new.svg" alt=""> -->
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                          collapse plugin adds the appropriate classes that we use to style each element. These classes
+                          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                          that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Accordion Item #2
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <p>
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                          collapse plugin adds the appropriate classes that we use to style each element. These classes
+                          control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                          modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                          that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+                          does limit overflow.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -515,13 +560,13 @@
 
 
   <div class="home_awards custom_home_awards">
-    <div class="container">
+    <div class="container-fluid pd-70">
       <div class="homw_awards_wrapper">
         <div class="section_header">
           <h5>Awards</h5>
         </div>
         <div class="awards_logo">
-          <ul class="list-unstyled d-flex align-items-center">
+          <div class="list-unstyled awards_logo_slider">
             <li>
               <img src="./assets/images/div.award__item.svg" alt="">
             </li>
@@ -543,7 +588,7 @@
             <li>
               <img src="./assets/images/div.award__item-6.svg" alt="">
             </li>
-          </ul>
+          </div>
           <div class="btn_more">
             <a href="" class="btn_style">All Achievements</a>
           </div>
@@ -554,7 +599,7 @@
 
 
   <div class="contact_us_section">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="row">
         <div class="contact_us_section_wrapper">
           <form action="" class="form_style">
@@ -612,7 +657,17 @@
                         <textarea name="" id="" class="form-control"></textarea>
                       </div>
                     </div>
-                    <div class="col-sm-12 col-lg-12">Add an attachment</div>
+                    <div class="col-sm-12 col-lg-12">
+                      <input type="file" id="imageInput">
+                      <label for="imageInput" class="imageInput_label">
+                        <div class="file_link">
+                          <img src="./assets/images/filelink.svg" alt="">
+                        </div>
+                        <span>Add an attachment</span>
+                      </label>
+
+                      <span class="file_name"></span>
+                    </div>
                     <div class="col-sm-12 col-lg-12">
                       <div class="conditions">
                         <input type="checkbox" name="" id="approveconditions">
@@ -642,10 +697,8 @@
     </div>
   </div>
 
-
-
   <footer>
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="footer_wrapper">
         <div class="contact_us_wrap">
           <a href="" class="btn_style">Contact Us</a>
@@ -681,7 +734,7 @@
             <div class="col-sm-12 col-lg-7">
               <div class="links_wrpper">
                 <div class="row">
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
                       <li><a href="">About us</a></li>
@@ -695,7 +748,7 @@
                       <li><a href="">Contact Us</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order3inmobile">
                     <h5>Services</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Product and service design</a></li>
@@ -717,7 +770,7 @@
                       <li><a href="">Support</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order2inmobile">
                     <h5>Industries</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Logistics</a></li>
@@ -732,7 +785,7 @@
                       <li><a href="">Government</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-6 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Expertise</h5>
                     <ul class="list-unstyled">
                       <li><a href="">DevOps</a></li>

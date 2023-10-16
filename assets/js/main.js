@@ -107,7 +107,7 @@ $(document).ready(function () {
       slidesToShow: 5,
       slidesToScroll: 1,
       arrows: true,
-      dots: true,
+      dots: false,
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
@@ -116,6 +116,12 @@ $(document).ready(function () {
       prevArrow: $(".custom_arrow_next"),
       nextArrow: $(".custom_arrow_prev"),
       responsive: [
+        {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
         {
           breakpoint: 991,
           settings: {

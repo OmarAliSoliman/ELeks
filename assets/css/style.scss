@@ -528,7 +528,7 @@ p {
         height: 80px;
         display: flex;
         align-items: center;
-        width: calc(100% / 5);
+        width: 100%;
         justify-content: center;
         position: relative;
         border-top: 2px solid #d9d9d9;
@@ -865,6 +865,10 @@ p {
       position: relative;
       i {
         color: $fontColor;
+        position: relative;
+        z-index: 5;
+      }
+      img{
         position: relative;
         z-index: 5;
       }
@@ -2094,6 +2098,31 @@ p {
         font-weight: 500;
         margin-bottom: 51px;
       }
+      .accordion-item {
+        background: #373737;
+        border-top-color: #e81f26;
+        border-radius: 0;
+        .accordion-body {
+          background: #373737;
+          border-radius: 0;
+          border: 0;
+          p {
+            color: #fff;
+          }
+        }
+        p {
+          color: #fff;
+        }
+        .accordion-button {
+          background: #373737;
+          color: #fff;
+          border-radius: 0;
+          border: 0;
+          &::after {
+            background-image: url("../images/Polygon white1.svg");
+          }
+        }
+      }
     }
   }
 
@@ -2178,6 +2207,12 @@ p {
     .tab-pane {
       padding: 77px 60px 170px 100px;
       box-shadow: 0px 3px 20px 0px rgba(55, 55, 55, 0.1);
+      p {
+        color: #373737;
+        font-size: 1.1rem;
+        font-weight: 400;
+        line-height: 30px; /* 150% */
+      }
     }
   }
 }
@@ -2212,6 +2247,7 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 15px;
+  margin-bottom: 50px;
   .card_icon {
     margin: auto;
     text-align: center;
@@ -2297,6 +2333,12 @@ p {
         border-top: 1px solid var(--gradient-01, #6ddcff);
         border-bottom: 1px solid var(--gradient-01, #6ddcff);
         background: rgba(0, 0, 0, 0.7);
+        min-height: 218px;
+        display: flex;
+        img {
+          margin: auto;
+          width: 100px;
+        }
 
         h5 {
           color: #fff;
@@ -2418,6 +2460,12 @@ p {
           margin-right: 11px;
         }
       }
+    }
+  }
+  .what_we_offer_accordion{
+    .accordion-item{
+      border-top-color: #E81F26;
+      border-radius: 0;
     }
   }
 }
@@ -2600,10 +2648,11 @@ p {
   }
 }
 
-#LeaderShip {
+.LeaderShipModal {
   .modal-dialog {
-    max-width: 100%;
+    max-width: 90%;
     width: 1300px;
+    margin: auto;
     .modal-content,
     .modal-body {
       position: relative;
@@ -4687,6 +4736,9 @@ footer {
   .home_header .home_header_content {
     padding-right: 50px;
   }
+  .what_you_get_card .card_title{
+    padding: 0 10px;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -4695,6 +4747,9 @@ footer {
   }
   .pd-150 {
     padding: 0 60px;
+  }
+  .proplems_cards .proplems_card_content{
+    padding: 0 0;
   }
 }
 
@@ -4772,7 +4827,15 @@ footer {
       width: 100% !important;
     }
   }
-
+  .how_we_work_page .how_we_corprate .how_we_corprate_content{
+    width: 70%;
+  }
+  .how_we_work_page .what_you_get_slider{
+    width: 100%;
+  }
+  .LeaderShipModal .modal-dialog .card_img{
+    height: 500px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -4847,6 +4910,42 @@ footer {
   }
   .our_vision_strip .our_vision_strip_wrapper{
     flex-direction: column;
+  }
+  .how_we_work_page .how_work_what_we_do .how_work_what_we_do_wrapper{
+    flex-direction: column;
+  }
+  .how_work_what_we_do_navs{
+    .nav{
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+    .nav-item{
+      min-width: 300px;
+    }
+  }
+  .how_we_work_page .tab-content .tab-pane {
+    padding: 77px 20px 170px 20px;
+  }
+  .csr_page .society_and_community_strip .header_boxes{
+    bottom: 0;
+    width: 100%;
+    top: unset;
+  }
+  .csr_page .annual_csr_reports .annual_list li{
+    text-align: center;
+  }
+  .leadership_team .leadership_team_founders{
+    padding-top: 70px;
+  }
+  .leadership_team .leadership_team_cards{
+    padding-bottom: 70px;
+  }
+  .LeaderShipModal .moda_conntetn{
+    padding: 30px;
+  }
+  .LeaderShipModal .modal-dialog .card_img{
+    height: 400px;
   }
 }
 
@@ -4959,6 +5058,44 @@ footer {
   }
   .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item{
     min-width: 200px;
+  }
+  .our_vision_content .proplems_card_content h5{
+    line-height: normal;
+    margin-top: 30px;
+  }
+  .how_we_work_page .how_we_corprate .how_we_corprate_content{
+    width: 95%;
+  }
+  .csr_page .society_and_community_strip .header_boxes .box{
+    width: 100%;
+  }
+  .csr_page .society_and_community_strip{
+    padding: 50px 20px;
+    padding-bottom: 280px;
+  }
+  .csr_page .society_and_community_strip .society_and_community_strip_header{
+    margin-bottom: 90px;
+  }
+  .annual_csr_reports{
+    ul{
+      flex-wrap: wrap;
+      li{
+        margin-bottom: 10px;
+      }
+    }
+  }
+  .founder_card{
+    flex-direction: column;
+    height: auto;
+  }
+  .founder_card .card_img{
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+  }
+  .LeaderShipModal .moda_conntetn .close_modal{
+    top: 20px;
+    right: 20px;
   }
 }
 

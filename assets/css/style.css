@@ -440,7 +440,7 @@ p {
   height: 80px;
   display: flex;
   align-items: center;
-  width: 20%;
+  width: 100%;
   justify-content: center;
   position: relative;
   border-top: 2px solid #d9d9d9;
@@ -757,6 +757,10 @@ p {
 }
 .about_header .header_content .play i {
   color: #252525;
+  position: relative;
+  z-index: 5;
+}
+.about_header .header_content .play img {
   position: relative;
   z-index: 5;
 }
@@ -1897,6 +1901,31 @@ p {
   font-weight: 500;
   margin-bottom: 51px;
 }
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item {
+  background: #373737;
+  border-top-color: #e81f26;
+  border-radius: 0;
+}
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item .accordion-body {
+  background: #373737;
+  border-radius: 0;
+  border: 0;
+}
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item .accordion-body p {
+  color: #fff;
+}
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item p {
+  color: #fff;
+}
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item .accordion-button {
+  background: #373737;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+}
+.how_we_work_page .how_we_corprate .how_we_corprate_content .accordion-item .accordion-button::after {
+  background-image: url("../images/Polygon white1.svg");
+}
 .how_we_work_page .how_work_what_we_do {
   padding: 50px 0;
 }
@@ -1974,6 +2003,12 @@ p {
   padding: 77px 60px 170px 100px;
   box-shadow: 0px 3px 20px 0px rgba(55, 55, 55, 0.1);
 }
+.how_we_work_page .tab-content .tab-pane p {
+  color: #373737;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
 
 .box_accordion {
   border-right: 1px solid rgba(255, 255, 255, 0.5);
@@ -2005,6 +2040,7 @@ p {
   align-items: center;
   justify-content: center;
   margin: 0 15px;
+  margin-bottom: 50px;
 }
 .what_you_get_card .card_icon {
   margin: auto;
@@ -2089,6 +2125,12 @@ p {
   border-top: 1px solid var(--gradient-01, #6ddcff);
   border-bottom: 1px solid var(--gradient-01, #6ddcff);
   background: rgba(0, 0, 0, 0.7);
+  min-height: 218px;
+  display: flex;
+}
+.csr_page .society_and_community_strip .header_boxes .box img {
+  margin: auto;
+  width: 100px;
 }
 .csr_page .society_and_community_strip .header_boxes .box h5 {
   color: #fff;
@@ -2199,6 +2241,10 @@ p {
   font-style: normal;
   font-weight: 500;
   margin-right: 11px;
+}
+.csr_page .what_we_offer_accordion .accordion-item {
+  border-top-color: #E81F26;
+  border-radius: 0;
 }
 
 .css_what_card {
@@ -2365,19 +2411,20 @@ p {
   flex: none;
 }
 
-#LeaderShip .modal-dialog {
-  max-width: 100%;
+.LeaderShipModal .modal-dialog {
+  max-width: 90%;
   width: 1300px;
+  margin: auto;
 }
-#LeaderShip .modal-dialog .modal-content,
-#LeaderShip .modal-dialog .modal-body {
+.LeaderShipModal .modal-dialog .modal-content,
+.LeaderShipModal .modal-dialog .modal-body {
   position: relative;
   padding: 0;
 }
-#LeaderShip .modal-dialog .card_img {
+.LeaderShipModal .modal-dialog .card_img {
   height: 650px;
 }
-#LeaderShip .moda_conntetn .close_modal {
+.LeaderShipModal .moda_conntetn .close_modal {
   position: absolute;
   top: 40px;
   right: 40px;
@@ -2390,23 +2437,23 @@ p {
   justify-content: center;
   cursor: pointer;
 }
-#LeaderShip .moda_conntetn .close_modal img {
+.LeaderShipModal .moda_conntetn .close_modal img {
   width: 20px;
 }
-#LeaderShip .moda_conntetn h5 {
+.LeaderShipModal .moda_conntetn h5 {
   color: #252525;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 15px;
 }
-#LeaderShip .moda_conntetn h6 {
+.LeaderShipModal .moda_conntetn h6 {
   color: #252525;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
   margin-bottom: 20px;
 }
-#LeaderShip .moda_conntetn p {
+.LeaderShipModal .moda_conntetn p {
   color: #252525;
   font-size: 1rem;
   font-weight: 400;
@@ -4252,6 +4299,9 @@ footer .footer_links_wrapper .links_wrpper li a {
   .home_header .home_header_content {
     padding-right: 50px;
   }
+  .what_you_get_card .card_title {
+    padding: 0 10px;
+  }
 }
 @media (max-width: 1280px) {
   html {
@@ -4259,6 +4309,9 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .pd-150 {
     padding: 0 60px;
+  }
+  .proplems_cards .proplems_card_content {
+    padding: 0 0;
   }
 }
 /* ================================================================ */
@@ -4318,6 +4371,15 @@ footer .footer_links_wrapper .links_wrpper li a {
   .our_vision_strip .our_vision_strip_wrapper {
     width: 100% !important;
   }
+  .how_we_work_page .how_we_corprate .how_we_corprate_content {
+    width: 70%;
+  }
+  .how_we_work_page .what_you_get_slider {
+    width: 100%;
+  }
+  .LeaderShipModal .modal-dialog .card_img {
+    height: 500px;
+  }
 }
 @media (max-width: 991px) {
   html {
@@ -4375,6 +4437,40 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .our_vision_strip .our_vision_strip_wrapper {
     flex-direction: column;
+  }
+  .how_we_work_page .how_work_what_we_do .how_work_what_we_do_wrapper {
+    flex-direction: column;
+  }
+  .how_work_what_we_do_navs .nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .how_work_what_we_do_navs .nav-item {
+    min-width: 300px;
+  }
+  .how_we_work_page .tab-content .tab-pane {
+    padding: 77px 20px 170px 20px;
+  }
+  .csr_page .society_and_community_strip .header_boxes {
+    bottom: 0;
+    width: 100%;
+    top: unset;
+  }
+  .csr_page .annual_csr_reports .annual_list li {
+    text-align: center;
+  }
+  .leadership_team .leadership_team_founders {
+    padding-top: 70px;
+  }
+  .leadership_team .leadership_team_cards {
+    padding-bottom: 70px;
+  }
+  .LeaderShipModal .moda_conntetn {
+    padding: 30px;
+  }
+  .LeaderShipModal .modal-dialog .card_img {
+    height: 400px;
   }
 }
 @media (max-width: 600px) {
@@ -4449,6 +4545,42 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item {
     min-width: 200px;
+  }
+  .our_vision_content .proplems_card_content h5 {
+    line-height: normal;
+    margin-top: 30px;
+  }
+  .how_we_work_page .how_we_corprate .how_we_corprate_content {
+    width: 95%;
+  }
+  .csr_page .society_and_community_strip .header_boxes .box {
+    width: 100%;
+  }
+  .csr_page .society_and_community_strip {
+    padding: 50px 20px;
+    padding-bottom: 280px;
+  }
+  .csr_page .society_and_community_strip .society_and_community_strip_header {
+    margin-bottom: 90px;
+  }
+  .annual_csr_reports ul {
+    flex-wrap: wrap;
+  }
+  .annual_csr_reports ul li {
+    margin-bottom: 10px;
+  }
+  .founder_card {
+    flex-direction: column;
+    height: auto;
+  }
+  .founder_card .card_img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+  }
+  .LeaderShipModal .moda_conntetn .close_modal {
+    top: 20px;
+    right: 20px;
   }
 }
 @media (max-width: 320px) {
