@@ -29,7 +29,7 @@
 
 
   <div class="custom_navbar">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="navbar_wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href=""><img src="./assets/images/logo.svg" alt=""></a>
@@ -88,20 +88,7 @@
   <div class="about_header services_header"
     style="background-image: url('./assets/images/about-us-video-poster-3.jpg');">
     <div class="container-fluid pd-150">
-      <div class="header_boxes">
-        <div class="box first_box">
-          <img src="./assets/images/Group.svg" alt="">
-        </div>
-        <div class="box">
-          <img src="./assets/images/image 23.svg" alt="">
-        </div>
-        <div class="box">
-          <img src="./assets/images/image 24.svg" alt="">
-        </div>
-        <div class="box">
-          <img src="./assets/images/Clip path group1.svg" alt="">
-        </div>
-      </div>
+     
       <div class="type">Services</div>
       <div class="header_content col-lg-6">
         <h5>Product And Services Design</h5>
@@ -116,6 +103,30 @@
           <span>Watch Video</span>
         </a>
       </div>
+
+      <div class="header_boxes">
+        <div class="box first_box">
+          <div class="wrap">
+            <img src="./assets/images/Group.svg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="wrap">
+            <img src="./assets/images/image 23.svg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="wrap">
+            <img src="./assets/images/image 24.svg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="wrap">
+            <img src="./assets/images/Clip path group1.svg" alt="">
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -329,7 +340,7 @@
                 service design
               </h5>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-1"></div>
+            <div class="col-sm-12 col-md-6 col-lg-1 d-none-tablet"></div>
             <div class="col-sm-12 col-md-6 col-lg-6">
               <p>
                 Since 2009, our world leading design and technology consulting team has helped visionary entrepreneurs
@@ -757,13 +768,13 @@
 
 
     <div class="home_awards custom_home_awards">
-      <div class="container">
+      <div class="container-fluid pd-70">
         <div class="homw_awards_wrapper">
           <div class="section_header">
             <h5>Awards</h5>
           </div>
           <div class="awards_logo">
-            <ul class="list-unstyled d-flex align-items-center">
+            <div class="list-unstyled awards_logo_slider">
               <li>
                 <img src="./assets/images/div.award__item.svg" alt="">
               </li>
@@ -785,7 +796,7 @@
               <li>
                 <img src="./assets/images/div.award__item-6.svg" alt="">
               </li>
-            </ul>
+            </div>
             <div class="btn_more">
               <a href="" class="btn_style">All Achievements</a>
             </div>
@@ -986,12 +997,12 @@
               <img src="./assets/images/ep_arrow-right-bold.svg" alt="">
             </div>
           </div>
-        </div> 
+        </div>
 
 
       </div>
 
-    </div> 
+    </div>
 
     <hr class="hrline" />
 
@@ -1000,7 +1011,7 @@
 
 
   <div class="contact_us_section">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="row">
         <div class="contact_us_section_wrapper">
           <form action="" class="form_style">
@@ -1066,6 +1077,8 @@
                         </div>
                         <span>Add an attachment</span>
                       </label>
+
+                      <span class="file_name"></span>
                     </div>
                     <div class="col-sm-12 col-lg-12">
                       <div class="conditions">
@@ -1097,7 +1110,7 @@
   </div>
 
   <footer>
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="footer_wrapper">
         <div class="contact_us_wrap">
           <a href="" class="btn_style">Contact Us</a>
@@ -1133,7 +1146,7 @@
             <div class="col-sm-12 col-lg-7">
               <div class="links_wrpper">
                 <div class="row">
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
                       <li><a href="">About us</a></li>
@@ -1147,7 +1160,7 @@
                       <li><a href="">Contact Us</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order3inmobile">
                     <h5>Services</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Product and service design</a></li>
@@ -1169,7 +1182,7 @@
                       <li><a href="">Support</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order2inmobile">
                     <h5>Industries</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Logistics</a></li>
@@ -1184,7 +1197,7 @@
                       <li><a href="">Government</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Expertise</h5>
                     <ul class="list-unstyled">
                       <li><a href="">DevOps</a></li>
@@ -1226,6 +1239,7 @@
     </div>
   </div>
 
+  
   <script src="./assets/js/jquery-3.6.0.min.js"></script>
   <script src="./assets/js/popper.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>

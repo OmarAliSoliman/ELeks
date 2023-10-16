@@ -28,7 +28,7 @@
 <body>
 
   <div class="custom_navbar">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="navbar_wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href=""><img src="./assets/images/logo.svg" alt=""></a>
@@ -86,14 +86,7 @@
   <div class="about_header services_header"
     style="background-image: url('./assets/images/about-us-video-poster-3.jpg');">
     <div class="container-fluid pd-150">
-      <div class="header_boxes">
-        <div class="box first_box">
-          <img src="./assets/images/Group.svg" alt="">
-        </div>
-        <div class="box">
-          <img src="./assets/images/cyber security.svg" alt="">
-        </div>
-      </div>
+
       <div class="type">Services</div>
       <div class="header_content col-lg-6">
         <h5>Data Science Service</h5>
@@ -106,6 +99,19 @@
           </div>
           <span>Watch Video</span>
         </a>
+      </div>
+
+      <div class="header_boxes">
+        <div class="box first_box">
+          <div class="wrap">
+            <img src="./assets/images/Group.svg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="wrap">
+            <img src="./assets/images/cyber security.svg" alt="">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -495,6 +501,14 @@
                 <div class="img_parent">
                   <img src="./assets/images/Rectangle 561.png" alt="">
                 </div>
+                <div class="play_btn">
+                  <a href="">
+                    <div class="btn">
+                      <i class="fas fa-play"></i>
+                    </div>
+                    <span>Watch Video</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -862,7 +876,7 @@
 
 
   <div class="contact_us_section">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="row">
         <div class="contact_us_section_wrapper">
           <form action="" class="form_style">
@@ -928,6 +942,8 @@
                         </div>
                         <span>Add an attachment</span>
                       </label>
+
+                      <span class="file_name"></span>
                     </div>
                     <div class="col-sm-12 col-lg-12">
                       <div class="conditions">
@@ -959,7 +975,7 @@
   </div>
 
   <footer>
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="footer_wrapper">
         <div class="contact_us_wrap">
           <a href="" class="btn_style">Contact Us</a>
@@ -995,7 +1011,7 @@
             <div class="col-sm-12 col-lg-7">
               <div class="links_wrpper">
                 <div class="row">
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
                       <li><a href="">About us</a></li>
@@ -1009,7 +1025,7 @@
                       <li><a href="">Contact Us</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order3inmobile">
                     <h5>Services</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Product and service design</a></li>
@@ -1031,7 +1047,7 @@
                       <li><a href="">Support</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3 order2inmobile">
                     <h5>Industries</h5>
                     <ul class="list-unstyled">
                       <li><a href="">Logistics</a></li>
@@ -1046,7 +1062,7 @@
                       <li><a href="">Government</a></li>
                     </ul>
                   </div>
-                  <div class="col-sm-12 col-md-3 col-lg-3">
+                  <div class="col-6 col-md-3 col-lg-3">
                     <h5>Expertise</h5>
                     <ul class="list-unstyled">
                       <li><a href="">DevOps</a></li>

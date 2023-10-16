@@ -702,12 +702,14 @@ p {
   border-right: 1px solid var(--gradient-01, #6ddcff);
   border-top: 1px solid var(--gradient-01, #6ddcff);
   background: rgba(0, 0, 0, 0.7);
-  min-height: 218px;
+  height: 218px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about_header .header_boxes .box img {
   margin: auto;
-  width: 100px;
+  width: 90px;
 }
 .about_header .header_boxes .box h5 {
   color: #fff;
@@ -736,7 +738,8 @@ p {
   color: rgba(255, 255, 255, 0.721);
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 25px; /* 150% */
+  line-height: 25px;
+  /* 150% */
   margin-bottom: 50px;
 }
 .about_header .header_content .play_btn span {
@@ -817,7 +820,8 @@ p {
   color: #373737;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 .proplems_cards .proplems_card_content p span,
 .proplems_cards .proplems_card_content p a {
@@ -863,7 +867,8 @@ p {
   color: #252525;
   font-size: 3rem;
   font-weight: 500;
-  line-height: 58.5px; /* 117% */
+  line-height: 58.5px;
+  /* 117% */
 }
 
 .our_nearshore {
@@ -880,7 +885,8 @@ p {
   color: #a7a7a7;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
 }
 .our_nearshore p span {
   color: #fff;
@@ -891,7 +897,8 @@ p {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 30px; /* 133% */
+  line-height: 30px;
+  /* 133% */
   position: relative;
   padding-left: 25px;
 }
@@ -1005,7 +1012,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   margin: 0;
 }
 .location_card span {
@@ -1119,7 +1127,8 @@ p {
   color: rgba(37, 37, 37, 0.805);
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 23px; /* 152.941% */
+  line-height: 23px;
+  /* 152.941% */
   margin-bottom: 24px;
   margin-top: 16px;
   -webkit-line-clamp: 4 !important;
@@ -1156,7 +1165,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   -webkit-line-clamp: 6 !important;
   margin-bottom: 90px;
 }
@@ -1171,7 +1181,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 39.9px; /* 221.667% */
+  line-height: 39.9px;
+  /* 221.667% */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1200,7 +1211,8 @@ p {
   color: rgba(255, 255, 255, 0.728);
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 26px; /* 130% */
+  line-height: 26px;
+  /* 130% */
   margin-top: 40px;
   margin-bottom: 55px;
 }
@@ -1233,7 +1245,8 @@ p {
   color: rgba(55, 55, 55, 0.728);
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 26px; /* 130% */
+  line-height: 26px;
+  /* 130% */
   margin-top: 40px;
   margin-bottom: 70px;
 }
@@ -1271,7 +1284,8 @@ p {
   color: rgba(55, 55, 55, 0.728);
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 26px; /* 130% */
+  line-height: 26px;
+  /* 130% */
   margin-top: 40px;
   margin-bottom: 70px;
 }
@@ -1292,7 +1306,8 @@ p {
   color: #1e1d28;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 39.9px; /* 133% */
+  line-height: 39.9px;
+  /* 133% */
   margin-top: 32px;
 }
 
@@ -1481,7 +1496,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 22px; /* 166.25% */
+  line-height: 22px;
+  /* 166.25% */
 }
 .case_studies_card .card_img {
   height: 239px;
@@ -1510,7 +1526,8 @@ p {
 .blog_page .recent_blogs .recent_blog_head h5 {
   color: #fff;
   font-size: 1.3rem;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
+  /* 133.333% */
 }
 .blog_page .our_vision_strip {
   margin-top: 72px;
@@ -1653,7 +1670,8 @@ p {
   color: var(--gray-500, #667085);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   -webkit-line-clamp: 2 !important;
 }
 .recent_blog_card .type {
@@ -1701,7 +1719,8 @@ p {
   color: var(--gray-500, #667085);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   -webkit-line-clamp: 2 !important;
 }
 .wide_card .type {
@@ -1746,7 +1765,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 25px; /* 216.125% */
+  line-height: 25px;
+  /* 216.125% */
   -webkit-line-clamp: 2 !important;
 }
 
@@ -1779,7 +1799,8 @@ p {
   color: var(--gray-500, #667085);
   font-size: 1rem;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
+  /* 150% */
   -webkit-line-clamp: 2 !important;
 }
 .categry_card .type {
@@ -1944,7 +1965,8 @@ p {
   color: #373737;
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
+  /* 150% */
 }
 .how_we_work_page .how_work_what_we_do_navs {
   margin-top: 100px;
@@ -2007,7 +2029,8 @@ p {
   color: #373737;
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
+  /* 150% */
 }
 
 .box_accordion {
@@ -2058,7 +2081,8 @@ p {
   text-align: center;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 
 /* ================================================================ */
@@ -2170,7 +2194,8 @@ p {
   color: #a7a7a7;
   font-size: 1.1rem;
   font-weight: 600;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 .csr_page .society_and_community_strip p strong {
   color: #fff;
@@ -2264,7 +2289,8 @@ p {
   color: #1e1d28;
   font-size: 1.1rem;
   font-weight: 700;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 
 /* ================================================================ */
@@ -2302,7 +2328,8 @@ p {
   margin-top: 40px;
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 25px; /* 156% */
+  line-height: 25px;
+  /* 156% */
 }
 .awards_partnater .awards_partnater_wrapper .awards_partners_navs .tab_content_logo .logo_card.small_padding {
   padding: 20px 30px 20px 20px;
@@ -2328,7 +2355,8 @@ p {
   color: #fff;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 22px; /* 150% */
+  line-height: 22px;
+  /* 150% */
 }
 .leadership_team .leadership_team_cards {
   margin-top: -60px;
@@ -2400,7 +2428,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 23px; /* 162% */
+  line-height: 23px;
+  /* 162% */
   margin-top: 25px;
 }
 .founder_card .card_img {
@@ -2457,7 +2486,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px;
+  /* 166.667% */
 }
 
 /* ================================================================ */
@@ -2482,7 +2512,8 @@ p {
   color: #252525;
   font-size: 1.1rem;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2525,7 +2556,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 
 /* ================================================================ */
@@ -2542,7 +2574,8 @@ p {
   color: #000;
   font-size: 3rem;
   font-weight: 500;
-  line-height: 58.5px; /* 117% */
+  line-height: 58.5px;
+  /* 117% */
 }
 
 .logo_card {
@@ -2564,7 +2597,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 .logo_card .down a span {
   color: #252525;
@@ -2606,14 +2640,16 @@ p {
   color: #252525;
   font-size: 2.3rem;
   font-weight: 700;
-  line-height: 60px; /* 150% */
+  line-height: 60px;
+  /* 150% */
 }
 .our_product_card .card_body .card_text {
   color: #252525;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 150% */
+  line-height: 30px;
+  /* 150% */
 }
 
 /* ================================================================ */
@@ -2725,7 +2761,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   margin: 0;
   margin-right: 10px;
 }
@@ -2737,14 +2774,16 @@ p {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px; /* 150% */
+  line-height: 50px;
+  /* 150% */
 }
 .product_service_advisory .what_you_get_half_sentences p {
   color: #373737;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 35px; /* 166.667% */
+  line-height: 35px;
+  /* 166.667% */
 }
 .product_service_advisory .three_element_expanded ul {
   display: flex;
@@ -2782,7 +2821,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 .product_service_advisory .three_element_expanded ul li .expand_card .link {
   display: block;
@@ -2817,7 +2857,8 @@ p {
   width: 50%;
   transition: all 0.5s ease-in-out;
   display: none;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 .product_service_advisory .three_element_expanded ul li .pargraph .lista {
   display: flex;
@@ -2874,8 +2915,11 @@ p {
 .product_service_advisory .what_we_offer .what_we_offer_img .card_img {
   height: 650px;
 }
+.product_service_advisory .product_strategy_consulting .product_strategy_consulting_img {
+  height: 100%;
+}
 .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img {
-  height: 550px;
+  height: 100%;
 }
 .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
   background: #252525;
@@ -2887,7 +2931,8 @@ p {
   font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 39.9px; /* 133% */
+  line-height: 39.9px;
+  /* 133% */
   margin-bottom: 30px;
 }
 .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content p {
@@ -2895,7 +2940,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content .link {
   margin-top: 100px;
@@ -2908,7 +2954,8 @@ p {
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   margin-right: 10px;
 }
 .product_service_advisory .our_produc_design_success {
@@ -3052,7 +3099,8 @@ p {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px; /* 142.857% */
+  line-height: 30px;
+  /* 142.857% */
   margin-bottom: 24px;
 }
 .help_card .card_body .card_text {
@@ -3060,7 +3108,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 25px; /* 187.5% */
+  line-height: 25px;
+  /* 187.5% */
 }
 .help_card .card_footer {
   padding: 40px;
@@ -3073,7 +3122,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; /* 177.778% */
+  line-height: 32px;
+  /* 177.778% */
 }
 .help_card .card_footer .card_links {
   margin-top: 56px;
@@ -3086,7 +3136,8 @@ p {
   color: #252525;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   margin-right: 10px;
 }
 .help_card .card_footer .card_links .arrow {
@@ -3121,7 +3172,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 32.6px; /* 181.111% */
+  line-height: 32.6px;
+  /* 181.111% */
 }
 .accordion .accordion-item .accordion-body {
   background-color: #fff;
@@ -3148,15 +3200,19 @@ p {
 .data_science_service .what_you_get_with .section_header {
   margin-bottom: 65px;
 }
+.data_science_service .why_choose_eleks .product_strategy_consulting_img {
+  height: 100%;
+}
 .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
-  height: 800px;
+  height: 100%;
 }
 .data_science_service .why_choose_eleks .product_strategy_consulting_content p {
   color: rgba(255, 255, 255, 0.812);
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_science_service .why_choose_eleks .product_strategy_consulting_content ul {
   color: #fff;
@@ -3176,7 +3232,8 @@ p {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 93.75% */
+  line-height: 30px;
+  /* 93.75% */
   margin-bottom: 60px;
 }
 .data_science_service .what_well_talk .what_well_talk_conten ul {
@@ -3193,7 +3250,8 @@ p {
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   width: 90%;
 }
 .data_science_service .create_and_manage {
@@ -3215,14 +3273,16 @@ p {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 39.9px; /* 124.688% */
+  line-height: 39.9px;
+  /* 124.688% */
 }
 .data_science_service .create_and_manage .create_and_manage_content p {
   color: #373737;
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_science_service .create_and_manage .link {
   display: block;
@@ -3234,7 +3294,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   margin-right: 10px;
 }
 
@@ -3256,7 +3317,8 @@ p {
   text-align: center;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 25px; /* 187.5% */
+  line-height: 25px;
+  /* 187.5% */
   margin-top: 23px;
 }
 
@@ -3284,7 +3346,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 .cyper_security_service .security_service .what_well_talk_conten {
   background-color: #fff;
@@ -3292,6 +3355,55 @@ p {
 }
 .cyper_security_service .security_service .what_well_talk_conten li {
   width: 100% !important;
+}
+.cyper_security_service .security_service .nav {
+  justify-content: center;
+}
+.cyper_security_service .security_service .nav .nav-link {
+  color: #252525;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: transparent;
+}
+.cyper_security_service .security_service .nav .nav-link.active {
+  color: #0045E6;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 26px;
+  /* 130% */
+  text-transform: capitalize;
+}
+.cyper_security_service .product_strategy_consulting_img .card_img::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.cyper_security_service .product_strategy_consulting_img .card_img .play_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+.cyper_security_service .product_strategy_consulting_img .card_img .play_btn a {
+  display: flex;
+  align-items: center;
+}
+.cyper_security_service .product_strategy_consulting_img .card_img .play_btn .btn {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.cyper_security_service .product_strategy_consulting_img .card_img .play_btn span {
+  color: #FFF;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  /* 130% */
 }
 
 /* ================================================================ */
@@ -3324,7 +3436,8 @@ p {
   color: #252525;
   font-size: 2.2rem;
   font-weight: 700;
-  line-height: 50px; /* 150% */
+  line-height: 50px;
+  /* 150% */
 }
 .data_stratigy_service .data_strategy_consulting_process {
   background: #252525;
@@ -3338,7 +3451,8 @@ p {
   color: #fff;
   font-size: 2.7rem;
   font-weight: 500;
-  line-height: 58.5px; /* 117% */
+  line-height: 58.5px;
+  /* 117% */
 }
 .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
   padding: 0 40px;
@@ -3407,7 +3521,8 @@ p {
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 150% */
+  line-height: 60px;
+  /* 150% */
 }
 .data_stratigy_service .key_deliverables .double_row {
   margin-bottom: 90px;
@@ -3430,14 +3545,16 @@ p {
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_stratigy_service .key_deliverables p {
   color: #373737;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 200% */
+  line-height: 30px;
+  /* 200% */
 }
 .data_stratigy_service .industries_we_serve {
   background: #252525;
@@ -3448,14 +3565,16 @@ p {
   color: #fff;
   font-size: 2.2rem;
   font-weight: 700;
-  line-height: 60px; /* 150% */
+  line-height: 60px;
+  /* 150% */
 }
 .data_stratigy_service .industries_we_serve p {
   color: #fff;
   font-size: 1rem;
   font-style: normal;
   font-weight: 300;
-  line-height: 30px; /* 222.222% */
+  line-height: 30px;
+  /* 222.222% */
 }
 .data_stratigy_service .three_element_expanded li {
   box-shadow: unset !important;
@@ -3472,14 +3591,16 @@ p {
   font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 150% */
+  line-height: 60px;
+  /* 150% */
 }
 .data_stratigy_service .why_eleks_as_your_data_strategy .head p {
   color: #000;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img {
   height: 427px;
@@ -3538,7 +3659,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_stratigy_service .data_strategy_leader .data_strategy_leader_img .card_img {
   height: 500px;
@@ -3551,7 +3673,8 @@ p {
   font-size: 2rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 50px; /* 156.25% */
+  line-height: 50px;
+  /* 156.25% */
 }
 .data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn h6 {
   color: #00267b;
@@ -3559,14 +3682,16 @@ p {
   margin: 24px 0 50px 0;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 .data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn p {
   color: #373737;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 
 .pd-70 {
@@ -3612,7 +3737,8 @@ p {
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 166.667% */
+  line-height: 40px;
+  /* 166.667% */
   position: relative;
   padding-left: 30px;
 }
@@ -3627,7 +3753,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 200% */
+  line-height: 30px;
+  /* 200% */
   padding-left: 30px;
 }
 
@@ -3675,7 +3802,8 @@ p {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 35px; /* 156.25% */
+  line-height: 35px;
+  /* 156.25% */
   margin-bottom: 25px;
 }
 .why_eleks_as_your_data_strategy_card p {
@@ -3683,7 +3811,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 25px; /* 166.667% */
+  line-height: 25px;
+  /* 166.667% */
 }
 .why_eleks_as_your_data_strategy_card:last-child .circle span {
   background-color: #e81f26;
@@ -3777,7 +3906,8 @@ p {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 250% */
+  line-height: 30px;
+  /* 250% */
 }
 
 /* ================================================================ */
@@ -3787,15 +3917,20 @@ p {
 .sustainability_consulting_service .industries_we_serve {
   background-color: #fff;
 }
+.sustainability_consulting_service .product_strategy_consulting .product_strategy_consulting_img {
+  height: 100%;
+}
 .sustainability_consulting_service .product_strategy_consulting .product_strategy_consulting_img .card_img {
-  height: 950px;
+  min-height: 950px;
+  height: 100%;
 }
 .sustainability_consulting_service .product_strategy_consulting h5 {
   color: #fff;
   font-size: 2rem !important;
   font-style: normal;
   font-weight: 700;
-  line-height: 58.5px; /* 146.25% */
+  line-height: 58.5px;
+  /* 146.25% */
 }
 .sustainability_consulting_service .product_strategy_consulting li {
   margin-top: 45px;
@@ -3805,7 +3940,8 @@ p {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px; /* 93.75% */
+  line-height: 30px;
+  /* 93.75% */
 }
 .sustainability_consulting_service .sunstan_our_partners_slider .slider_item {
   min-height: 200px;
@@ -3883,7 +4019,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
 }
 
 /* ================================================================ */
@@ -3901,7 +4038,8 @@ p {
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 39.9px; /* 133% */
+  line-height: 39.9px;
+  /* 133% */
   position: relative;
   padding-left: 15px;
 }
@@ -3937,8 +4075,12 @@ p {
   align-items: center;
   justify-content: center;
 }
+.enterprise_application_developer .secure_your_software .secure_your_software_img {
+  height: 100%;
+}
 .enterprise_application_developer .secure_your_software .secure_your_software_img .card_img {
-  height: 600px;
+  min-height: 600px;
+  height: 100%;
 }
 .enterprise_application_developer .secure_your_software .secure_your_software_content {
   background: #252525;
@@ -3954,13 +4096,15 @@ p {
   font-style: normal;
   font-weight: 500;
   width: 80%;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 .enterprise_application_developer .secure_your_software .secure_your_software_content h5 {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 500;
-  line-height: 39.9px; /* 166.25% */
+  line-height: 39.9px;
+  /* 166.25% */
   margin-top: 60px;
   width: 80%;
   margin-bottom: 70px;
@@ -4100,7 +4244,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20.8px; /* 115.556% */
+  line-height: 20.8px;
+  /* 115.556% */
 }
 /* ================================================================ */
 .smart_team_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
@@ -4303,6 +4448,11 @@ footer .footer_links_wrapper .links_wrpper li a {
     padding: 0 10px;
   }
 }
+@media (max-width: 1440px) {
+  .services_header_with_images .header_content {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 1280px) {
   html {
     font-size: 13px;
@@ -4346,6 +4496,7 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .about_header {
     min-height: 80vh;
+    padding-top: 30px;
   }
   .proplems_we_help_wrapper .section_header {
     margin-bottom: 0px;
@@ -4379,6 +4530,20 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .LeaderShipModal .modal-dialog .card_img {
     height: 500px;
+  }
+  .about_header .header_boxes .box img {
+    width: 55px;
+  }
+  .sustainability_consulting_service .ready_for_relize .ready_for_relize_wrapper {
+    flex-direction: column;
+  }
+  .product_service_advisory .ready_for_relize .theImg h5 {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .enterprise_application_developer .ready_for_relize .theImg h5 {
+    margin-bottom: 30px;
+    margin-left: 0;
   }
 }
 @media (max-width: 991px) {
@@ -4471,6 +4636,47 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .LeaderShipModal .modal-dialog .card_img {
     height: 400px;
+  }
+  .logo_types {
+    padding-top: 40px;
+  }
+  .logo_card.black_logo_card {
+    margin-top: 10px;
+  }
+  .product_service_advisory .what_you_get_half_sentences {
+    padding: 80px 0;
+  }
+  .d-none-tablet {
+    display: none;
+  }
+  .our_produc_design_success .service_card {
+    width: 100%;
+  }
+  .product_service_advisory .ready_for_relize .ready_for_relize_wrapper {
+    flex-direction: column;
+  }
+  .data_science_service .what_well_talk .what_well_talk_conten {
+    padding-left: 0;
+    margin-top: 50px;
+  }
+  .product_service_advisory .custom_our_blog {
+    padding-top: 0px;
+  }
+  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img,
+  .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
+    height: 600px;
+  }
+  .data_stratigy_service .why_eleks_as_your_data_strategy {
+    padding: 0 0;
+  }
+  .data_stratigy_service .data_strategy_leader .data_strategy_leader_contetn {
+    padding-left: 0;
+  }
+  .product_service_advisory.pos_service .ready_for_relize .theImg h5 {
+    margin: 30px 0 !important;
+  }
+  .product_service_advisory .our_produc_design_success {
+    padding-top: 50px;
   }
 }
 @media (max-width: 600px) {
@@ -4582,6 +4788,87 @@ footer .footer_links_wrapper .links_wrpper li a {
     top: 20px;
     right: 20px;
   }
+  .logo_card {
+    padding: 40px;
+  }
+  .logo_card .down {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo_card .down p {
+    margin-bottom: 0;
+  }
+  .about_header .header_boxes {
+    flex-wrap: wrap;
+    position: unset;
+    margin-top: 15px;
+  }
+  .about_header .header_boxes .box {
+    width: 50%;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    min-height: 120px;
+  }
+  .about_header .header_boxes .box img {
+    width: 60%;
+    margin: auto;
+  }
+  .about_header .header_content h5 {
+    margin-bottom: 15px;
+  }
+  .ready_for_relize_wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ready_for_relize_wrapper .theImg {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .product_service_advisory .ready_for_relize .theImg h5 {
+    margin-left: 0;
+    margin: 20px 0 !important;
+  }
+  .product_service_advisory .what_we_offer .what_we_offer_img .card_img {
+    height: 400px;
+  }
+  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
+    padding: 30px;
+  }
+  .product_service_advisory .our_produc_design_success {
+    padding: 60px 0;
+  }
+  .product_service_advisory .our_produc_design_success .section_header {
+    margin-bottom: 50px;
+  }
+  .about_header {
+    min-height: auto;
+  }
+  .data_science_service .create_and_manage .create_and_manage_content {
+    margin-top: 50px;
+  }
+  .data_science_service .will_help_you_data_science .help_card {
+    padding-bottom: 80px;
+  }
+  .data_science_service .what_well_talk .what_well_talk_conten ul li {
+    width: 100%;
+  }
+  .services_header_with_images img {
+    width: 100px;
+  }
+  .list_card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list_card .list_img {
+    margin-bottom: 30px;
+  }
+  .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
+    padding: 0 0px;
+  }
+  .product_service_advisory .our_produc_design_success {
+    padding: 50px 0;
+  }
 }
 @media (max-width: 320px) {
   .copy_write .copy_write_wrapper li a {
@@ -4598,6 +4885,16 @@ footer .footer_links_wrapper .links_wrpper li a {
 .locations .slick-prev::before, .locations .slick-next:before, .how_we_work_page .what_you_get_slider .slick-arrow::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
+}
+
+.cyper_security_service .product_strategy_consulting_img .card_img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .blog_card .card_body .card_title, .service_card p, .recent_blog_card .link h5, .recent_blog_card p, .wide_card .link h5, .wide_card p, .news_strip_card h5, .categry_card .link h5, .categry_card p {
