@@ -595,7 +595,6 @@ p {
     margin-top: 55px;
 
     ul {
-
       // flex-wrap: wrap;
       // li {
       //   width: calc(100% / 7);
@@ -765,7 +764,8 @@ p {
     }
   }
 
-  .contact_us_form {}
+  .contact_us_form {
+  }
 }
 
 .form_style {
@@ -971,7 +971,7 @@ p {
         left: 50%;
         transform: translate(-50%, -50%);
         border-radius: 50%;
-        transition: all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
       }
 
       &:hover {
@@ -1544,7 +1544,8 @@ p {
   }
 }
 
-.experts_cards {}
+.experts_cards {
+}
 
 .expert_card {
   background-color: #fff;
@@ -1727,7 +1728,8 @@ p {
 }
 
 /* ================================================================ */
-.case_studies_cards {}
+.case_studies_cards {
+}
 
 .case_studies_video {
   .card_img {
@@ -1931,7 +1933,7 @@ p {
       align-items: center;
       justify-content: end;
 
-      >span {
+      > span {
         color: #fff;
         font-size: 1rem;
         font-weight: 400;
@@ -2325,9 +2327,11 @@ p {
     height: 6px;
     overflow: hidden;
     background-color: #f5f5f5;
-    background-image: linear-gradient(to right,
-        rgba(55, 55, 55, 0.803),
-        rgba(55, 55, 55, 0.803));
+    background-image: linear-gradient(
+      to right,
+      rgba(55, 55, 55, 0.803),
+      rgba(55, 55, 55, 0.803)
+    );
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -2791,7 +2795,7 @@ p {
 
   .what_we_offer_accordion {
     .accordion-item {
-      border-top-color: #E81F26;
+      border-top-color: #e81f26;
       border-radius: 0;
     }
   }
@@ -2845,8 +2849,10 @@ p {
           font-weight: 400;
 
           &.active {
-            background: var(--blue-gradient,
-                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+            background: var(
+              --blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+            );
             color: #fff;
           }
         }
@@ -2859,10 +2865,34 @@ p {
           border: 1px solid #e2e2e7;
           border-radius: 0;
           box-shadow: unset;
+          position: relative;
+          // height: 250px;
+          // display: flex;
+          // align-items: center;
+          // justify-content: center;
+          transition: all 0.3s ease-in-out;
+          .card_link {
+            position: absolute;
+            top: 21px;
+            right: 21px;
+            img {
+              width: 30px;
+            }
+          }
+          .img_wrapper {
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              height: auto;
+              width: auto;
+            }
+          }
 
           p {
             color: #000;
-            margin-top: 40px;
+            margin-top: 20px;
             font-size: 1.1rem;
             font-weight: 400;
             line-height: 25px;
@@ -2871,9 +2901,20 @@ p {
 
           &.small_padding {
             padding: 20px 30px 20px 20px;
-
+            .img_wrapper {
+              height: 90px;
+              img {
+                height: auto;
+                width: auto;
+              }
+            }
             p {
               font-size: 0.9rem;
+            }
+          }
+          &.card_link_hover {
+            &:hover {
+              border-color: #0039b5;
             }
           }
         }
@@ -3113,8 +3154,10 @@ p {
         position: absolute;
         width: 0;
         height: 11px;
-        background: var(--blue-gradient,
-            linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+        background: var(
+          --blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+        );
         border-radius: 6px;
         bottom: -46px;
         left: 0;
@@ -3142,7 +3185,6 @@ p {
       padding-top: 50px;
 
       .year_content {
-
         // text-align: center;
         p {
           color: #252525;
@@ -3288,6 +3330,35 @@ p {
 
     &.solution {
       background: #e81f26;
+    }
+    &.article {
+      background: #00adff;
+    }
+  }
+  .pageslinks {
+    li {
+      margin-right: 35px;
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "\f105";
+        @extend %inilizeFonrtAwsome_Before_After;
+        right: -19px;
+        top: 50%;
+        transform: translate(0, -50%);
+        color: rgba(255, 255, 255, 0.743);
+      }
+      a {
+        color: #fff;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 400;
+      }
+      &:last-child{
+        &::after{
+          content: "";
+        }
+      }
     }
   }
 }
@@ -3523,7 +3594,7 @@ p {
             justify-content: space-between;
             flex-wrap: wrap;
 
-            >div {
+            > div {
               width: 50%;
               position: relative;
               padding-left: 10px;
@@ -3941,7 +4012,8 @@ p {
     }
   }
 
-  .what_you_get_with_slider {}
+  .what_you_get_with_slider {
+  }
 
   .why_choose_eleks {
     .product_strategy_consulting_img {
@@ -4147,7 +4219,7 @@ p {
         background-color: transparent;
 
         &.active {
-          color: #0045E6;
+          color: #0045e6;
           font-size: 1.1rem;
           font-weight: 600;
           line-height: 26px;
@@ -4187,7 +4259,7 @@ p {
         }
 
         span {
-          color: #FFF;
+          color: #fff;
           text-align: center;
           font-size: 1rem;
           font-style: normal;
@@ -4197,7 +4269,6 @@ p {
       }
     }
   }
-
 }
 
 /* ================================================================ */
@@ -5036,8 +5107,8 @@ p {
     .secure_your_software_img {
       height: 100%;
       .card_img {
-       min-height: 600px;
-       height: 100%;
+        min-height: 600px;
+        height: 100%;
       }
     }
 
@@ -5151,7 +5222,7 @@ p {
       .pargraph {
         width: 70%;
 
-        >div {
+        > div {
           p {
             margin-bottom: 10px;
           }
@@ -5179,12 +5250,13 @@ p {
 
 /* ================================================================ */
 .crm_service {
-  .crm_work_with {}
+  .crm_work_with {
+  }
 
   .three_element_expanded {
     .expand_card {
       .lista {
-        >div {
+        > div {
           width: 100% !important;
         }
       }
@@ -5270,7 +5342,6 @@ p {
 /* ================================================================ */
 .smart_team_service {
   .why_eleks_as_your_data_strategy {
-
     // overflow: hidden;
     .why_eleks_as_your_data_strategy_img {
       // position: sticky;
@@ -5348,8 +5419,124 @@ p {
 }
 
 /* ================================================================ */
+.error_page {
+  min-height: calc(100vh - 130px);
+  display: flex;
+  align-items: center;
+  .img404 {
+    text-align: right;
+  }
+  .error_content {
+    h5 {
+      color: #252525;
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+    h6 {
+      color: #252525;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 32px;
+    }
+    p {
+      color: #252525;
+      font-feature-settings: "clig" off, "liga" off;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 90px;
+    }
+    .btn_style {
+      width: 255px;
+    }
+  }
+}
 /* ================================================================ */
+.filterby_page {
+  .section_header {
+    margin-top: 115px;
+    margin-bottom: 100px;
+    h5 {
+      color: #252525;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+  .form-group {
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    .form-control {
+      height: 70px;
+      border-radius: 0;
+      border: 0;
+      background-color: transparent;
+      border-bottom: 1px solid rgba(55, 55, 55, 0.101);
+      padding-left: 32px;
+      &::placeholder {
+        color: rgba(55, 55, 55, 0.29);
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+      }
+    }
+  }
+  .nice_select {
+    float: none;
+    height: 70px;
+    line-height: 60px;
+    color: #252525;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(55, 55, 55, 0.101);
+    &::before {
+      content: "";
+      width: 40px;
+      height: 40px;
+      background-color: rgba(217, 217, 217, 0.4);
+      border-radius: 50%;
+      z-index: 3;
+      position: absolute;
+      right: -6px;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    .list {
+      width: 100%;
+    }
+  }
+
+  .filter_cards {
+    margin-top: 120px;
+    padding-bottom: 170px;
+
+    .service_card {
+      margin-bottom: 70px;
+    }
+  }
+}
 /* ================================================================ */
+.article_detaisl_header{
+  justify-content: center;
+  display: flex;
+  min-height: 80vh;
+  .header_content{
+
+  }
+}
 /* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
@@ -5640,11 +5827,11 @@ footer {
   .product_service_advisory .ready_for_relize .theImg h5 {
     width: fit-content;
   }
-  .enterprise_application_developer .ready_for_relize .theImg h5{
+  .enterprise_application_developer .ready_for_relize .theImg h5 {
     margin-bottom: 30px;
     margin-left: 0;
   }
-  .crm_card{
+  .crm_card {
     padding: 40px;
     text-align: center;
   }
@@ -5656,7 +5843,6 @@ footer {
   }
 
   .custom_navbar {
-
     // display: none;
     .links {
       display: none;
@@ -5821,8 +6007,14 @@ footer {
     padding-top: 0px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img,
-  .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_img
+    .card_img,
+  .data_science_service
+    .why_choose_eleks
+    .product_strategy_consulting_img
+    .card_img {
     height: 600px;
   }
 
@@ -5836,7 +6028,7 @@ footer {
   .product_service_advisory.pos_service .ready_for_relize .theImg h5 {
     margin: 30px 0 !important;
   }
-  .product_service_advisory .our_produc_design_success{
+  .product_service_advisory .our_produc_design_success {
     padding-top: 50px;
   }
 }
@@ -5910,7 +6102,8 @@ footer {
       }
     }
 
-    .i {}
+    .i {
+    }
   }
 
   .our_vision_strip {
@@ -5962,10 +6155,14 @@ footer {
   .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav {
     flex-wrap: nowrap;
     overflow: auto;
-    justify-content: flex-start
+    justify-content: flex-start;
   }
 
-  .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item {
+  .awards_partnater
+    .awards_partnater_wrapper
+    .awards_partners_navs
+    .nav
+    .nav-item {
     min-width: 200px;
   }
 
@@ -6072,7 +6269,9 @@ footer {
     height: 400px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_content {
     padding: 30px;
   }
 
@@ -6114,7 +6313,9 @@ footer {
     }
   }
 
-  .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
+  .data_stratigy_service
+    .data_strategy_consulting_process
+    .data_strategy_consulting_process_content {
     padding: 0 0px;
   }
 
@@ -6122,20 +6323,22 @@ footer {
     padding: 50px 0;
   }
 
-  .enterprise_application_developer .secure_your_software .secure_your_software_content{
+  .enterprise_application_developer
+    .secure_your_software
+    .secure_your_software_content {
     padding: 50px 20px;
   }
-  .why_eleks_as_your_data_strategy{
-    .have_question{
+  .why_eleks_as_your_data_strategy {
+    .have_question {
       flex-direction: column;
       align-items: flex-start !important;
     }
   }
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
   .copy_write .copy_write_wrapper li a {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
