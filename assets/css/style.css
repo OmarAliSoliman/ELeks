@@ -4479,8 +4479,286 @@ p {
   display: flex;
   min-height: 80vh;
 }
+.article_detals_page .article_detals_page_wrapper {
+  padding: 64px 0;
+}
+.article_detals_page .article_detals_page_wrapper .article_img {
+  margin-bottom: 90px;
+}
+.article_detals_page .article_detals_page_wrapper .article_img .card_img {
+  height: 344px;
+  border-radius: 12px;
+}
+.article_detals_page .article_detals_page_wrapper .article_img .card_img img {
+  border-radius: 12px;
+}
+.article_detals_page .article_detals_page_wrapper .article_slogan {
+  color: #252525;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+.article_detals_page .article_detals_page_wrapper .article_parg {
+  opacity: 0.8;
+  color: #373737;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.article_detals_page .article_detals_page_wrapper .article_parg a {
+  color: #0045E6;
+}
+.article_detals_page .article_detals_page_wrapper .article_heaad {
+  color: #252525;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+.article_detals_page .article_detals_page_strip {
+  background: #252525;
+  padding: 78px 0;
+}
+.article_detals_page .article_detals_page_strip .strip_col1 {
+  position: relative;
+  padding-left: 32px;
+}
+.article_detals_page .article_detals_page_strip .strip_col1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  background: #E81F26;
+}
+.article_detals_page .article_detals_page_strip .strip_col1 h5 {
+  color: #FFF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 39.9px;
+  margin-bottom: 30px;
+}
+.article_detals_page .article_detals_page_strip .strip_col1 a span {
+  color: #FFF;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.article_detals_page .article_detals_page_strip .strip_col2 h6 {
+  color: #FFF;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.article_detals_page .article_detals_page_strip .strip_col2 p {
+  color: rgba(255, 255, 255, 0.763);
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.article_detals_page .article_detals_page_strip .strip_col2 a {
+  display: flex;
+  align-items: center;
+}
+.article_detals_page .article_detals_page_strip .strip_col2 a span {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.article_detals_page .article_detals_page_strip .strip_col2 a i {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-top: 5px;
+}
+.article_detals_page .article_person {
+  padding: 72px 0;
+  background: rgba(217, 217, 217, 0.1);
+}
+.article_detals_page .article_person .hrline {
+  margin-top: 72px;
+}
+.article_detals_page .article_person .person_info .info_card .card_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.article_detals_page .article_person .person_info .info_card .card_img img {
+  border-radius: 50%;
+}
+.article_detals_page .article_person .person_info .info_card .card_body {
+  color: #252525;
+  padding-left: 32px;
+}
+.article_detals_page .article_person .person_info .info_card .card_body h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+.article_detals_page .article_person .person_info .article_date {
+  margin-top: 32px;
+}
+.article_detals_page .article_person .person_info .article_date p {
+  margin-bottom: 0;
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.article_detals_page .article_person .person_info .article_date p span {
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 400;
+}
+.article_detals_page .article_person .tags li .taag {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: rgba(55, 55, 55, 0.1);
+  margin-left: 24px;
+  color: #252525;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.article_detals_page .article_person .social {
+  margin-top: 32px;
+}
+.article_detals_page .article_person .social li a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(55, 55, 55, 0.1);
+  margin-left: 20px;
+  color: #252525;
+}
+.article_detals_page .related_insights {
+  background: rgba(217, 217, 217, 0.1);
+  padding-bottom: 100px;
+}
+.article_detals_page .related_insights .section_header h5 {
+  color: #252525;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
 /* ================================================================ */
+.search_result_page .search_result_cards {
+  padding: 127px 0;
+}
+
+.result_card {
+  border-radius: 24px;
+  box-shadow: 0px 13px 25px 0px rgba(37, 37, 37, 0.1);
+  margin-bottom: 65px;
+}
+.result_card .card_img {
+  height: 400px;
+  border-radius: 24px 24px 0px 0px;
+}
+.result_card .card_img img {
+  border-radius: 24px 24px 0px 0px;
+}
+.result_card .card_body {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px;
+  border-radius: 0px 0px 24px 24px;
+}
+.result_card .card_body h5 {
+  color: #252525;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.result_card .card_body .type {
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding: 5px 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ================================================================ */
+.contact_us_page {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  /* 250% */
+}
+.contact_us_page .contact_us_section {
+  position: relative;
+}
+.contact_us_page .contact_us_section .contact_us_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.contact_us_page .our_ofices_section {
+  background: #252525;
+  padding: 100px 0;
+}
+.contact_us_page .our_ofices_section .section_header {
+  margin-bottom: 32px;
+}
+.contact_us_page .our_ofices_section .section_header h5 {
+  color: #FFF;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ofice_card {
+  background: #373737;
+}
+.ofice_card .card_header {
+  padding: 32px;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.06);
+}
+.ofice_card .card_body {
+  padding: 32px;
+}
+.ofice_card h6 {
+  color: #FFF;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+  /* 250% */
+}
+.ofice_card p {
+  color: white;
+  color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 60px;
+}
+.ofice_card h4 {
+  color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 60px;
+  /* 333.333% */
+}
+
 /* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
