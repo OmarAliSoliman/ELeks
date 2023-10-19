@@ -4508,7 +4508,7 @@ p {
   margin-bottom: 40px;
 }
 .article_detals_page .article_detals_page_wrapper .article_parg a {
-  color: #0045E6;
+  color: #0045e6;
 }
 .article_detals_page .article_detals_page_wrapper .article_heaad {
   color: #252525;
@@ -4531,24 +4531,24 @@ p {
   left: 0;
   width: 6px;
   height: 100%;
-  background: #E81F26;
+  background: #e81f26;
 }
 .article_detals_page .article_detals_page_strip .strip_col1 h5 {
-  color: #FFF;
+  color: #fff;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 39.9px;
   margin-bottom: 30px;
 }
 .article_detals_page .article_detals_page_strip .strip_col1 a span {
-  color: #FFF;
+  color: #fff;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 500;
   margin-right: 10px;
 }
 .article_detals_page .article_detals_page_strip .strip_col2 h6 {
-  color: #FFF;
+  color: #fff;
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
@@ -4568,7 +4568,7 @@ p {
   align-items: center;
 }
 .article_detals_page .article_detals_page_strip .strip_col2 a span {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -4721,7 +4721,7 @@ p {
   margin-bottom: 32px;
 }
 .contact_us_page .our_ofices_section .section_header h5 {
-  color: #FFF;
+  color: #fff;
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
@@ -4738,7 +4738,7 @@ p {
   padding: 32px;
 }
 .ofice_card h6 {
-  color: #FFF;
+  color: #fff;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 600;
@@ -4746,13 +4746,13 @@ p {
 }
 .ofice_card p {
   color: white;
-  color: #FFF;
+  color: #fff;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 60px;
 }
 .ofice_card h4 {
-  color: #FFF;
+  color: #fff;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 60px;
@@ -4760,6 +4760,39 @@ p {
 }
 
 /* ================================================================ */
+.case_study_details {
+  padding: 110px 0;
+}
+.case_study_details .header_logo h5 {
+  color: #252525;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+.case_study_details .header_logo p {
+  color: #373737;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.case_study_details DDD .about_client {
+  margin-top: 100px;
+}
+.case_study_details DDD .about_client h5 {
+  color: #252525;
+  font-size: 1.5rrem;
+  font-style: normaddl;
+}
+.case_study_details DDD .about_client h5 .data_strategy_leader_contetn {
+  color: rgba(55, 55, 55, 0.713);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 64pxd;
+}
+
 /* ================================================================ */
 /* ================================================================ */
 /* ================================================================ */
