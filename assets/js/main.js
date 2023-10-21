@@ -2,7 +2,7 @@ $(document).ready(function () {
   var currentDir = $("a").css("direction");
   console.log(currentDir);
 
-  if($(".awards_logo_slider").length){
+  if ($(".awards_logo_slider").length) {
     $(".awards_logo_slider").slick({
       slidesToShow: 7,
       slidesToScroll: 1,
@@ -41,7 +41,7 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
   if ($(".nice_select").length) {
@@ -84,22 +84,22 @@ $(document).ready(function () {
   }
 
   if ($(".what_you_get_slider").length) {
-    var $slider = $(".what_you_get_slider");
-    var $progressBar = $(".what_you_get_slider_progressbar");
-    var $progressBarLabel = $(
+    var $slider1 = $(".what_you_get_slider");
+    var $progressBar1 = $(".what_you_get_slider_progressbar");
+    var $progressBarLabel1 = $(
       ".what_you_get_slider_progressbar .slider__label"
     );
 
-    $slider.on(
+    $slider1.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar1
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel1.text(calc + "% completed");
       }
     );
 
@@ -139,20 +139,22 @@ $(document).ready(function () {
   }
 
   if ($(".blogs_cards_slider").length) {
-    var $slider = $(".blogs_cards_slider");
-    var $progressBar = $(".blogs_cards_slider_progressbar");
-    var $progressBarLabel = $(".blogs_cards_slider_progressbar .slider__label");
+    var $slider2 = $(".blogs_cards_slider");
+    var $progressBar2 = $(".blogs_cards_slider_progressbar");
+    var $progressBarLabel2 = $(
+      ".blogs_cards_slider_progressbar .slider__label"
+    );
 
-    $slider.on(
+    $slider2.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar2
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel2.text(calc + "% completed");
       }
     );
 
@@ -186,7 +188,7 @@ $(document).ready(function () {
         {
           breakpoint: 991,
           settings: {
-            slidesToShow:1.5,
+            slidesToShow: 1.5,
             centerMode: false,
           },
         },
@@ -202,22 +204,20 @@ $(document).ready(function () {
   }
 
   if ($(".help_cards_slider").length) {
-    var $slider = $(".help_cards_slider");
-    var $progressBar = $(".help_cards_slider_progressbar");
-    var $progressBarLabel = $(
-      ".help_cards_slider_progressbar .slider__label"
-    );
+    var $slider3 = $(".help_cards_slider");
+    var $progressBar3 = $(".help_cards_slider_progressbar");
+    var $progressBarLabel3 = $(".help_cards_slider_progressbar .slider__label");
 
-    $slider.on(
+    $slider3.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar3
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel3.text(calc + "% completed");
       }
     );
 
@@ -255,25 +255,24 @@ $(document).ready(function () {
       ],
     });
   }
-  
 
   if ($(".our_produc_design_success_slider").length) {
-    var $slider = $(".our_produc_design_success_slider");
-    var $progressBar = $(".our_produc_design_success_slider_progressbar");
-    var $progressBarLabel = $(
+    var $slider4 = $(".our_produc_design_success_slider");
+    var $progressBar4 = $(".our_produc_design_success_slider_progressbar");
+    var $progressBarLabel4 = $(
       ".our_produc_design_success_slider_progressbar .slider__label"
     );
 
-    $slider.on(
+    $slider4.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar4
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel4.text(calc + "% completed");
       }
     );
 
@@ -312,24 +311,23 @@ $(document).ready(function () {
     });
   }
 
-
   if ($(".custom_our_blog_slider").length) {
-    var $slider = $(".custom_our_blog_slider");
-    var $progressBar = $(".custom_our_blog_slider_progressbar");
-    var $progressBarLabel = $(
+    var $slider5 = $(".custom_our_blog_slider");
+    var $progressBar5 = $(".custom_our_blog_slider_progressbar");
+    var $progressBarLabel5 = $(
       ".custom_our_blog_slider_progressbar .slider__label"
     );
 
-    $slider.on(
+    $slider5.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar5
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel5.text(calc + "% completed");
       }
     );
 
@@ -368,7 +366,7 @@ $(document).ready(function () {
     });
   }
 
-  if($(".what_you_get_with_slider").length){
+  if ($(".what_you_get_with_slider").length) {
     $(".what_you_get_with_slider").slick({
       slidesToShow: 6.1,
       slidesToScroll: 1,
@@ -399,11 +397,10 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
-
-  if($(".what_our_clients_say_slider").length){
+  if ($(".what_our_clients_say_slider").length) {
     $(".what_our_clients_say_slider").slick({
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -434,10 +431,10 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
-  if($(".sunstan_our_partners_slider").length){
+  if ($(".sunstan_our_partners_slider").length) {
     $(".sunstan_our_partners_slider").slick({
       slidesToShow: 4.2,
       slidesToScroll: 1,
@@ -468,12 +465,11 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
-
   // sunstan_our_partners_erp_slider
-  if($(".sunstan_our_partners_erp_slider").length){
+  if ($(".sunstan_our_partners_erp_slider").length) {
     $(".sunstan_our_partners_erp_slider").slick({
       slidesToShow: 7,
       slidesToScroll: 1,
@@ -498,19 +494,17 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
-
-  if($(".contact_us_section").length){
-    $(".contact_us_section #imageInput").on('change', function(e){
+  if ($(".contact_us_section").length) {
+    $(".contact_us_section #imageInput").on("change", function (e) {
       var fname = e.target.files[0].name;
-      $(this).parent().find('.file_name').text(fname);
-    })
+      $(this).parent().find(".file_name").text(fname);
+    });
   }
 
-
-  if($(".case_study_the_solution_slider").length){
+  if ($(".case_study_the_solution_slider").length) {
     $(".case_study_the_solution_slider").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -519,26 +513,26 @@ $(document).ready(function () {
       infinite: true,
       autoplaySpeed: 5000,
       autoplay: true,
-    })
+    });
   }
 
-  if($(".office_slider_wrapper_slider").length){
-    var $slider = $(".office_slider_wrapper_slider");
-    var $progressBar = $(".our_ofices_section_slider_progressbar");
-    var $progressBarLabel = $(
+  if ($(".office_slider_wrapper_slider").length) {
+    var $slider6 = $(".office_slider_wrapper_slider");
+    var $progressBar6 = $(".our_ofices_section_slider_progressbar");
+    var $progressBarLabel6 = $(
       ".our_ofices_section_slider_progressbar .slider__label"
     );
 
-    $slider.on(
+    $slider6.on(
       "beforeChange",
       function (event, slick, currentSlide, nextSlide) {
         var calc = (nextSlide / (slick.slideCount - 1)) * 100;
 
-        $progressBar
+        $progressBar6
           .css("background-size", calc + "% 100%")
           .attr("aria-valuenow", calc);
 
-        $progressBarLabel.text(calc + "% completed");
+        $progressBarLabel6.text(calc + "% completed");
       }
     );
     $(".office_slider_wrapper_slider").slick({
@@ -564,9 +558,18 @@ $(document).ready(function () {
           },
         },
       ],
-    })
+    });
   }
 
+  if ($(".expand_card").length) {
+    $(".expand_card").on("click", function (e) {
+      $(this)
+        .parent()
+        .addClass("active_expand_card")
+        .siblings()
+        .removeClass("active_expand_card");
+    });
+  }
 });
 
 // $(window).on("load", function () {
