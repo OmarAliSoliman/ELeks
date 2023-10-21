@@ -509,6 +509,64 @@ $(document).ready(function () {
     })
   }
 
+
+  if($(".case_study_the_solution_slider").length){
+    $(".case_study_the_solution_slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+    })
+  }
+
+  if($(".office_slider_wrapper_slider").length){
+    var $slider = $(".office_slider_wrapper_slider");
+    var $progressBar = $(".our_ofices_section_slider_progressbar");
+    var $progressBarLabel = $(
+      ".our_ofices_section_slider_progressbar .slider__label"
+    );
+
+    $slider.on(
+      "beforeChange",
+      function (event, slick, currentSlide, nextSlide) {
+        var calc = (nextSlide / (slick.slideCount - 1)) * 100;
+
+        $progressBar
+          .css("background-size", calc + "% 100%")
+          .attr("aria-valuenow", calc);
+
+        $progressBarLabel.text(calc + "% completed");
+      }
+    );
+    $(".office_slider_wrapper_slider").slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      dots: false,
+      speed: 300,
+      infinite: true,
+      autoplaySpeed: 5000,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 991,
+          settings: {
+            slidesToShow: 3,
+          },
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 1,
+          },
+        },
+      ],
+    })
+  }
+
 });
 
 // $(window).on("load", function () {
