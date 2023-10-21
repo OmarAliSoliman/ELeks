@@ -2700,6 +2700,9 @@ p {
 .services_header .type.article {
   background: #00adff;
 }
+.services_header .type.technologies {
+  background: #00adff;
+}
 .services_header .pageslinks li {
   margin-right: 35px;
   position: relative;
@@ -3685,10 +3688,10 @@ p {
 .data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img {
   height: 427px;
 }
-.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content ul {
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content > ul {
   position: relative;
 }
-.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content ul::before {
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content > ul::before {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -5146,7 +5149,67 @@ p {
 }
 
 /* ================================================================ */
+.software_audit_service .help_card {
+  border: 1px solid var(--blue-gradient, #0045e6);
+}
+.software_audit_service .why_eleks_as_your_data_strategy {
+  position: relative;
+}
+.software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  border-radius: 25px;
+}
+.software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img img {
+  border-radius: 25px;
+}
+.software_audit_service .what_you_get_half_sentences {
+  background: rgba(0, 69, 230, 0.03);
+  padding: 120px 0 0 0;
+}
+.software_audit_service .what_you_get_half_sentences .wat_you_get_wrapper {
+  margin-bottom: 100px;
+}
+
 /* ================================================================ */
+.qa_services .solutions_processes_card p {
+  color: #373737;
+  font-size: 1.1rem !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; /* 200% */
+}
+.qa_services .solutions_processes_card .card_footer {
+  border-radius: 0px 0px 12px 12px;
+  background: rgba(0, 69, 227, 0.2588235294);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+.qa_services .solutions_processes_card .card_footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qa_services .solutions_processes_card .card_footer a span {
+  color: #252525 !important;
+  font-size: 1.1rem !important;
+  font-style: normal;
+  font-weight: 700;
+}
+.qa_services .solutions_processes_card .card_footer a .arrow {
+  width: 33px;
+  height: 33px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
 /* ================================================================ */
 /* ================================================================ */
 footer {
@@ -5530,6 +5593,23 @@ footer .footer_links_wrapper .links_wrpper li a {
     height: 230px;
     padding: 20px 0;
   }
+  .software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
+    width: 100%;
+    position: unset;
+  }
+  .case_study_the_solution2 {
+    padding: 50px 0;
+  }
+  .case_study_the_solution2 .case_study_the_solution_slider .card_img {
+    height: 350px;
+  }
+  .case_study_strip {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .article_detals_page .article_person .person_info .article_date {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 600px) {
   .home_header .home_header_content h5 {
@@ -5740,6 +5820,20 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .product_service_advisory .three_element_expanded ul li.active_expand_card p {
     margin-top: 20px;
+  }
+  .product_service_advisory .three_element_expanded ul li .pargraph {
+    padding: 0 !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .tags_social .tags {
+    justify-content: flex-start !important;
+  }
+  .tags_social .tags > ul {
+    align-items: flex-start;
+  }
+  .tags_social .tags > ul > li {
+    min-width: 150px;
   }
 }
 @media (max-width: 320px) {

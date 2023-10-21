@@ -3343,6 +3343,9 @@ p {
     &.article {
       background: #00adff;
     }
+    &.technologies {
+      background: #00adff;
+    }
   }
 
   .pageslinks {
@@ -3560,7 +3563,7 @@ p {
             /* 187.5% */
           }
 
-          .title{
+          .title {
             flex: none;
           }
 
@@ -3596,7 +3599,7 @@ p {
         .pargraph {
           text-align: left;
           color: $fontColor;
-          font-size: .9rem;
+          font-size: 0.9rem;
           font-style: normal;
           font-weight: 300;
           transition: all 0.5s ease-in-out;
@@ -3606,7 +3609,7 @@ p {
           visibility: hidden;
           opacity: 0;
           visibility: hidden;
-          p{
+          p {
             font-size: 1rem;
             line-height: 25px !important;
           }
@@ -4069,12 +4072,11 @@ p {
     }
   }
 
-  .three_element_expanded{
-    .expand_card{
-
+  .three_element_expanded {
+    .expand_card {
     }
-    li{
-      &.active_expand_card{
+    li {
+      &.active_expand_card {
         flex-grow: 3.5 !important;
       }
     }
@@ -4560,7 +4562,7 @@ p {
     }
 
     .why_eleks_as_your_data_strategy_content {
-      ul {
+      > ul {
         position: relative;
 
         &::before {
@@ -6334,8 +6336,73 @@ p {
 }
 
 /* ================================================================ */
+.software_audit_service {
+  .help_card {
+    border: 1px solid var(--blue-gradient, #0045e6);
+  }
+  .why_eleks_as_your_data_strategy {
+    position: relative;
+    .why_eleks_as_your_data_strategy_img {
+      position: absolute;
+      right: 0;
+      width: 50%;
+      border-radius: 25px;
+      img {
+        border-radius: 25px;
+      }
+    }
+  }
+  .what_you_get_half_sentences {
+    background: rgba(0, 69, 230, 0.03);
+    padding: 120px 0 0 0;
+    .wat_you_get_wrapper {
+      margin-bottom: 100px;
+    }
+  }
+}
 /* ================================================================ */
+.qa_services {
+  .solutions_processes_card {
+    p {
+      color: #373737;
+      font-size: 1.1rem !important;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 40px; /* 200% */
+    }
+    .card_footer {
+      border-radius: 0px 0px 12px 12px;
+      background: #0045e342;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 0;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span {
+          color: #252525 !important;
+          font-size: 1.1rem !important;
+          font-style: normal;
+          font-weight: 700;
+        }
+        .arrow {
+          width: 33px;
+          height: 33px;
+          background-color: #fff;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
 /* ================================================================ */
+
 
 /* ================================================================ */
 footer {
@@ -6508,10 +6575,14 @@ footer {
   .pd-150 {
     padding: 0 60px;
   }
-  .product_service_advisory .three_element_expanded ul li.active_expand_card{
+  .product_service_advisory .three_element_expanded ul li.active_expand_card {
     padding-left: 60px;
   }
-  .product_service_advisory .three_element_expanded ul li.active_expand_card .pargraph{
+  .product_service_advisory
+    .three_element_expanded
+    ul
+    li.active_expand_card
+    .pargraph {
     margin-left: 40px;
     padding-right: 30px;
   }
@@ -6637,7 +6708,7 @@ footer {
     padding: 40px;
     text-align: center;
   }
-  .product_service_advisory .three_element_expanded ul li.active_expand_card{
+  .product_service_advisory .three_element_expanded ul li.active_expand_card {
     flex-grow: 4;
   }
 }
@@ -6838,16 +6909,38 @@ footer {
   .product_service_advisory .our_produc_design_success {
     padding-top: 50px;
   }
-  .product_service_advisory .three_element_expanded ul{
+  .product_service_advisory .three_element_expanded ul {
     flex-wrap: wrap;
   }
-  .product_service_advisory .three_element_expanded ul li{
+  .product_service_advisory .three_element_expanded ul li {
     width: 100%;
     flex: none;
   }
-  .product_service_advisory .three_element_expanded ul li{
+  .product_service_advisory .three_element_expanded ul li {
     height: 230px;
     padding: 20px 0;
+  }
+  .software_audit_service
+    .why_eleks_as_your_data_strategy
+    .why_eleks_as_your_data_strategy_img {
+    width: 100%;
+    position: unset;
+  }
+  .case_study_the_solution2 {
+    padding: 50px 0;
+    .case_study_the_solution_slider .card_img{
+      height: 350px;
+    }
+  }
+  .case_study_strip{
+    flex-wrap: wrap;
+    display: flex;
+    ul{
+      
+    }
+  }
+  .article_detals_page .article_person .person_info .article_date{
+    margin-bottom: 20px;
   }
 }
 
@@ -7153,19 +7246,38 @@ footer {
       align-items: flex-start !important;
     }
   }
-  .product_service_advisory .three_element_expanded ul li{
+  .product_service_advisory .three_element_expanded ul li {
     height: auto;
   }
-  .product_service_advisory .three_element_expanded ul li .expand_card{
+  .product_service_advisory .three_element_expanded ul li .expand_card {
     flex-direction: column;
   }
-  .product_service_advisory .three_element_expanded ul li.active_expand_card{
+  .product_service_advisory .three_element_expanded ul li.active_expand_card {
     padding-left: 0;
     padding-right: 0;
-    p{
+    p {
       margin-top: 20px;
     }
   }
+  .product_service_advisory .three_element_expanded ul li .pargraph {
+    padding: 0 !important;
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  .tags_social{
+    
+    .tags{
+      justify-content: flex-start !important;
+     > ul{
+      align-items: flex-start;
+      > li{
+        min-width: 150px;
+      }
+     }
+    }
+  }
+
 }
 
 @media (max-width: 320px) {
