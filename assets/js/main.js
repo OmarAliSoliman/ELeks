@@ -542,19 +542,30 @@ $(document).ready(function () {
       dots: false,
       speed: 300,
       infinite: true,
+      prevArrow: $(".our_ofices_sectionـcustom_arrow_next"),
+      nextArrow: $(".our_ofices_sectionـcustom_arrow_prev"),
       autoplaySpeed: 5000,
       autoplay: true,
       responsive: [
         {
+          breakpoint: 1025,
+          settings: {
+            slidesToShow: 2.2,
+            centerMode: true,
+          },
+        },
+        {
           breakpoint: 991,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
           },
         },
         {
           breakpoint: 767,
           settings: {
             slidesToShow: 1,
+            centerMode: false,
+
           },
         },
       ],

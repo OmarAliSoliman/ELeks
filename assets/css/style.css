@@ -4728,6 +4728,7 @@ p {
 
 /* ================================================================ */
 .contact_us_page {
+  overflow: hidden;
   /* 250% */
 }
 .contact_us_page .contact_us_section {
@@ -4737,6 +4738,7 @@ p {
   position: absolute;
   top: 0;
   right: 0;
+  height: 100%;
 }
 .contact_us_page .our_ofices_section {
   background: #252525;
@@ -4756,7 +4758,6 @@ p {
 }
 .contact_us_page .office_slider_wrapper_slider {
   padding-left: 150px;
-  overflow: hidden;
   /* the parent */
 }
 .contact_us_page .office_slider_wrapper_slider .slick-slide {
@@ -4774,21 +4775,27 @@ p {
   margin-bottom: 30px;
   min-height: 40px;
 }
-.contact_us_page .office_slider_wrapper_slider .slick-next {
-  position: absolute;
-  bottom: -10px;
-  right: 0;
-  background-image: url("../images/ep_arrow-right-bold.svg");
-  background-size: contain;
-  background-position: center;
-}
-.contact_us_page .office_slider_wrapper_slider .slick-next::before {
-  content: "";
-}
 .contact_us_page .custom_progress_arrows {
   display: flex;
   align-items: center;
+  width: 100%;
   margin: auto;
+  margin-top: 0px;
+}
+.contact_us_page .custom_progress_arrows img {
+  width: 20px;
+  filter: brightness(0) invert(1);
+}
+.contact_us_page .custom_progress_arrows .custom_arrow {
+  cursor: pointer;
+}
+.contact_us_page .custom_progress_arrows .custom_arrow_next {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.contact_us_page .custom_progress_arrows .custom_arrow_prev {
+  margin-left: 10px;
+  cursor: pointer;
 }
 .contact_us_page .our_ofices_section_slider_progressbar {
   display: block;
@@ -5337,6 +5344,9 @@ footer .footer_links_wrapper .links_wrpper li a {
   .what_you_get_card .card_title {
     padding: 0 10px;
   }
+  .contact_us_page .office_slider_wrapper_slider {
+    padding-left: 100px;
+  }
 }
 @media (max-width: 1440px) {
   .services_header_with_images .header_content {
@@ -5448,6 +5458,9 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .product_service_advisory .three_element_expanded ul li.active_expand_card {
     flex-grow: 4;
+  }
+  .contact_us_page .office_slider_wrapper_slider {
+    padding-left: 20px;
   }
 }
 @media (max-width: 991px) {
@@ -5609,6 +5622,14 @@ footer .footer_links_wrapper .links_wrpper li a {
   }
   .article_detals_page .article_person .person_info .article_date {
     margin-bottom: 20px;
+  }
+  .contact_us_page .contact_us_section {
+    padding-top: 0;
+  }
+  .contact_us_page .contact_us_section .contact_us_img {
+    position: unset;
+    height: 300px;
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 600px) {
