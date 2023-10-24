@@ -5286,12 +5286,22 @@ p {
   padding-left: 50px;
 }
 .row_image_content_2 .row_content a {
-  color: #0045E6;
+  color: #0045e6;
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 700;
   display: flex;
   align-items: center;
+}
+.row_image_content_2 .section_header {
+  margin-bottom: 50px;
+}
+.row_image_content_2 .section_header h5 {
+  overflow: hidden;
+  color: #252525;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 700;
 }
 .row_image_content_2 .card_img {
   border-radius: 12px;
@@ -5318,7 +5328,7 @@ p {
   align-items: center;
 }
 .row_image_content_2 .play_btn span {
-  color: #FFF;
+  color: #fff;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;

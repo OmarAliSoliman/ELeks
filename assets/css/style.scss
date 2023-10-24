@@ -595,7 +595,6 @@ p {
     margin-top: 55px;
 
     ul {
-
       // flex-wrap: wrap;
       // li {
       //   width: calc(100% / 7);
@@ -765,7 +764,8 @@ p {
     }
   }
 
-  .contact_us_form {}
+  .contact_us_form {
+  }
 }
 
 .form_style {
@@ -1544,7 +1544,8 @@ p {
   }
 }
 
-.experts_cards {}
+.experts_cards {
+}
 
 .expert_card {
   background-color: #fff;
@@ -1727,7 +1728,8 @@ p {
 }
 
 /* ================================================================ */
-.case_studies_cards {}
+.case_studies_cards {
+}
 
 .case_studies_video {
   .card_img {
@@ -1931,7 +1933,7 @@ p {
       align-items: center;
       justify-content: end;
 
-      >span {
+      > span {
         color: #fff;
         font-size: 1rem;
         font-weight: 400;
@@ -2325,9 +2327,11 @@ p {
     height: 6px;
     overflow: hidden;
     background-color: #f5f5f5;
-    background-image: linear-gradient(to right,
-        rgba(55, 55, 55, 0.803),
-        rgba(55, 55, 55, 0.803));
+    background-image: linear-gradient(
+      to right,
+      rgba(55, 55, 55, 0.803),
+      rgba(55, 55, 55, 0.803)
+    );
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -2845,8 +2849,10 @@ p {
           font-weight: 400;
 
           &.active {
-            background: var(--blue-gradient,
-                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+            background: var(
+              --blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+            );
             color: #fff;
           }
         }
@@ -3156,8 +3162,10 @@ p {
         position: absolute;
         width: 0;
         height: 11px;
-        background: var(--blue-gradient,
-            linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+        background: var(
+          --blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+        );
         border-radius: 6px;
         bottom: -46px;
         left: 0;
@@ -3185,7 +3193,6 @@ p {
       padding-top: 50px;
 
       .year_content {
-
         // text-align: center;
         p {
           color: #252525;
@@ -3616,7 +3623,7 @@ p {
             justify-content: space-between;
             flex-wrap: wrap;
 
-            >div {
+            > div {
               width: 50%;
               position: relative;
               padding-left: 10px;
@@ -4042,7 +4049,8 @@ p {
     }
   }
 
-  .what_you_get_with_slider {}
+  .what_you_get_with_slider {
+  }
 
   .why_choose_eleks {
     .product_strategy_consulting_img {
@@ -4070,7 +4078,8 @@ p {
   }
 
   .three_element_expanded {
-    .expand_card {}
+    .expand_card {
+    }
 
     li {
       &.active_expand_card {
@@ -4559,7 +4568,7 @@ p {
     }
 
     .why_eleks_as_your_data_strategy_content {
-      >ul {
+      > ul {
         position: relative;
 
         &::before {
@@ -5262,7 +5271,7 @@ p {
       .pargraph {
         width: 70%;
 
-        >div {
+        > div {
           p {
             margin-bottom: 10px;
           }
@@ -5290,12 +5299,13 @@ p {
 
 /* ================================================================ */
 .crm_service {
-  .crm_work_with {}
+  .crm_work_with {
+  }
 
   .three_element_expanded {
     .expand_card {
       .lista {
-        >div {
+        > div {
           width: 100% !important;
         }
       }
@@ -5381,7 +5391,6 @@ p {
 /* ================================================================ */
 .smart_team_service {
   .why_eleks_as_your_data_strategy {
-
     // overflow: hidden;
     .why_eleks_as_your_data_strategy_img {
       // position: sticky;
@@ -5487,7 +5496,7 @@ p {
 
     p {
       color: #252525;
-      font-feature-settings: "clig"off, "liga"off;
+      font-feature-settings: "clig" off, "liga" off;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
@@ -5589,7 +5598,8 @@ p {
   display: flex;
   min-height: 80vh;
 
-  .header_content {}
+  .header_content {
+  }
 }
 
 .article_detals_page {
@@ -5928,7 +5938,8 @@ p {
       min-height: 40px;
     }
 
-    .slick-arrow {}
+    .slick-arrow {
+    }
 
     // .slick-next {
     //   position: absolute;
@@ -5992,9 +6003,11 @@ p {
     height: 6px;
     overflow: hidden;
     background: rgba(217, 217, 217, 0.1);
-    background-image: linear-gradient(to right,
-        rgba(180, 180, 180, 0.4),
-        rgba(180, 180, 180, 0.4));
+    background-image: linear-gradient(
+      to right,
+      rgba(180, 180, 180, 0.4),
+      rgba(180, 180, 180, 0.4)
+    );
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -6170,8 +6183,10 @@ p {
             justify-content: center;
             align-items: center;
             border-radius: 12px;
-            background: var(--blue-gradient,
-                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+            background: var(
+              --blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+            );
             color: #fff;
             font-size: 1rem;
             font-style: normal;
@@ -6196,8 +6211,10 @@ p {
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -6549,8 +6566,10 @@ p {
       left: -25px;
       height: 100%;
       width: 11px;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
     }
   }
 
@@ -6571,7 +6590,7 @@ p {
     padding-left: 50px;
 
     a {
-      color: #0045E6;
+      color: #0045e6;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 700;
@@ -6580,9 +6599,20 @@ p {
     }
   }
 
-  .card_img{
+  .section_header {
+    margin-bottom: 50px;
+    h5 {
+      overflow: hidden;
+      color: #252525;
+      font-size: 2.3rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+  }
+
+  .card_img {
     border-radius: 12px;
-    img{
+    img {
       border-radius: 12px;
     }
   }
@@ -6591,7 +6621,8 @@ p {
     padding-left: 0px;
   }
 
-  h6 {}
+  h6 {
+  }
 
   h5 {
     line-height: normal !important;
@@ -6611,7 +6642,7 @@ p {
     align-items: center;
 
     span {
-      color: #FFF;
+      color: #fff;
       font-size: 1rem;
       font-style: normal;
       font-weight: 700;
@@ -6630,8 +6661,8 @@ p {
   }
 }
 
-.oppsite_row_image_content{
-  .row_content{
+.oppsite_row_image_content {
+  .row_content {
     padding-left: 0;
   }
 }
@@ -6648,7 +6679,6 @@ p {
       line-height: 60px;
       /* 150% */
     }
-
   }
 
   .tabs_buttons {
@@ -6672,8 +6702,10 @@ p {
         transition: all 0.3s ease-in-out;
 
         &.active {
-          background: var(--blue-gradient,
-              linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+          background: var(
+            --blue-gradient,
+            linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+          );
           border: 1px solid linear-gradient(98deg, #0045e6 0%, #00adff 100%);
           color: #fff;
         }
@@ -6742,8 +6774,10 @@ p {
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -6931,7 +6965,11 @@ footer {
     padding-left: 60px;
   }
 
-  .product_service_advisory .three_element_expanded ul li.active_expand_card .pargraph {
+  .product_service_advisory
+    .three_element_expanded
+    ul
+    li.active_expand_card
+    .pargraph {
     margin-left: 40px;
     padding-right: 30px;
   }
@@ -7065,7 +7103,7 @@ footer {
   .contact_us_page .office_slider_wrapper_slider {
     padding-left: 20px;
   }
-  .left_tabs_content .tabs_buttons .nav .nav-link{
+  .left_tabs_content .tabs_buttons .nav .nav-link {
     padding: 20px 20px;
     font-size: 1rem;
   }
@@ -7077,7 +7115,6 @@ footer {
   }
 
   .custom_navbar {
-
     // display: none;
     .links {
       display: none;
@@ -7242,8 +7279,14 @@ footer {
     padding-top: 0px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img,
-  .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_img
+    .card_img,
+  .data_science_service
+    .why_choose_eleks
+    .product_strategy_consulting_img
+    .card_img {
     height: 600px;
   }
 
@@ -7277,7 +7320,9 @@ footer {
     padding: 20px 0;
   }
 
-  .software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
+  .software_audit_service
+    .why_eleks_as_your_data_strategy
+    .why_eleks_as_your_data_strategy_img {
     width: 100%;
     position: unset;
   }
@@ -7294,7 +7339,8 @@ footer {
     flex-wrap: wrap;
     display: flex;
 
-    ul {}
+    ul {
+    }
   }
 
   .article_detals_page .article_person .person_info .article_date {
@@ -7316,11 +7362,11 @@ footer {
     overflow: auto;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    li{
+    li {
       min-width: max-content;
     }
   }
-  .row_image_content .row_content{
+  .row_image_content .row_content {
     padding-right: 0;
     padding-left: 0;
     margin-top: 20px;
@@ -7396,7 +7442,8 @@ footer {
       }
     }
 
-    .i {}
+    .i {
+    }
   }
 
   .our_vision_strip {
@@ -7451,7 +7498,11 @@ footer {
     justify-content: flex-start;
   }
 
-  .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item {
+  .awards_partnater
+    .awards_partnater_wrapper
+    .awards_partners_navs
+    .nav
+    .nav-item {
     min-width: 200px;
   }
 
@@ -7558,7 +7609,9 @@ footer {
     height: 400px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_content {
     padding: 30px;
   }
 
@@ -7600,7 +7653,9 @@ footer {
     }
   }
 
-  .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
+  .data_stratigy_service
+    .data_strategy_consulting_process
+    .data_strategy_consulting_process_content {
     padding: 0 0px;
   }
 
@@ -7608,7 +7663,9 @@ footer {
     padding: 50px 0;
   }
 
-  .enterprise_application_developer .secure_your_software .secure_your_software_content {
+  .enterprise_application_developer
+    .secure_your_software
+    .secure_your_software_content {
     padding: 50px 20px;
   }
 
@@ -7646,16 +7703,16 @@ footer {
     .tags {
       justify-content: flex-start !important;
 
-      >ul {
+      > ul {
         align-items: flex-start;
 
-        >li {
+        > li {
           min-width: 150px;
         }
       }
     }
   }
-  .left_tabs_content .tabs_content_wrapper{
+  .left_tabs_content .tabs_content_wrapper {
     padding: 25px 25px;
   }
 }
