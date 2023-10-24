@@ -595,6 +595,7 @@ p {
     margin-top: 55px;
 
     ul {
+
       // flex-wrap: wrap;
       // li {
       //   width: calc(100% / 7);
@@ -764,8 +765,7 @@ p {
     }
   }
 
-  .contact_us_form {
-  }
+  .contact_us_form {}
 }
 
 .form_style {
@@ -1544,8 +1544,7 @@ p {
   }
 }
 
-.experts_cards {
-}
+.experts_cards {}
 
 .expert_card {
   background-color: #fff;
@@ -1728,8 +1727,7 @@ p {
 }
 
 /* ================================================================ */
-.case_studies_cards {
-}
+.case_studies_cards {}
 
 .case_studies_video {
   .card_img {
@@ -1933,7 +1931,7 @@ p {
       align-items: center;
       justify-content: end;
 
-      > span {
+      >span {
         color: #fff;
         font-size: 1rem;
         font-weight: 400;
@@ -2327,11 +2325,9 @@ p {
     height: 6px;
     overflow: hidden;
     background-color: #f5f5f5;
-    background-image: linear-gradient(
-      to right,
-      rgba(55, 55, 55, 0.803),
-      rgba(55, 55, 55, 0.803)
-    );
+    background-image: linear-gradient(to right,
+        rgba(55, 55, 55, 0.803),
+        rgba(55, 55, 55, 0.803));
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -2849,10 +2845,8 @@ p {
           font-weight: 400;
 
           &.active {
-            background: var(
-              --blue-gradient,
-              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-            );
+            background: var(--blue-gradient,
+                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
             color: #fff;
           }
         }
@@ -3162,10 +3156,8 @@ p {
         position: absolute;
         width: 0;
         height: 11px;
-        background: var(
-          --blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-        );
+        background: var(--blue-gradient,
+            linear-gradient(98deg, #0045e6 0%, #00adff 100%));
         border-radius: 6px;
         bottom: -46px;
         left: 0;
@@ -3193,6 +3185,7 @@ p {
       padding-top: 50px;
 
       .year_content {
+
         // text-align: center;
         p {
           color: #252525;
@@ -3343,6 +3336,7 @@ p {
     &.article {
       background: #00adff;
     }
+
     &.technologies {
       background: #00adff;
     }
@@ -3554,6 +3548,7 @@ p {
           padding-left: 0px;
           height: 100%;
           cursor: pointer;
+
           h6 {
             color: #fff;
             font-size: 1rem;
@@ -3609,17 +3604,19 @@ p {
           visibility: hidden;
           opacity: 0;
           visibility: hidden;
+
           p {
             font-size: 1rem;
             line-height: 25px !important;
           }
+
           .lista {
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
 
-            > div {
+            >div {
               width: 50%;
               position: relative;
               padding-left: 10px;
@@ -3648,6 +3645,7 @@ p {
           background: #0045e6;
           padding-left: 150px;
           padding-right: 70px;
+
           .pargraph {
             visibility: visible !important;
             display: block;
@@ -4044,8 +4042,7 @@ p {
     }
   }
 
-  .what_you_get_with_slider {
-  }
+  .what_you_get_with_slider {}
 
   .why_choose_eleks {
     .product_strategy_consulting_img {
@@ -4073,8 +4070,8 @@ p {
   }
 
   .three_element_expanded {
-    .expand_card {
-    }
+    .expand_card {}
+
     li {
       &.active_expand_card {
         flex-grow: 3.5 !important;
@@ -4562,7 +4559,7 @@ p {
     }
 
     .why_eleks_as_your_data_strategy_content {
-      > ul {
+      >ul {
         position: relative;
 
         &::before {
@@ -5265,7 +5262,7 @@ p {
       .pargraph {
         width: 70%;
 
-        > div {
+        >div {
           p {
             margin-bottom: 10px;
           }
@@ -5293,13 +5290,12 @@ p {
 
 /* ================================================================ */
 .crm_service {
-  .crm_work_with {
-  }
+  .crm_work_with {}
 
   .three_element_expanded {
     .expand_card {
       .lista {
-        > div {
+        >div {
           width: 100% !important;
         }
       }
@@ -5385,6 +5381,7 @@ p {
 /* ================================================================ */
 .smart_team_service {
   .why_eleks_as_your_data_strategy {
+
     // overflow: hidden;
     .why_eleks_as_your_data_strategy_img {
       // position: sticky;
@@ -5490,7 +5487,7 @@ p {
 
     p {
       color: #252525;
-      font-feature-settings: "clig" off, "liga" off;
+      font-feature-settings: "clig"off, "liga"off;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
@@ -5592,8 +5589,7 @@ p {
   display: flex;
   min-height: 80vh;
 
-  .header_content {
-  }
+  .header_content {}
 }
 
 .article_detals_page {
@@ -5873,8 +5869,10 @@ p {
 /* ================================================================ */
 .contact_us_page {
   overflow: hidden;
+
   .contact_us_section {
     position: relative;
+
     .contact_us_img {
       position: absolute;
       top: 0;
@@ -5908,15 +5906,18 @@ p {
   /* 250% */
   .office_slider_wrapper_slider {
     padding-left: 150px;
+
     // overflow-x: hidden;
     /* the parent */
     .slick-slide {
       margin-left: 40px;
     }
+
     .slick-list {
       margin: 0 -40px;
       padding-bottom: 60px;
     }
+
     .office_place {
       color: rgba(255, 255, 255, 0.711);
       font-size: 1.8rem;
@@ -5926,8 +5927,9 @@ p {
       // line-height: 60px; /* 187.5% */
       min-height: 40px;
     }
-    .slick-arrow {
-    }
+
+    .slick-arrow {}
+
     // .slick-next {
     //   position: absolute;
     //   top: unset;
@@ -5955,6 +5957,7 @@ p {
     //   }
     // }
   }
+
   .custom_progress_arrows {
     display: flex;
     align-items: center;
@@ -5989,11 +5992,9 @@ p {
     height: 6px;
     overflow: hidden;
     background: rgba(217, 217, 217, 0.1);
-    background-image: linear-gradient(
-      to right,
-      rgba(180, 180, 180, 0.4),
-      rgba(180, 180, 180, 0.4)
-    );
+    background-image: linear-gradient(to right,
+        rgba(180, 180, 180, 0.4),
+        rgba(180, 180, 180, 0.4));
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -6015,9 +6016,11 @@ p {
 
 .ofice_card {
   background: #373737;
+
   .card_header {
     padding: 20px 32px;
     border-bottom: 1px solid rgba(217, 217, 217, 0.06);
+
     h5 {
       color: #fff;
       font-size: 1.4rem;
@@ -6029,12 +6032,14 @@ p {
 
   .card_body {
     padding: 32px;
+
     h6 {
       color: #fff;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
     }
+
     p {
       color: #ffff;
       font-size: 1.1rem;
@@ -6043,6 +6048,7 @@ p {
       line-height: normal !important;
       margin-top: 40px;
     }
+
     a {
       color: #fff;
       font-size: 1.1rem;
@@ -6060,6 +6066,7 @@ p {
 
   .case_study_details_wrapper {
     padding-bottom: 100px;
+
     .header_logo {
       h5 {
         color: #252525;
@@ -6069,6 +6076,7 @@ p {
         margin-bottom: 32px;
         margin-top: 64px;
       }
+
       p {
         color: #373737;
         font-size: 1.1rem;
@@ -6076,8 +6084,10 @@ p {
         font-weight: 400;
       }
     }
+
     .about_client {
       margin-top: 100px;
+
       .about_client_content {
         h5 {
           color: #252525;
@@ -6086,37 +6096,45 @@ p {
           font-weight: 700;
           margin-bottom: 32px;
         }
+
         p {
           color: rgba(55, 55, 55, 0.661);
           font-size: 1rem;
           font-style: normal;
           font-weight: 400;
-          line-height: 30px; /* 166.667% */
+          line-height: 30px;
+          /* 166.667% */
           margin-bottom: 50px;
         }
+
         ul {
           margin-bottom: 60px;
         }
+
         li {
           margin-bottom: 10px;
           display: flex;
           align-items: center;
           justify-content: space-between;
           width: 50%;
+
           span:first-child {
             color: #252525;
             font-size: 1rem;
             font-style: normal;
             font-weight: 700;
           }
+
           span:last-child {
             color: #252525;
             font-size: 1rem;
             font-style: normal;
             font-weight: 400;
-            line-height: 43px; /* 238.889% */
+            line-height: 43px;
+            /* 238.889% */
           }
         }
+
         h6 {
           color: #252525;
           font-size: 1.3rem;
@@ -6124,8 +6142,10 @@ p {
           font-weight: 600;
           margin-bottom: 40px;
         }
+
         .services_used {
           margin-bottom: 40px;
+
           a {
             padding: 13px 24px;
             justify-content: center;
@@ -6141,6 +6161,7 @@ p {
             font-weight: 700;
           }
         }
+
         .link_all_ser {
           a {
             display: inline-flex;
@@ -6149,14 +6170,13 @@ p {
             justify-content: center;
             align-items: center;
             border-radius: 12px;
-            background: var(
-              --blue-gradient,
-              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-            );
+            background: var(--blue-gradient,
+                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
             color: #fff;
             font-size: 1rem;
             font-style: normal;
             font-weight: 700;
+
             img {
               margin-left: 20px;
               margin-top: 4px;
@@ -6167,37 +6187,41 @@ p {
     }
   }
 }
+
 .case_study_the_solution {
   padding: 72px 0 140px 0;
+
   .the_solution_content {
     h6 {
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
-      background: var(
-        --blue-gradient,
-        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-      );
+      background: var(--blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 40px;
     }
+
     h5 {
       color: #000;
       font-size: 2.3rem;
       font-style: normal;
       font-weight: 500;
-      line-height: 58.5px; /* 146.25% */
+      line-height: 58.5px;
+      /* 146.25% */
       margin-bottom: 40px;
     }
+
     p {
       color: #373737;
       opacity: 0.8;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px; /* 150% */
+      line-height: 30px;
+      /* 150% */
     }
   }
 }
@@ -6206,27 +6230,33 @@ p {
   .follow_stop {
     margin-bottom: 25px;
   }
+
   p {
     color: #000;
     font-size: 1.1rem;
     font-style: normal;
     font-weight: 700 !important;
     opacity: 1 !important;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
   }
+
   .the_solution_person {
     display: flex;
     align-items: center;
     margin-top: 40px;
+
     .card_img {
       width: 100px;
       height: 100px;
       border-radius: 50%;
       margin-right: 32px;
+
       img {
         border-radius: 50%;
       }
     }
+
     h5 {
       color: #252525;
       font-size: 1.1rem;
@@ -6242,12 +6272,15 @@ p {
   .the_solution_content2 {
     margin-top: 80px;
     padding-left: 20px;
+
     p {
       color: #373737;
       font-size: 1rem;
       font-style: normal;
       font-weight: 300 !important;
-      line-height: 30px; /* 150% */
+      line-height: 30px;
+
+      /* 150% */
       // opacity: 0.8 !important;
       strong {
         font-weight: 600 !important;
@@ -6255,14 +6288,17 @@ p {
       }
     }
   }
+
   .case_study_the_solution_slider {
     .card_img {
       height: 550px;
       border-radius: 24px;
+
       img {
         border-radius: 24px;
       }
     }
+
     .slick-dots {
       bottom: 50px;
       background-color: rgba(255, 255, 255, 0.5);
@@ -6272,8 +6308,10 @@ p {
       transform: translate(-50%, 0);
       padding: 5px 10px;
       border-radius: 20px;
+
       li {
         margin: 0;
+
         button {
           margin: 0;
           width: 15px;
@@ -6281,11 +6319,13 @@ p {
           background-color: #fff;
           // margin: 0 5px;
           border-radius: 50%;
+
           &::before {
             content: "";
             padding: 0;
           }
         }
+
         &.slick-active {
           button {
             background-color: $fontColor;
@@ -6300,10 +6340,12 @@ p {
   background: #252525;
   margin-top: 100px;
   padding: 58px 0;
+
   ul {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
     li {
       a {
         display: flex;
@@ -6320,8 +6362,10 @@ p {
       }
     }
   }
+
   .strip_h5 {
     text-align: center;
+
     h5 {
       color: #fff;
       font-size: 1.7rem;
@@ -6332,6 +6376,7 @@ p {
       position: relative;
       width: fit-content;
       margin: auto;
+
       &::after {
         position: absolute;
         content: "";
@@ -6345,18 +6390,22 @@ p {
       }
     }
   }
+
   .contact_link {
     text-align: right;
+
     a {
       display: flex;
       align-items: center;
       justify-content: end;
+
       span {
         color: #fff;
         font-size: 1rem;
         font-style: normal;
         font-weight: 500;
       }
+
       .arrow {
         width: 33px;
         height: 33px;
@@ -6376,26 +6425,32 @@ p {
   .help_card {
     border: 1px solid var(--blue-gradient, #0045e6);
   }
+
   .why_eleks_as_your_data_strategy {
     position: relative;
+
     .why_eleks_as_your_data_strategy_img {
       position: absolute;
       right: 0;
       width: 50%;
       border-radius: 25px;
+
       img {
         border-radius: 25px;
       }
     }
   }
+
   .what_you_get_half_sentences {
     background: rgba(0, 69, 230, 0.03);
     padding: 120px 0 0 0;
+
     .wat_you_get_wrapper {
       margin-bottom: 100px;
     }
   }
 }
+
 /* ================================================================ */
 .qa_services {
   .solutions_processes_card {
@@ -6404,8 +6459,10 @@ p {
       font-size: 1.1rem !important;
       font-style: normal;
       font-weight: 500;
-      line-height: 40px; /* 200% */
+      line-height: 40px;
+      /* 200% */
     }
+
     .card_footer {
       border-radius: 0px 0px 12px 12px;
       background: #0045e342;
@@ -6413,16 +6470,19 @@ p {
       align-items: center;
       justify-content: center;
       padding: 20px 0;
+
       a {
         display: flex;
         align-items: center;
         justify-content: center;
+
         span {
           color: #252525 !important;
           font-size: 1.1rem !important;
           font-style: normal;
           font-weight: 700;
         }
+
         .arrow {
           width: 33px;
           height: 33px;
@@ -6437,9 +6497,11 @@ p {
     }
   }
 }
+
 /* ================================================================ */
 .cfo_page {
   padding-top: 61px;
+
   .left_tabs_content {
     margin-top: 120px;
     margin-bottom: 200px;
@@ -6450,9 +6512,11 @@ p {
   .row_content {
     padding-right: 50px;
   }
+
   .card_img {
     height: 400px;
   }
+
   h5 {
     overflow: hidden;
     color: #252525;
@@ -6460,19 +6524,24 @@ p {
     font-size: 1.7rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 150% */
+    line-height: 60px;
+    /* 150% */
   }
+
   .line_title {
     padding-left: 25px;
   }
+
   h6 {
     color: #373737;
     font-size: 1rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 39.9px; /* 199.5% */
+    line-height: 39.9px;
+    /* 199.5% */
     margin-bottom: 15px;
     position: relative;
+
     &::after {
       position: absolute;
       content: "";
@@ -6480,37 +6549,89 @@ p {
       left: -25px;
       height: 100%;
       width: 11px;
-      background: var(
-        --blue-gradient,
-        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-      );
+      background: var(--blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
     }
   }
+
   p {
     color: #373737;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
     margin-top: 15px;
-    line-height: 30px; /* 199.5% */
+    line-height: 30px;
+    /* 199.5% */
     padding-left: 25px;
   }
 }
 
-.row_image_content_2{
+.row_image_content_2 {
   .row_content {
     padding-left: 50px;
+
+    a {
+      color: #0045E6;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
   }
+
+  .card_img{
+    border-radius: 12px;
+    img{
+      border-radius: 12px;
+    }
+  }
+
   .line_title {
     padding-left: 0px;
   }
-  h6 {
-  }
 
-  h5{
+  h6 {}
+
+  h5 {
     line-height: normal !important;
   }
-  p{
+
+  p {
+    padding-left: 0;
+  }
+
+  .play_btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6;
+    display: flex;
+    align-items: center;
+
+    span {
+      color: #FFF;
+      font-size: 1rem;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .btn {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 10px;
+    }
+  }
+}
+
+.oppsite_row_image_content{
+  .row_content{
     padding-left: 0;
   }
 }
@@ -6518,19 +6639,23 @@ p {
 .left_tabs_content {
   .section_header {
     margin-bottom: 35px;
-    h5 { 
+
+    h5 {
       color: #252525;
       font-size: 2.2rem;
       font-style: normal;
       font-weight: 700;
-      line-height: 60px; /* 150% */
+      line-height: 60px;
+      /* 150% */
     }
-    
+
   }
+
   .tabs_buttons {
     .nav {
       flex-direction: column;
       box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.1);
+
       .nav-link {
         padding: 43px 60px;
         border: 1px solid rgba(55, 55, 55, 0.2);
@@ -6542,13 +6667,13 @@ p {
         font-size: 1.3rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 25px; /* 141.667% */
+        line-height: 25px;
+        /* 141.667% */
         transition: all 0.3s ease-in-out;
+
         &.active {
-          background: var(
-            --blue-gradient,
-            linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-          );
+          background: var(--blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%));
           border: 1px solid linear-gradient(98deg, #0045e6 0%, #00adff 100%);
           color: #fff;
         }
@@ -6556,7 +6681,7 @@ p {
     }
   }
 
-  .play_btn{
+  .play_btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -6568,7 +6693,8 @@ p {
     border: 2px solid var(--blue-gradient, #0045e6);
     box-shadow: 0px 13px 25px rgba(0, 0, 0, 0.1);
     padding: 47px 80px;
-    height: 100%;
+    // height: 100%;
+
     .tab_title {
       color: #252525;
       font-size: 1.3rem;
@@ -6576,42 +6702,48 @@ p {
       font-weight: 700;
       margin-bottom: 32px;
     }
+
     .tab_text {
       color: #373737;
       font-size: 1rem;
       font-style: normal;
       font-weight: 400;
-      line-height: 30px; /* 166.667% */
+      line-height: 30px;
+      /* 166.667% */
     }
+
     .tab_slogan {
       color: #252525;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 500;
-      line-height: 30px; /* 199.5% */
+      line-height: 30px;
+      /* 199.5% */
       margin-top: 40px;
       margin-bottom: 30px;
     }
+
     .date {
       color: #373737;
       font-size: 1rem;
       font-style: normal;
       font-weight: 400;
     }
+
     .how_help {
       margin-top: 80px;
     }
+
     li {
       margin-bottom: 30px;
     }
+
     .tab_list_header {
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
-      background: var(
-        --blue-gradient,
-        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
-      );
+      background: var(--blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -6774,6 +6906,7 @@ footer {
   .what_you_get_card .card_title {
     padding: 0 10px;
   }
+
   .contact_us_page .office_slider_wrapper_slider {
     padding-left: 100px;
   }
@@ -6793,14 +6926,12 @@ footer {
   .pd-150 {
     padding: 0 60px;
   }
+
   .product_service_advisory .three_element_expanded ul li.active_expand_card {
     padding-left: 60px;
   }
-  .product_service_advisory
-    .three_element_expanded
-    ul
-    li.active_expand_card
-    .pargraph {
+
+  .product_service_advisory .three_element_expanded ul li.active_expand_card .pargraph {
     margin-left: 40px;
     padding-right: 30px;
   }
@@ -6926,9 +7057,11 @@ footer {
     padding: 40px;
     text-align: center;
   }
+
   .product_service_advisory .three_element_expanded ul li.active_expand_card {
     flex-grow: 4;
   }
+
   .contact_us_page .office_slider_wrapper_slider {
     padding-left: 20px;
   }
@@ -6940,6 +7073,7 @@ footer {
   }
 
   .custom_navbar {
+
     // display: none;
     .links {
       display: none;
@@ -7104,14 +7238,8 @@ footer {
     padding-top: 0px;
   }
 
-  .product_service_advisory
-    .product_strategy_consulting
-    .product_strategy_consulting_img
-    .card_img,
-  .data_science_service
-    .why_choose_eleks
-    .product_strategy_consulting_img
-    .card_img {
+  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img,
+  .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
     height: 600px;
   }
 
@@ -7130,41 +7258,49 @@ footer {
   .product_service_advisory .our_produc_design_success {
     padding-top: 50px;
   }
+
   .product_service_advisory .three_element_expanded ul {
     flex-wrap: wrap;
   }
+
   .product_service_advisory .three_element_expanded ul li {
     width: 100%;
     flex: none;
   }
+
   .product_service_advisory .three_element_expanded ul li {
     height: 230px;
     padding: 20px 0;
   }
-  .software_audit_service
-    .why_eleks_as_your_data_strategy
-    .why_eleks_as_your_data_strategy_img {
+
+  .software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
     width: 100%;
     position: unset;
   }
+
   .case_study_the_solution2 {
     padding: 50px 0;
+
     .case_study_the_solution_slider .card_img {
       height: 350px;
     }
   }
+
   .case_study_strip {
     flex-wrap: wrap;
     display: flex;
-    ul {
-    }
+
+    ul {}
   }
+
   .article_detals_page .article_person .person_info .article_date {
     margin-bottom: 20px;
   }
+
   .contact_us_page .contact_us_section {
     padding-top: 0;
   }
+
   .contact_us_page .contact_us_section .contact_us_img {
     position: unset;
     height: 300px;
@@ -7241,8 +7377,7 @@ footer {
       }
     }
 
-    .i {
-    }
+    .i {}
   }
 
   .our_vision_strip {
@@ -7297,11 +7432,7 @@ footer {
     justify-content: flex-start;
   }
 
-  .awards_partnater
-    .awards_partnater_wrapper
-    .awards_partners_navs
-    .nav
-    .nav-item {
+  .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item {
     min-width: 200px;
   }
 
@@ -7408,9 +7539,7 @@ footer {
     height: 400px;
   }
 
-  .product_service_advisory
-    .product_strategy_consulting
-    .product_strategy_consulting_content {
+  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
     padding: 30px;
   }
 
@@ -7452,9 +7581,7 @@ footer {
     }
   }
 
-  .data_stratigy_service
-    .data_strategy_consulting_process
-    .data_strategy_consulting_process_content {
+  .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
     padding: 0 0px;
   }
 
@@ -7462,9 +7589,7 @@ footer {
     padding: 50px 0;
   }
 
-  .enterprise_application_developer
-    .secure_your_software
-    .secure_your_software_content {
+  .enterprise_application_developer .secure_your_software .secure_your_software_content {
     padding: 50px 20px;
   }
 
@@ -7474,19 +7599,24 @@ footer {
       align-items: flex-start !important;
     }
   }
+
   .product_service_advisory .three_element_expanded ul li {
     height: auto;
   }
+
   .product_service_advisory .three_element_expanded ul li .expand_card {
     flex-direction: column;
   }
+
   .product_service_advisory .three_element_expanded ul li.active_expand_card {
     padding-left: 0;
     padding-right: 0;
+
     p {
       margin-top: 20px;
     }
   }
+
   .product_service_advisory .three_element_expanded ul li .pargraph {
     padding: 0 !important;
     width: 90% !important;
@@ -7496,9 +7626,11 @@ footer {
   .tags_social {
     .tags {
       justify-content: flex-start !important;
-      > ul {
+
+      >ul {
         align-items: flex-start;
-        > li {
+
+        >li {
           min-width: 150px;
         }
       }
