@@ -465,6 +465,13 @@ p {
 
 /* ================================================================ */
 .home_header_slider_container {
+  position: relative;
+  .shapes_header {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    width: 50%;
+  }
   #progressbar_cont {
     height: 50px;
     position: relative;
@@ -705,7 +712,7 @@ p {
     padding-top: 44px;
 
     .date {
-      color: #373737;
+      color: rgba(55, 55, 55, 0.5);
       font-size: 1rem;
       font-weight: 400;
       display: block;
@@ -1542,6 +1549,11 @@ p {
       margin-bottom: 70px;
     }
   }
+  &.our_experts_accordion{
+    .accordion-item{
+      border: 0;
+    }
+  }
 }
 
 .experts_cards {
@@ -1856,6 +1868,13 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+  }
+}
+
+.case_studies {
+  .case_studies_card {
+    margin-top: 0;
+    margin-bottom: 50px;
   }
 }
 
@@ -7714,6 +7733,60 @@ footer {
   }
   .left_tabs_content .tabs_content_wrapper {
     padding: 25px 25px;
+  }
+  .home_header_slider_container .shapes_header {
+    width: 90%;
+    margin: auto;
+    right: 10px;
+  }
+  .case_studies {
+    .case_studies_card {
+      margin-top: 0;
+      margin-bottom: 50px;
+    }
+    .case_studies_video {
+      margin-bottom: 50px;
+    }
+  }
+  .wide_card {
+    flex-direction: column;
+    margin-top: 20px;
+    .card_img {
+      margin-bottom: 15px;
+    }
+  }
+  .news_strip_card {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    .news_slag {
+      margin-bottom: 15px;
+    }
+  }
+  .blog_page {
+    .our_vision_strip {
+      ul {
+        overflow: auto;
+        padding-bottom: 18px;
+        li {
+          min-width: max-content;
+        }
+        // flex-wrap: wrap;
+      }
+      .stripfilter {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .select_filters {
+          // overflow: auto;
+          .nice_select {
+            // min-width: max-content;
+          }
+        }
+      }
+    }
+  }
+  .blog_page .our_vision_strip .stripfilter .select_filters{
+    overflow-x: auto;
   }
 }
 
