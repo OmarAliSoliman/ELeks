@@ -7065,6 +7065,10 @@ footer {
   .contact_us_page .office_slider_wrapper_slider {
     padding-left: 20px;
   }
+  .left_tabs_content .tabs_buttons .nav .nav-link{
+    padding: 20px 20px;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -7305,6 +7309,21 @@ footer {
     position: unset;
     height: 300px;
     margin-bottom: 50px;
+  }
+  .left_tabs_content .tabs_buttons .nav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    li{
+      min-width: max-content;
+    }
+  }
+  .row_image_content .row_content{
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 20px;
   }
 }
 
@@ -7635,6 +7654,9 @@ footer {
         }
       }
     }
+  }
+  .left_tabs_content .tabs_content_wrapper{
+    padding: 25px 25px;
   }
 }
 
