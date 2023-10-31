@@ -7146,6 +7146,10 @@ p {
       }
     }
   }
+  .devops_consulting {
+    background-color: #f7f8fc;
+    padding-bottom: 130px;
+  }
 }
 .agriculture_page {
   .what_you_get_with {
@@ -7245,30 +7249,30 @@ p {
     background: rgba(0, 0, 0, 0.7);
     height: 100%;
     padding: 50px 50px;
-    ul{
+    ul {
       flex-wrap: wrap;
       position: relative;
-      li{
+      li {
         width: 50%;
         text-align: center;
         justify-content: center;
         padding: 90px 0;
       }
-      &::before{
+      &::before {
         content: "";
         height: 1px;
         width: 100%;
-        background:linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%);
+        background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
         position: absolute;
         right: 0;
         top: 50%;
         transform: translate(0, -50%);
       }
-      &::after{
+      &::after {
         content: "";
         width: 1px;
         height: 100%;
-        background:linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%);
+        background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
         position: absolute;
         left: 50%;
         top: 50%;
@@ -7292,6 +7296,38 @@ p {
         padding-left: 0;
       }
     }
+  }
+}
+.devops_page {
+  .industries_strip {
+    margin-top: 0;
+  }
+}
+
+.indusrties_what_you_get_half_sentences {
+  // padding: 180px 0;
+
+  h5 {
+    color: #252525;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    /* 150% */
+  }
+
+  p {
+    color: #373737;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    /* 166.667% */
+  }
+}
+.iot_page{
+  .expanded_cards_industries{
+    margin-top: 0;
   }
 }
 
@@ -7426,7 +7462,7 @@ p {
     min-height: 569px;
     margin-bottom: 32px;
     .card_body {
-      padding: 0 0 0 0;
+      padding: 0 0 0 0 !important;
     }
     .card_icon {
       margin-bottom: 65px;

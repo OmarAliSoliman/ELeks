@@ -5769,6 +5769,10 @@ p {
   box-shadow: unset !important;
   border: 1px solid rgba(217, 217, 217, 0.4);
 }
+.industries_page .devops_consulting {
+  background-color: #f7f8fc;
+  padding-bottom: 130px;
+}
 
 .agriculture_page .what_you_get_with {
   padding-top: 0px;
@@ -5872,7 +5876,7 @@ p {
   content: "";
   height: 1px;
   width: 100%;
-  background: linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%);
+  background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
   position: absolute;
   right: 0;
   top: 50%;
@@ -5882,7 +5886,7 @@ p {
   content: "";
   width: 1px;
   height: 100%;
-  background: linear-gradient(98deg, #6DDCFF 0%, #7F60F9 100%);
+  background: linear-gradient(98deg, #6ddcff 0%, #7f60f9 100%);
   position: absolute;
   left: 50%;
   top: 50%;
@@ -5904,6 +5908,31 @@ p {
   font-style: normal;
   font-weight: 600;
   padding-left: 0;
+}
+
+.devops_page .industries_strip {
+  margin-top: 0;
+}
+
+.indusrties_what_you_get_half_sentences h5 {
+  color: #252525;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  /* 150% */
+}
+.indusrties_what_you_get_half_sentences p {
+  color: #373737;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  /* 166.667% */
+}
+
+.iot_page .expanded_cards_industries {
+  margin-top: 0;
 }
 
 /* ================================================================ */
@@ -6015,7 +6044,7 @@ p {
   margin-bottom: 32px;
 }
 .industries_will_help .help_card .card_body {
-  padding: 0 0 0 0;
+  padding: 0 0 0 0 !important;
 }
 .industries_will_help .help_card .card_icon {
   margin-bottom: 65px;
