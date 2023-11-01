@@ -608,7 +608,6 @@ p {
     margin-top: 55px;
 
     ul {
-
       // flex-wrap: wrap;
       // li {
       //   width: calc(100% / 7);
@@ -778,7 +777,8 @@ p {
     }
   }
 
-  .contact_us_form {}
+  .contact_us_form {
+  }
 }
 
 .form_style {
@@ -1563,7 +1563,8 @@ p {
   }
 }
 
-.experts_cards {}
+.experts_cards {
+}
 
 .expert_card {
   background-color: #fff;
@@ -1746,7 +1747,8 @@ p {
 }
 
 /* ================================================================ */
-.case_studies_cards {}
+.case_studies_cards {
+}
 
 .case_studies_video {
   .card_img {
@@ -1957,7 +1959,7 @@ p {
       align-items: center;
       justify-content: end;
 
-      >span {
+      > span {
         color: #fff;
         font-size: 1rem;
         font-weight: 400;
@@ -2351,9 +2353,11 @@ p {
     height: 6px;
     overflow: hidden;
     background-color: #f5f5f5;
-    background-image: linear-gradient(to right,
-        rgba(55, 55, 55, 0.803),
-        rgba(55, 55, 55, 0.803));
+    background-image: linear-gradient(
+      to right,
+      rgba(55, 55, 55, 0.803),
+      rgba(55, 55, 55, 0.803)
+    );
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -2871,8 +2875,10 @@ p {
           font-weight: 400;
 
           &.active {
-            background: var(--blue-gradient,
-                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+            background: var(
+              --blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+            );
             color: #fff;
           }
         }
@@ -3182,8 +3188,10 @@ p {
         position: absolute;
         width: 0;
         height: 11px;
-        background: var(--blue-gradient,
-            linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+        background: var(
+          --blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+        );
         border-radius: 6px;
         bottom: -46px;
         left: 0;
@@ -3211,7 +3219,6 @@ p {
       padding-top: 50px;
 
       .year_content {
-
         // text-align: center;
         p {
           color: #252525;
@@ -3642,7 +3649,7 @@ p {
             justify-content: space-between;
             flex-wrap: wrap;
 
-            >div {
+            > div {
               width: 50%;
               position: relative;
               padding-left: 10px;
@@ -4068,7 +4075,8 @@ p {
     }
   }
 
-  .what_you_get_with_slider {}
+  .what_you_get_with_slider {
+  }
 
   .why_choose_eleks {
     .product_strategy_consulting_img {
@@ -4096,7 +4104,8 @@ p {
   }
 
   .three_element_expanded {
-    .expand_card {}
+    .expand_card {
+    }
 
     li {
       &.active_expand_card {
@@ -4589,7 +4598,7 @@ p {
         text-align: left;
       }
 
-      >ul {
+      > ul {
         position: relative;
 
         &::before {
@@ -5292,7 +5301,7 @@ p {
       .pargraph {
         width: 70%;
 
-        >div {
+        > div {
           p {
             margin-bottom: 10px;
           }
@@ -5320,12 +5329,13 @@ p {
 
 /* ================================================================ */
 .crm_service {
-  .crm_work_with {}
+  .crm_work_with {
+  }
 
   .three_element_expanded {
     .expand_card {
       .lista {
-        >div {
+        > div {
           width: 100% !important;
         }
       }
@@ -5411,7 +5421,6 @@ p {
 /* ================================================================ */
 .smart_team_service {
   .why_eleks_as_your_data_strategy {
-
     // overflow: hidden;
     .why_eleks_as_your_data_strategy_img {
       // position: sticky;
@@ -5517,7 +5526,7 @@ p {
 
     p {
       color: #252525;
-      font-feature-settings: "clig"off, "liga"off;
+      font-feature-settings: "clig" off, "liga" off;
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
@@ -5619,7 +5628,8 @@ p {
   display: flex;
   min-height: 80vh;
 
-  .header_content {}
+  .header_content {
+  }
 }
 
 .article_detals_page {
@@ -5958,7 +5968,8 @@ p {
       min-height: 40px;
     }
 
-    .slick-arrow {}
+    .slick-arrow {
+    }
 
     // .slick-next {
     //   position: absolute;
@@ -6022,9 +6033,11 @@ p {
     height: 6px;
     overflow: hidden;
     background: rgba(217, 217, 217, 0.1);
-    background-image: linear-gradient(to right,
-        rgba(180, 180, 180, 0.4),
-        rgba(180, 180, 180, 0.4));
+    background-image: linear-gradient(
+      to right,
+      rgba(180, 180, 180, 0.4),
+      rgba(180, 180, 180, 0.4)
+    );
     background-repeat: no-repeat;
     background-size: 0 100%;
     transition: background-size 0.4s ease-in-out;
@@ -6200,8 +6213,10 @@ p {
             justify-content: center;
             align-items: center;
             border-radius: 12px;
-            background: var(--blue-gradient,
-                linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+            background: var(
+              --blue-gradient,
+              linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+            );
             color: #fff;
             font-size: 1rem;
             font-style: normal;
@@ -6226,8 +6241,10 @@ p {
       font-size: 24px;
       font-style: normal;
       font-weight: 600;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -6579,8 +6596,10 @@ p {
       left: -25px;
       height: 100%;
       width: 11px;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
     }
   }
 
@@ -6634,7 +6653,8 @@ p {
     padding-left: 0px;
   }
 
-  h6 {}
+  h6 {
+  }
 
   h5 {
     line-height: normal !important;
@@ -6714,8 +6734,10 @@ p {
         transition: all 0.3s ease-in-out;
 
         &.active {
-          background: var(--blue-gradient,
-              linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+          background: var(
+            --blue-gradient,
+            linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+          );
           border: 1px solid linear-gradient(98deg, #0045e6 0%, #00adff 100%);
           color: #fff;
         }
@@ -6784,8 +6806,10 @@ p {
       font-size: 1.1rem;
       font-style: normal;
       font-weight: 600;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -6817,7 +6841,7 @@ p {
         text-align: left;
       }
 
-      >ul {
+      > ul {
         position: relative;
 
         &::before {
@@ -7013,8 +7037,10 @@ p {
         transition: all 0.3s ease-in-out;
 
         &.active {
-          background: var(--blue-gradient,
-              linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+          background: var(
+            --blue-gradient,
+            linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+          );
           color: #fff;
         }
       }
@@ -7102,8 +7128,10 @@ p {
         bottom: 0;
         width: 0;
         height: 12px;
-        background: var(--blue-gradient,
-            linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+        background: var(
+          --blue-gradient,
+          linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+        );
         content: "";
         left: 0;
         transition: all 0.3s ease-in-out;
@@ -7209,7 +7237,7 @@ p {
   }
 
   .devops_process {
-    background: #F7F8FC;
+    background: #f7f8fc;
     padding: 80px 0 110px 0;
 
     .section_header {
@@ -7271,7 +7299,7 @@ p {
         justify-content: center;
         align-items: center;
         border-radius: 30px;
-        background: rgba(217, 217, 217, 0.40);
+        background: rgba(217, 217, 217, 0.4);
         color: #252525;
         font-size: 1rem;
         font-style: normal;
@@ -7280,7 +7308,7 @@ p {
         width: max-content;
 
         &.active {
-          background: #0045E6;
+          background: #0045e6;
           color: #fff;
         }
       }
@@ -7292,12 +7320,12 @@ p {
   }
 
   .iot_our_partnerships {
-    background: #F7F8FC;
+    background: #f7f8fc;
     padding: 80px 0;
   }
 
   .our_partnerships_certifications {
-    background: #F7F8FC;
+    background: #f7f8fc;
     padding: 80px 0;
   }
 
@@ -7306,9 +7334,9 @@ p {
   }
 
   .ux_whitepaper {
-    .ux_whitepaper_wrapper{
+    .ux_whitepaper_wrapper {
       border-radius: 24px;
-      background: #F9F9F9;
+      background: #f9f9f9;
     }
     .ux_whitepaper_content {
       padding: 40px;
@@ -7319,7 +7347,7 @@ p {
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        border: 1px solid rgba(55, 55, 55, 0.20);
+        border: 1px solid rgba(55, 55, 55, 0.2);
         width: fit-content;
       }
 
@@ -7359,13 +7387,59 @@ p {
     }
   }
 
+  .what_you_get_with {
+    padding-top: 0;
+    .what_get_card {
+      color: #252525;
+      text-align: center;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 700;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .technologies_service {
+    padding: 130px 150px 0;
+    .technologies_service_list {
+      display: flex;
+      justify-content: center;
+      li {
+        margin-top: 30px;
+      }
+      p {
+        color: #373737;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+    .card_img {
+      height: 396px;
+      border-radius: 12px;
+      img {
+        border-radius: 12px;
+      }
+    }
+  }
+  .our_produc_design_success_parent {
+    .service_card {
+      h5 {
+        color: #252525;
+        font-size: 1.1rem;
+        font-style: normal;
+      }
+    }
+  }
 }
 
 .our_blockchain_card {
   border-radius: 10px;
-  border: 1px solid var(--blue-gradient, #0045E6);
-  background: #FFF;
-  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.10);
+  border: 1px solid var(--blue-gradient, #0045e6);
+  background: #fff;
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
   padding: 100px 80px;
   width: 380px;
   min-height: 300px;
@@ -7386,8 +7460,8 @@ p {
 
 .partnerships_certifications_card {
   border-radius: 12px;
-  background: #FFF;
-  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.10);
+  background: #fff;
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
   padding: 64px 40px 32px 40px;
   margin-top: 32px;
 
@@ -7401,7 +7475,10 @@ p {
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
-    background: var(--blue-gradient, linear-gradient(98deg, #0045E6 0%, #00ADFF 100%));
+    background: var(
+      --blue-gradient,
+      linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -7705,8 +7782,10 @@ p {
         position: absolute;
         bottom: 0;
         left: 0;
-        background: var(--red-gradient,
-            linear-gradient(100deg, #e81f26 -29.68%, #0045e6 110.01%));
+        background: var(
+          --red-gradient,
+          linear-gradient(100deg, #e81f26 -29.68%, #0045e6 110.01%)
+        );
         width: 100%;
         height: 1px;
       }
@@ -7719,8 +7798,10 @@ p {
       justify-content: center;
       align-items: center;
       color: #fff;
-      background: var(--red-gradient,
-          linear-gradient(100deg, #e81f26 -29.68%, #0045e6 110.01%));
+      background: var(
+        --red-gradient,
+        linear-gradient(100deg, #e81f26 -29.68%, #0045e6 110.01%)
+      );
     }
 
     .header_title {
@@ -7795,16 +7876,20 @@ p {
 
 .agriculture_header {
   .type {
-    background: linear-gradient(100deg,
-        #cb2c30 -29.68%,
-        #e9732a 110.01%) !important;
+    background: linear-gradient(
+      100deg,
+      #cb2c30 -29.68%,
+      #e9732a 110.01%
+    ) !important;
   }
 
   .header_top {
     &::after {
-      background: linear-gradient(100deg,
-          #cb2c30 -29.68%,
-          #e9732a 110.01%) !important;
+      background: linear-gradient(
+        100deg,
+        #cb2c30 -29.68%,
+        #e9732a 110.01%
+      ) !important;
     }
   }
 }
@@ -7836,8 +7921,10 @@ p {
       font-size: 1.4rem;
       font-style: normal;
       font-weight: 600;
-      background: var(--blue-gradient,
-          linear-gradient(98deg, #0045e6 0%, #00adff 100%));
+      background: var(
+        --blue-gradient,
+        linear-gradient(98deg, #0045e6 0%, #00adff 100%)
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 30px;
@@ -7859,8 +7946,10 @@ p {
     min-height: 400px;
 
     .card_title {
-      background: var(--orange-gradient,
-          linear-gradient(100deg, #cb2c30 -29.68%, #e9732a 110.01%));
+      background: var(
+        --orange-gradient,
+        linear-gradient(100deg, #cb2c30 -29.68%, #e9732a 110.01%)
+      );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -7932,7 +8021,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(0, 0, 0, 0.10);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 
   .box_img {
     height: 150px;
@@ -7946,7 +8035,6 @@ p {
       width: auto;
     }
   }
-
 }
 
 /* ================================================================ */
@@ -8139,7 +8227,11 @@ footer {
     padding-left: 60px;
   }
 
-  .product_service_advisory .three_element_expanded ul li.active_expand_card .pargraph {
+  .product_service_advisory
+    .three_element_expanded
+    ul
+    li.active_expand_card
+    .pargraph {
     margin-left: 40px;
     padding-right: 30px;
   }
@@ -8286,7 +8378,6 @@ footer {
   }
 
   .custom_navbar {
-
     // display: none;
     .links {
       display: none;
@@ -8451,8 +8542,14 @@ footer {
     padding-top: 0px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_img .card_img,
-  .data_science_service .why_choose_eleks .product_strategy_consulting_img .card_img {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_img
+    .card_img,
+  .data_science_service
+    .why_choose_eleks
+    .product_strategy_consulting_img
+    .card_img {
     height: 600px;
   }
 
@@ -8486,7 +8583,9 @@ footer {
     padding: 20px 0;
   }
 
-  .software_audit_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img {
+  .software_audit_service
+    .why_eleks_as_your_data_strategy
+    .why_eleks_as_your_data_strategy_img {
     width: 100%;
     position: unset;
   }
@@ -8503,7 +8602,8 @@ footer {
     flex-wrap: wrap;
     display: flex;
 
-    ul {}
+    ul {
+    }
   }
 
   .article_detals_page .article_person .person_info .article_date {
@@ -8608,7 +8708,8 @@ footer {
       }
     }
 
-    .i {}
+    .i {
+    }
   }
 
   .our_vision_strip {
@@ -8663,7 +8764,11 @@ footer {
     justify-content: flex-start;
   }
 
-  .awards_partnater .awards_partnater_wrapper .awards_partners_navs .nav .nav-item {
+  .awards_partnater
+    .awards_partnater_wrapper
+    .awards_partners_navs
+    .nav
+    .nav-item {
     min-width: 200px;
   }
 
@@ -8770,7 +8875,9 @@ footer {
     height: 400px;
   }
 
-  .product_service_advisory .product_strategy_consulting .product_strategy_consulting_content {
+  .product_service_advisory
+    .product_strategy_consulting
+    .product_strategy_consulting_content {
     padding: 30px;
   }
 
@@ -8812,7 +8919,9 @@ footer {
     }
   }
 
-  .data_stratigy_service .data_strategy_consulting_process .data_strategy_consulting_process_content {
+  .data_stratigy_service
+    .data_strategy_consulting_process
+    .data_strategy_consulting_process_content {
     padding: 0 0px;
   }
 
@@ -8820,7 +8929,9 @@ footer {
     padding: 50px 0;
   }
 
-  .enterprise_application_developer .secure_your_software .secure_your_software_content {
+  .enterprise_application_developer
+    .secure_your_software
+    .secure_your_software_content {
     padding: 50px 20px;
   }
 
@@ -8858,10 +8969,10 @@ footer {
     .tags {
       justify-content: flex-start !important;
 
-      >ul {
+      > ul {
         align-items: flex-start;
 
-        >li {
+        > li {
           min-width: 150px;
         }
       }
@@ -8926,7 +9037,6 @@ footer {
         flex-wrap: wrap;
 
         .select_filters {
-
           // overflow: auto;
           .nice_select {
             // min-width: max-content;

@@ -5794,7 +5794,7 @@ p {
   padding-bottom: 130px;
 }
 .industries_page .devops_process {
-  background: #F7F8FC;
+  background: #f7f8fc;
   padding: 80px 0 110px 0;
 }
 .industries_page .devops_process .section_header {
@@ -5860,18 +5860,18 @@ p {
   width: max-content;
 }
 .industries_page .devops_process .nav .nav-link.active {
-  background: #0045E6;
+  background: #0045e6;
   color: #fff;
 }
 .industries_page .devops_process .devops_boxes {
   margin-top: 80px;
 }
 .industries_page .iot_our_partnerships {
-  background: #F7F8FC;
+  background: #f7f8fc;
   padding: 80px 0;
 }
 .industries_page .our_partnerships_certifications {
-  background: #F7F8FC;
+  background: #f7f8fc;
   padding: 80px 0;
 }
 .industries_page .our_blockchain {
@@ -5879,7 +5879,7 @@ p {
 }
 .industries_page .ux_whitepaper .ux_whitepaper_wrapper {
   border-radius: 24px;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 .industries_page .ux_whitepaper .ux_whitepaper_content {
   padding: 40px;
@@ -5926,11 +5926,53 @@ p {
   background-color: #fff;
   border-radius: 50%;
 }
+.industries_page .what_you_get_with {
+  padding-top: 0;
+}
+.industries_page .what_you_get_with .what_get_card {
+  color: #252525;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.industries_page .technologies_service {
+  padding: 130px 150px 0;
+}
+.industries_page .technologies_service .technologies_service_list {
+  display: flex;
+  justify-content: center;
+}
+.industries_page .technologies_service .technologies_service_list li {
+  margin-top: 30px;
+}
+.industries_page .technologies_service .technologies_service_list p {
+  color: #373737;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.industries_page .technologies_service .card_img {
+  height: 396px;
+  border-radius: 12px;
+}
+.industries_page .technologies_service .card_img img {
+  border-radius: 12px;
+}
+.industries_page .our_produc_design_success_parent .service_card h5 {
+  color: #252525;
+  font-size: 1.1rem;
+  font-style: normal;
+}
 
 .our_blockchain_card {
   border-radius: 10px;
-  border: 1px solid var(--blue-gradient, #0045E6);
-  background: #FFF;
+  border: 1px solid var(--blue-gradient, #0045e6);
+  background: #fff;
   box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
   padding: 100px 80px;
   width: 380px;
@@ -5950,7 +5992,7 @@ p {
 
 .partnerships_certifications_card {
   border-radius: 12px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
   padding: 64px 40px 32px 40px;
   margin-top: 32px;
@@ -5964,7 +6006,7 @@ p {
   font-size: 1.4rem;
   font-style: normal;
   font-weight: 600;
-  background: var(--blue-gradient, linear-gradient(98deg, #0045E6 0%, #00ADFF 100%));
+  background: var(--blue-gradient, linear-gradient(98deg, #0045e6 0%, #00adff 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
