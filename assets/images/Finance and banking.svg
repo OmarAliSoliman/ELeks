@@ -1,0 +1,32 @@
+<svg width="64" height="70" viewBox="0 0 64 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Finance and banking" clip-path="url(#clip0_431_23247)">
+<path id="Vector" fill-rule="evenodd" clip-rule="evenodd" d="M17.0406 0L34.3181 7.14717V11.0138H30.014V28.058H23.2422V11.0138H20.4302V28.058H13.7158V11.0138H10.8464V28.058H4.07456V11.0138H0V7.15208L17.0406 0ZM6.71442 11.0138V25.4182H8.20651V11.0138H6.71442ZM16.3556 11.0138V25.4182H17.7903V11.0138H16.3556ZM25.8821 11.0138V25.4182H27.3742V11.0138H25.8821ZM17.048 2.85985L3.91016 8.3739H30.3776L17.048 2.85985Z" fill="#00267B"/>
+<path id="Vector_2" fill-rule="evenodd" clip-rule="evenodd" d="M32.023 32.7649H2.06641V30.125H32.023V32.7649Z" fill="#00267B"/>
+<path id="Vector_3" fill-rule="evenodd" clip-rule="evenodd" d="M61.3497 59.4485H41.0343V61.3423H61.3497V59.4485ZM61.3497 56.8086H41.0343V30.8118H61.3497V56.8086ZM63.9896 63.9821H38.3945V28.1719H63.9896V63.9821Z" fill="#00267B"/>
+<path id="Vector_4" fill-rule="evenodd" clip-rule="evenodd" d="M53.0257 35.4601H49.4102V32.8203H53.0257V35.4601Z" fill="#00267B"/>
+<path id="Vector_5" fill-rule="evenodd" clip-rule="evenodd" d="M6.14062 37.6953H8.78049V53.4197C8.78049 55.1421 9.44303 55.9172 10.0921 56.3307C10.8378 56.8057 11.7677 56.9203 12.3385 56.9203H36.7285V59.5602H12.3385C11.532 59.5602 10.0229 59.4166 8.67393 58.5573C7.22842 57.6365 6.14062 56.0014 6.14062 53.4197V37.6953Z" fill="#00267B"/>
+<path id="Vector_6" fill-rule="evenodd" clip-rule="evenodd" d="M51.7083 4.29688C52.6961 4.29688 54.1424 4.51164 55.381 5.37207C56.6983 6.28716 57.6193 7.82369 57.6193 10.0931V22.5463H54.9795V10.0931C54.9795 8.63225 54.4371 7.93064 53.8749 7.54015C53.2341 7.09501 52.3848 6.93674 51.7083 6.93674H39.3125V4.29688H51.7083Z" fill="url(#paint0_linear_431_23247)"/>
+<g id="Group" filter="url(#filter0_d_431_23247)">
+<path id="Vector_7" d="M39.6638 63.9995C42.7746 63.9995 45.2964 61.4777 45.2964 58.3669C45.2964 55.2562 42.7746 52.7344 39.6638 52.7344C36.553 52.7344 34.0312 55.2562 34.0312 58.3669C34.0312 61.4777 36.553 63.9995 39.6638 63.9995Z" fill="white"/>
+</g>
+<path id="Vector_8" d="M39.6632 60.6232C40.9075 60.6232 41.9162 59.6145 41.9162 58.3702C41.9162 57.1259 40.9075 56.1172 39.6632 56.1172C38.4189 56.1172 37.4102 57.1259 37.4102 58.3702C37.4102 59.6145 38.4189 60.6232 39.6632 60.6232Z" fill="#0045E6"/>
+</g>
+<defs>
+<filter id="filter0_d_431_23247" x="30.0312" y="50.7344" width="19.2656" height="19.2656" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.45 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_431_23247"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_431_23247" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_431_23247" x1="47.8059" y1="5.6168" x2="47.8059" y2="22.5463" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00267B"/>
+<stop offset="1" stop-color="#00267B" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_431_23247">
+<rect width="64" height="70" fill="white"/>
+</clipPath>
+</defs>
+</svg>

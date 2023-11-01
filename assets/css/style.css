@@ -3709,6 +3709,9 @@ p {
 .data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_img .card_img {
   height: 427px;
 }
+.data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content .section_header {
+  text-align: left;
+}
 .data_stratigy_service .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content > ul {
   position: relative;
 }
@@ -5477,6 +5480,9 @@ p {
   font-style: normal;
   font-weight: 700;
 }
+.industries_page .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content .section_header {
+  text-align: left;
+}
 .industries_page .why_eleks_as_your_data_strategy .why_eleks_as_your_data_strategy_content > ul {
   position: relative;
 }
@@ -5863,6 +5869,133 @@ p {
 .industries_page .iot_our_partnerships {
   background: #F7F8FC;
   padding: 80px 0;
+}
+.industries_page .our_partnerships_certifications {
+  background: #F7F8FC;
+  padding: 80px 0;
+}
+.industries_page .our_blockchain {
+  padding-bottom: 80px;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_wrapper {
+  border-radius: 24px;
+  background: #F9F9F9;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content {
+  padding: 40px;
+  height: 100%;
+  position: relative;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_head {
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid rgba(55, 55, 55, 0.2);
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_title {
+  color: #252525;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 200px;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_link {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 40px;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_link span {
+  color: #252525;
+  text-align: right;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_link .arrow {
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.our_blockchain_card {
+  border-radius: 10px;
+  border: 1px solid var(--blue-gradient, #0045E6);
+  background: #FFF;
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
+  padding: 100px 80px;
+  width: 380px;
+  min-height: 300px;
+}
+.our_blockchain_card .card_icon {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.our_blockchain_card .card_title {
+  color: #252525;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.partnerships_certifications_card {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
+  padding: 64px 40px 32px 40px;
+  margin-top: 32px;
+}
+.partnerships_certifications_card .card_icon {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.partnerships_certifications_card .card_title {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  background: var(--blue-gradient, linear-gradient(98deg, #0045E6 0%, #00ADFF 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 33px;
+}
+.partnerships_certifications_card .card_text ul {
+  padding-left: 10px;
+}
+.partnerships_certifications_card .card_text ul li {
+  margin-bottom: 10px;
+}
+.partnerships_certifications_card .card_text p {
+  color: #373737;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.partnerships_certifications_card .card_link {
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.partnerships_certifications_card .card_link span {
+  color: #252525;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.partnerships_certifications_card .card_link img {
+  margin-left: 10px;
 }
 
 .iot_partne_card {

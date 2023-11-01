@@ -581,6 +581,30 @@ $(document).ready(function () {
         .removeClass("active_expand_card");
     });
   }
+
+  if($(".devops_process").length){
+    const scrollContainer = document.querySelector('.scroll-container');
+    const scrollContent = document.querySelector('.nav');
+    const scrollLeftButton = document.querySelector('.scroll-left');
+    const scrollRightButton = document.querySelector('.scroll-right');
+
+    let scrollAmount = 200; // Adjust the scroll distance as needed
+
+    scrollLeftButton.addEventListener('click', () => {
+      scrollContent.scrollTo({
+        left: scrollContent.scrollLeft - scrollAmount,
+        behavior: 'smooth' // You can change to 'auto' for instant scrolling
+      });
+    });
+
+    scrollRightButton.addEventListener('click', () => {
+      scrollContent.scrollTo({
+        left: scrollContent.scrollLeft + scrollAmount,
+        behavior: 'smooth' // You can change to 'auto' for instant scrolling
+      });
+    });
+  }
+
 });
 
 // $(window).on("load", function () {
