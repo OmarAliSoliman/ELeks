@@ -710,7 +710,7 @@ p {
   border-top-left-radius: 10px;
 }
 .about_header .header_boxes .box {
-  width: 33.3333333333%;
+  width: 31.25%;
   padding: 55px 25px 25px 60px;
   border-right: 1px solid var(--gradient-01, #6ddcff);
   border-top: 1px solid var(--gradient-01, #6ddcff);
@@ -800,7 +800,11 @@ p {
   width: fit-content;
   background-color: #fff;
   color: #252525;
-  border: 1px solid #252525;
+  border: 1px solid #fff;
+}
+.about_header .btn_style:hover {
+  background-color: transparent;
+  color: #fff;
 }
 
 .proplems_we_help_wrapper {
@@ -1130,6 +1134,8 @@ p {
   box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   margin-right: 40px;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(153deg, rgba(0, 69, 230, 0) -7.45%, rgba(0, 174, 255, 0) 101.51%), linear-gradient(151deg, rgba(0, 69, 230, 0) -7.67%, rgba(0, 174, 255, 0) 120.14%);
 }
 .service_card h5 {
   color: #252525;
@@ -1203,6 +1209,18 @@ p {
 }
 .service_card.custom_service_card .card_footer a img {
   margin-left: 5px;
+}
+.service_card:hover {
+  border-radius: 30px;
+  background: linear-gradient(153deg, rgb(0, 69, 230) -7.45%, rgb(0, 173, 255) 101.51%), linear-gradient(151deg, rgb(0, 69, 230) -7.67%, rgb(0, 173, 255) 120.14%);
+  transition: all 0.3s ease-in-out;
+}
+.service_card:hover h5,
+.service_card:hover p {
+  color: #fff;
+}
+.service_card:hover .card_footer a {
+  color: #fff;
 }
 
 .hrline {
