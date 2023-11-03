@@ -1517,8 +1517,8 @@ p {
     p {
       color: #fff;
     }
-    .card_footer{
-      a{
+    .card_footer {
+      a {
         color: #fff;
       }
     }
@@ -1651,15 +1651,72 @@ p {
 .service_by_role_card {
   background-color: #fff;
   border-radius: 25px;
-  min-height: 420px;
-  max-height: 420px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   margin-bottom: 45px;
   box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
-
+  position: relative;
+  .hover_card {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 25px;
+    transform: translateY(-20px);
+    transition: all .3s ease-in-out;
+    // display: none;
+    .card_img {
+      height: 220px;
+      border-top-right-radius: 25px;
+      border-top-left-radius: 25px;
+      img {
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+      }
+    }
+    .hover_card_body {
+      padding: 25px;
+      p {
+        color: rgba(0, 0, 0, 0.7);
+        line-height: 30px;
+        font-size: 1rem;
+        @extend %spcfies-number-of-line;
+        -webkit-line-clamp: 3 !important;
+      }
+      .card_link {
+        text-align: right;
+        span {
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 1rem;
+        }
+        .arrow {
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          background-color: #333;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 7px;
+          i {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+  .service_by_role_card_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    // height: 100%;
+    // min-height: 420px;
+    // max-height: 420px;
+    transition: all .3s ease-in-out;
+    padding: 150px 0;
+  }
   h5 {
     color: #1e1d28;
     font-size: 1.5rem;
@@ -1668,7 +1725,23 @@ p {
     /* 133% */
     margin-top: 32px;
   }
+  &:hover {
+    .hover_card {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0px);
+      // position: relative;
+    }
+    .service_by_role_card_wrapper{
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+      // display: none;
+      // position: absolute;
+    }
+  }
 }
+
 
 /* ================================================================ */
 .our_client {
@@ -4058,7 +4131,7 @@ p {
       border: 0;
 
       .accordion-button {
-        padding: 13px 16px 13px 40px;
+        padding: 20px 16px 20px 40px;
         border-right: 1px solid rgba(255, 255, 255, 0.5);
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
         border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -4069,8 +4142,7 @@ p {
         color: #252525;
         font-size: 1rem;
         font-style: normal;
-        font-weight: 400;
-        line-height: 32.6px;
+        font-weight: 500;
         /* 181.111% */
       }
     }
@@ -4083,6 +4155,29 @@ p {
         font-size: 1rem;
         font-weight: 400;
         line-height: 25px;
+      }
+    }
+    .learn_more {
+      margin-top: 40px;
+      a {
+        display: flex;
+        align-items: center;
+      }
+      span {
+        color: $mainColor;
+        font-weight: 600;
+        margin-right: 10px;
+      }
+      .arrow {
+        width: 30px;
+        height: 30px;
+        background-color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-left: 5px;
+        padding: 7px;
       }
     }
   }
@@ -8673,6 +8768,15 @@ footer {
     padding-right: 0;
     padding-left: 0;
     margin-top: 20px;
+  }
+  .order1intablet{
+    order: 1;
+  }
+  .order2intablet{
+    order: 2;
+  }
+  .proplems_cards .proplems_card_content{
+    margin-top: 15px;
   }
 }
 

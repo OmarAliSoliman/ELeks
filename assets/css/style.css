@@ -1327,14 +1327,67 @@ p {
 .service_by_role_card {
   background-color: #fff;
   border-radius: 25px;
-  min-height: 420px;
-  max-height: 420px;
+  margin-bottom: 45px;
+  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.service_by_role_card .hover_card {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-radius: 25px;
+  transform: translateY(-20px);
+  transition: all 0.3s ease-in-out;
+}
+.service_by_role_card .hover_card .card_img {
+  height: 220px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.service_by_role_card .hover_card .card_img img {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+.service_by_role_card .hover_card .hover_card_body {
+  padding: 25px;
+}
+.service_by_role_card .hover_card .hover_card_body p {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 30px;
+  font-size: 1rem;
+  -webkit-line-clamp: 3 !important;
+}
+.service_by_role_card .hover_card .hover_card_body .card_link {
+  text-align: right;
+}
+.service_by_role_card .hover_card .hover_card_body .card_link span {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1rem;
+}
+.service_by_role_card .hover_card .hover_card_body .card_link .arrow {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7px;
+}
+.service_by_role_card .hover_card .hover_card_body .card_link .arrow i {
+  font-size: 0.9rem;
+}
+.service_by_role_card .service_by_role_card_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 45px;
-  box-shadow: 0px 12px 25px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  padding: 150px 0;
 }
 .service_by_role_card h5 {
   color: #1e1d28;
@@ -1343,6 +1396,16 @@ p {
   line-height: 39.9px;
   /* 133% */
   margin-top: 32px;
+}
+.service_by_role_card:hover .hover_card {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+.service_by_role_card:hover .service_by_role_card_wrapper {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
 }
 
 /* ================================================================ */
@@ -3281,7 +3344,7 @@ p {
   border: 0;
 }
 .accordion .accordion-item .accordion-header .accordion-button {
-  padding: 13px 16px 13px 40px;
+  padding: 20px 16px 20px 40px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -3290,8 +3353,7 @@ p {
   color: #252525;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: 32.6px;
+  font-weight: 500;
   /* 181.111% */
 }
 .accordion .accordion-item .accordion-body {
@@ -3302,6 +3364,29 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 25px;
+}
+.accordion .accordion-item .learn_more {
+  margin-top: 40px;
+}
+.accordion .accordion-item .learn_more a {
+  display: flex;
+  align-items: center;
+}
+.accordion .accordion-item .learn_more span {
+  color: #082eb5;
+  font-weight: 600;
+  margin-right: 10px;
+}
+.accordion .accordion-item .learn_more .arrow {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  padding: 7px;
 }
 .accordion .accordion-button::after {
   background-image: url("../images/Polygon1new.svg");
@@ -6896,6 +6981,15 @@ footer .footer_links_wrapper .links_wrpper li a {
     padding-left: 0;
     margin-top: 20px;
   }
+  .order1intablet {
+    order: 1;
+  }
+  .order2intablet {
+    order: 2;
+  }
+  .proplems_cards .proplems_card_content {
+    margin-top: 15px;
+  }
 }
 @media (max-width: 600px) {
   .home_header .home_header_content h5 {
@@ -7194,7 +7288,7 @@ footer .footer_links_wrapper .links_wrpper li a {
   height: 100%;
 }
 
-.blog_card .card_body .card_title, .service_card p, .recent_blog_card .link h5, .recent_blog_card p, .wide_card .link h5, .wide_card p, .news_strip_card h5, .categry_card .link h5, .categry_card p {
+.blog_card .card_body .card_title, .service_card p, .service_by_role_card .hover_card .hover_card_body p, .recent_blog_card .link h5, .recent_blog_card p, .wide_card .link h5, .wide_card p, .news_strip_card h5, .categry_card .link h5, .categry_card p {
   overflow: hidden;
   display: -webkit-box;
   text-overflow: ellipsis;
