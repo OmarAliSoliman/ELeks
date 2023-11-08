@@ -572,6 +572,13 @@ $(document).ready(function () {
     });
   }
 
+
+  if($(".testemonial_slider").length){
+    $(".testemonial_slider").slick({
+      dots: true
+    });
+  }
+
   if ($(".expand_card").length) {
     $(".expand_card").on("click", function (e) {
       $(this)
