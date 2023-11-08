@@ -374,16 +374,21 @@ p {
 }
 .custom_navbar .submenu_parent .submenu_arrow {
   position: absolute;
+  top: 67px;
+  z-index: 8;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
 }
 .custom_navbar .submenu_parent .submenu_arrow i {
-  font-size: 1.3re;
-  color: red;
-  top: 80px;
+  font-size: 2rem;
+  color: #fff;
 }
 .custom_navbar .submenu_parent .submenu {
   position: absolute;
   left: -100px;
-  top: 80px;
+  top: 85px;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0px 24px 56px 0px rgba(167, 174, 186, 0.16);
@@ -391,10 +396,11 @@ p {
   min-width: max-content;
   z-index: 8;
   padding: 32px;
+  transition: all 0.3s ease-in-out;
 }
 .custom_navbar .submenu_parent .about_us_submenu {
-  min-width: 926px;
-  max-width: 926px;
+  width: 926px;
+  max-width: 100%;
 }
 .custom_navbar .submenu_parent .about_us_submenu .sub_list {
   display: flex;
@@ -466,6 +472,47 @@ p {
 }
 .custom_navbar .submenu_parent .about_us_submenu .slick-dots li.slick-active button::before {
   background-color: #373737;
+}
+.custom_navbar .submenu_parent .services_submenu {
+  width: 1284px;
+  max-width: 100%;
+}
+.custom_navbar .submenu_parent .services_submenu .service_col h5 {
+  color: var(--gray-400, #97a3b7);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.custom_navbar .submenu_parent .services_submenu .service_col li {
+  margin-bottom: 32px;
+  margin-right: 100px;
+}
+.custom_navbar .submenu_parent .services_submenu .service_col li a {
+  color: var(--gray-900, #111b29);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.custom_navbar .submenu_parent .services_submenu .service_col li ul {
+  list-style-type: circle;
+}
+.custom_navbar .submenu_parent .services_submenu .service_col li ul li {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.custom_navbar .submenu_parent:hover .submenu_arrow {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0px) !important;
+}
+.custom_navbar .submenu_parent:hover .submenu {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: translateY(0px) !important;
 }
 
 /* ================================================================ */
