@@ -413,7 +413,7 @@ p {
 }
 .custom_navbar .submenu_parent .about_us_submenu .sub_list .sub_item .sub_link p {
   color: #252525;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 600;
   margin-bottom: 5px;
@@ -444,7 +444,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
+  /* 24px */
 }
 .custom_navbar .submenu_parent .about_us_submenu .nav_testemonial_card .testomon_info {
   margin-bottom: 30px;
@@ -486,30 +487,101 @@ p {
   text-transform: uppercase;
   margin-bottom: 25px;
 }
-.custom_navbar .submenu_parent .services_submenu .service_col li {
+.custom_navbar .submenu_parent .services_submenu .service_col li.sub_item {
   margin-bottom: 32px;
   margin-right: 100px;
 }
-.custom_navbar .submenu_parent .services_submenu .service_col li a {
-  color: var(--gray-900, #111b29);
+.custom_navbar .submenu_parent .services_submenu .service_col li.sub_item a.sub_link {
+  color: var(--gray-900, #111B29);
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
 }
-.custom_navbar .submenu_parent .services_submenu .service_col li ul {
+.custom_navbar .submenu_parent .services_submenu .service_col li.sub_item ul {
   list-style-type: circle;
 }
-.custom_navbar .submenu_parent .services_submenu .service_col li ul li {
+.custom_navbar .submenu_parent .services_submenu .service_col li.sub_item ul li.sub_sub_item {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.custom_navbar .submenu_parent:hover .submenu_arrow {
+.custom_navbar .submenu_parent .services_submenu .service_col li.sub_item ul li.sub_sub_item a.sub_sub_link {
+  color: #252525;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box {
+  border-radius: 16px;
+  background: #fafbfd;
+  padding: 32px;
+  margin-top: 70px;
+  position: relative;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles .head {
+  color: var(--gray-400, #97A3B7);
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles li {
+  margin-bottom: 15px;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles li img {
+  margin-right: 16px;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles li p {
+  -webkit-line-clamp: 1 !important;
+  margin-right: 16px;
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles li i {
+  color: #97A3B7;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles::after {
+  content: "";
+  height: 80%;
+  position: absolute;
+  right: 0;
+  width: 1px;
+  opacity: 0.5;
+  background: #D9D9D9;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .listed_eleks .cardimg {
+  background: #101828;
+  border-radius: 12px;
+  width: 240px;
+  height: 241px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  flex: none;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .listed_eleks .cardtitle {
+  margin-left: 30px;
+}
+.custom_navbar .submenu_parent .services_submenu .articles_box .listed_eleks .cardtitle h5 {
+  color: #252525;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 24px */
+}
+.custom_navbar .submenu_parent:hover > .submenu_arrow {
   opacity: 1 !important;
   visibility: visible !important;
   transform: translateY(0px) !important;
 }
-.custom_navbar .submenu_parent:hover .submenu {
+.custom_navbar .submenu_parent:hover > .submenu {
   opacity: 1 !important;
   visibility: visible !important;
   transform: translateY(0px) !important;
@@ -6238,7 +6310,8 @@ p {
   font-size: 1.1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px;
+  /* 166.667% */
   margin-bottom: 20px;
 }
 .industries_page .industries_our_success .industries_our_success_content .note {
@@ -6298,14 +6371,16 @@ p {
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 150% */
+  line-height: 60px;
+  /* 150% */
 }
 .industries_page .what_you_get_half_sentences p {
   color: #373737;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
   margin-top: 30px;
 }
 .industries_page .what_you_get_half_sentences .note {
@@ -6324,7 +6399,8 @@ p {
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  line-height: 43px; /* 134.375% */
+  line-height: 43px;
+  /* 134.375% */
   position: relative;
   padding-left: 25px;
 }
@@ -6351,7 +6427,8 @@ p {
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 50px; /* 187.5% */
+  line-height: 50px;
+  /* 187.5% */
 }
 .trusted_by .trusted_by_wrapper .trusted_by_content h5 span {
   background: var(--orange-gradient, linear-gradient(100deg, #cb2c30 -29.68%, #e9732a 110.01%));
@@ -6415,7 +6492,8 @@ p {
   color: #fff;
   font-size: 2rem !important;
   font-weight: 600 !important;
-  line-height: 43px !important; /* 134.375% */
+  line-height: 43px !important;
+  /* 134.375% */
 }
 .nearshore_header .header_bottom .header_text_2 span {
   background: linear-gradient(100deg, #cb2c30 -29.68%, #e9732a 110.01%);
@@ -6455,7 +6533,8 @@ p {
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 30px; /* 187.5% */
+  line-height: 30px;
+  /* 187.5% */
 }
 
 .vrmrar_page .our_product_design_card h5 {
@@ -7704,7 +7783,7 @@ footer .footer_links_wrapper .links_wrpper li a {
   height: 100%;
 }
 
-.blog_card .card_body .card_title, .service_card p, .service_by_role_card .hover_card .hover_card_body p, .recent_blog_card .link h5, .recent_blog_card p, .wide_card .link h5, .wide_card p, .news_strip_card h5, .categry_card .link h5, .categry_card p {
+.custom_navbar .submenu_parent .services_submenu .articles_box .articles_titles li p, .blog_card .card_body .card_title, .service_card p, .service_by_role_card .hover_card .hover_card_body p, .recent_blog_card .link h5, .recent_blog_card p, .wide_card .link h5, .wide_card p, .news_strip_card h5, .categry_card .link h5, .categry_card p {
   overflow: hidden;
   display: -webkit-box;
   text-overflow: ellipsis;
