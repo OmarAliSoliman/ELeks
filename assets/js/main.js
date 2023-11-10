@@ -565,17 +565,15 @@ $(document).ready(function () {
           settings: {
             slidesToShow: 1,
             centerMode: false,
-
           },
         },
       ],
     });
   }
 
-
-  if($(".testemonial_slider").length){
+  if ($(".testemonial_slider").length) {
     $(".testemonial_slider").slick({
-      dots: true
+      dots: true,
     });
   }
 
@@ -589,32 +587,66 @@ $(document).ready(function () {
     });
   }
 
-  if($(".devops_process").length){
-    const scrollContainer = document.querySelector('.scroll-container');
-    const scrollContent = document.querySelector('.nav');
-    const scrollLeftButton = document.querySelector('.scroll-left');
-    const scrollRightButton = document.querySelector('.scroll-right');
+  if ($(".devops_process").length) {
+    const scrollContainer = document.querySelector(".scroll-container");
+    const scrollContent = document.querySelector(".nav");
+    const scrollLeftButton = document.querySelector(".scroll-left");
+    const scrollRightButton = document.querySelector(".scroll-right");
 
     let scrollAmount = 200; // Adjust the scroll distance as needed
 
-    scrollLeftButton.addEventListener('click', () => {
+    scrollLeftButton.addEventListener("click", () => {
       scrollContent.scrollTo({
         left: scrollContent.scrollLeft - scrollAmount,
-        behavior: 'smooth' // You can change to 'auto' for instant scrolling
+        behavior: "smooth", // You can change to 'auto' for instant scrolling
       });
     });
 
-    scrollRightButton.addEventListener('click', () => {
+    scrollRightButton.addEventListener("click", () => {
       scrollContent.scrollTo({
         left: scrollContent.scrollLeft + scrollAmount,
-        behavior: 'smooth' // You can change to 'auto' for instant scrolling
+        behavior: "smooth", // You can change to 'auto' for instant scrolling
       });
     });
   }
-
 });
 
-// $(window).on("load", function () {
-//   $("html").removeClass("splash-active");
-//   $(".splashscreen").addClass("splashscreen_none");
+// document.addEventListener("DOMContentLoaded", () => {
+
 // });
+var overlay = document.querySelector(".splashoverlay"),
+  loader = document.querySelector(".overlay-loader"),
+  overlayTL = new TimelineMax(),
+  loaderTL = new TimelineMax();
+
+var animateOut = function () {
+  overlayTL.to(overlay, 0.6, {
+    bottom: "100%",
+    ease: Power4.easeInOut,
+    height: 0,
+    delay: 0.25,
+  });
+  loaderTL.to(loader, 0.5, { y: "-40", opacity: 0 });
+};
+
+$(window).on("load", function () {
+  setTimeout(() => {
+    animateOut();
+  }, 2000);
+});
+
+$(window).on("load", function () {
+  $("html").removeClass("splash-active");
+  $(".splashscreen").addClass("splashscreen_none");
+
+  new Mmenu("#menu", {
+    offCanvas: {
+      slidingSubmenus: false,
+      position: "right-front",
+    },
+    theme: "light",
+    counters: {
+      add: true,
+    },
+  });
+});
