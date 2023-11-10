@@ -423,7 +423,7 @@ p {
 
 .splashoverlay {
   z-index: 999;
-  background-color: #F8F2EB;
+  background-color: $fontColor;
   position: fixed;
   top: 0;
   right: 0;
@@ -431,6 +431,16 @@ p {
   left: 0;
   overflow: hidden;
 }
+
+#counter {
+  // font-family: ghbold;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 5rem;
+}
+
 .splashoverlay .overlay-loader img {
   width: 120px;
 }
