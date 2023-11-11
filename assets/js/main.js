@@ -609,6 +609,10 @@ $(document).ready(function () {
       });
     });
   }
+
+  
+
+  AOS.init();
 });
 
 // document.addEventListener("DOMContentLoaded", () => {
@@ -627,8 +631,7 @@ var animateOut = function () {
     delay: 0.25,
   });
   loaderTL.to(loader, 0.5, { y: "-40", opacity: 0 });
-  gsap.to(counter, .5, { y: '-40', opacity: 0 });
-
+  gsap.to(counter, 0.5, { y: "-40", opacity: 0 });
 };
 
 // counter loading page
@@ -640,7 +643,7 @@ TweenLite.to(Cont, 15, {
   roundProps: "val",
   onUpdate: function () {
     document.getElementById("counter").innerHTML = Cont.val;
-  }
+  },
 });
 
 $(window).on("load", function () {

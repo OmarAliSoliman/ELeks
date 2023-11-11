@@ -502,7 +502,7 @@ p {
   .submenu_parent {
     position: relative;
     > a{
-      // pointer-events: none;
+      pointer-events: none;
       cursor: pointer;
     }
     .submenu_arrow {
@@ -2020,7 +2020,8 @@ p {
 .industries_card {
   border: 1px solid #373737;
   padding: 40px 30px;
-
+  transition: all .3s ease-in-out !important;
+  display: block;
   h5 {
     margin-bottom: 130px;
     color: #fff;
@@ -2031,6 +2032,20 @@ p {
 
   .arrow {
     text-align: right;
+  }
+  &:hover{
+    background-color: #fff;
+    img{
+      filter: brightness(0%);
+    }
+    h5{
+      color: #000;
+    }
+    .arrow{
+      img{
+        filter: brightness(100%) !important;
+      }
+    }
   }
 }
 
@@ -2292,7 +2307,7 @@ p {
 
 .client_card {
   min-height: 260px;
-  // max-height: 260px;
+  max-height: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2300,9 +2315,21 @@ p {
   // border-bottom: 0;
   border-right: 0;
   position: relative;
-
+  // transition: all .3s ease-in-out !important;
   &.last_client_card {
     border-right: 1px solid #e2e2e7;
+  }
+
+  .card_client_img{
+    height: 150px;
+    // border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      height: auto;
+      width: 110px;
+    }
   }
 
   .type {
@@ -2329,6 +2356,19 @@ p {
     top: 21px;
     right: 21px;
   }
+  // &::after{
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: rgba($fontColor, .3);
+  //   content: "";
+  //   z-index: -1;
+  // }
+  // &:hover{
+  //   border-color: $mainColor;
+  // }
 }
 
 /* ================================================================ */
@@ -9011,7 +9051,7 @@ p {
 /* ================================================================ */
 
 /* ================================================================ */
-footer {
+.footer {
   background: #252525;
   padding: 75px 0;
 
@@ -9420,7 +9460,7 @@ footer {
     }
   }
 
-  footer {
+  .footer {
     .site_info {
       margin-bottom: 40px;
     }

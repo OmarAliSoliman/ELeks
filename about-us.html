@@ -11,14 +11,22 @@
 
   <!-- for english version please change bootstrap to en bootstrap ./assets/css/bootstrap.min.css -->
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-
   <link rel="stylesheet" href="./assets/css/nice-select.css" />
   <link rel="stylesheet" href="./assets/css/slick.css">
-  <link rel="stylesheet" href="./assets/css/slick-theme.css">
+
+  <!-- for image or video popup -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 
+  <link rel="stylesheet" href="./assets/css/slick-theme.css">
 
-  <link rel="stylesheet" href="./assets/css/animate.css">
+  <!-- for menue in mobile -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.css"
+    integrity="sha512-nNatP1G6CEh43irXY/GN4cDcLRX/R0jAYAV/ulFZcotSXcuIQE5Do4TuDOYNAD2SCIpmIbaYSllyjTysSCkpEw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- for animation -->
+  <link rel="stylesheet" href="./assets/css/aos.css">
 
 
   <!-- for english version please change style to en style ./assets/css/style-en.css -->
@@ -27,6 +35,145 @@
 </head>
 
 <body>
+
+
+  <!-- mobile menu -->
+  <nav id="menu">
+    <ul>
+      <li><span>About us</span>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Awards And Partners</a></li>
+          <li><a href="#">Our Products</a></li>
+          <li><a href="#">How We Work</a></li>
+          <li><a href="#">Leadership Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">CSR</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+      </li>
+      <li><span>Services</span>
+        <ul>
+          <li>
+            <span>Services</span>
+            <ul>
+              <li><a href="">Product And Service Design</a></li>
+              <li><a href="">Data Science</a></li>
+              <li><a href="">Cyber Security</a></li>
+              <li><a href="">Technical Feasibility Study</a></li>
+              <li><a href="">Data Strategy</a></li>
+              <li><a href="">Sustainability Consulting</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Solutions</span>
+            <ul>
+              <li><a href="">PoC</a></li>
+              <li><a href="">Application Development</a></li>
+              <li>
+                <span>Enterprise Applications</span>
+                <ul>
+                  <li><a href="">ERP Consulting</a></li>
+                  <li><a href="">CRM Consulting</a></li>
+                </ul>
+              </li>
+              <li><a href="">Application Re-engineering</a></li>
+              <li><a href="">Cloud Migration</a></li>
+              <li><a href="">Smart Team</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <span>Technologies</span>
+            <ul>
+              <li><a href="">Software Audit</a></li>
+              <li><a href="">Quality Assurance</a></li>
+              <li><a href="">Support</a></li>
+
+            </ul>
+          </li>
+
+          <li>
+            <span>BY Role</span>
+            <ul>
+              <li><a href="">CEO</a></li>
+              <li><a href="">CFO</a></li>
+              <li><a href="">COO</a></li>
+              <li><a href="">CMO</a></li>
+              <li><a href="">CTO</a></li>
+              <li><a href="">Product Leader</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </li>
+      <li>
+        <span>Industries & Expertise</span>
+        <ul>
+          <li>
+            <span>Industries</span>
+            <ul>
+              <li><a href="">Logistics</a></li>
+              <li><a href="">Retail</a></li>
+              <li><a href="">Automative</a></li>
+              <li><a href="">Agriculture</a></li>
+              <li><a href="">Media & Entertainment</a></li>
+              <li><a href="">Fintech</a></li>
+              <li><a href="">Insurance</a></li>
+              <li><a href="">Healthcare</a></li>
+              <li><a href="">Energy</a></li>
+              <li><a href="">Government</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Expertise</span>
+            <ul>
+              <li><a href="">DevOps</a></li>
+              <li><a href="">IoT</a></li>
+              <li><a href="">Blockchain</a></li>
+              <li><a href="">UX Consulting</a></li>
+              <li><a href="">VR/AR/MR</a></li>
+              <li><a href="">Market Research</a></li>
+              <li><a href="">Digital Enterprise</a></li>
+              <li><a href="">Nearshore Development</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <span>Clients</span>
+        <ul>
+          <li><a href="">Our Clients</a></li>
+          <li><a href="">Case Studies</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="">Blog</a>
+      </li>
+
+      <li>
+        <a href="">Contact Us</a>
+      </li>
+
+      <li>
+        <span>Language</span>
+        <ul>
+          <li><a href="">AR</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+
+  <!-- loading -->
+  <div class="splashoverlay">
+    <div class="overlay-loader">
+      <img src="./assets/images/logoelex2.svg" alt="">
+    </div>
+    <div id="counter"><span>0</span></div>
+  </div>
 
   <div class="custom_navbar">
     <div class="container-fluid pd-150">
@@ -86,8 +233,8 @@
 
   <div class="about_header" style="background-image: url('./assets/images/about-us-video-poster-3.jpg');">
     <div class="container-fluid pd-150">
-      
-      <div class="header_content col-lg-6">
+
+      <div class="header_content col-lg-6" data-aos="fade-up" data-aos-duration="500">
         <h5>About Eleks</h5>
         <p>
           ELEKS provides expert software engineering and consultancy services to global enterprises, SMEs, and
@@ -106,19 +253,19 @@
 
       <!-- change place of boxes -->
       <div class="header_boxes">
-        <div class="box first_box">
+        <div class="box first_box" data-aos="fade-down" data-aos-duration="500">
           <div class="wrap">
             <h5>150+</h5>
             <p>Active client account</p>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down" data-aos-duration="500">
           <div class="wrap">
             <h5>2000+</h5>
             <p>Specialists</p>
           </div>
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down" data-aos-duration="500">
           <div class="wrap">
             <h5>700+</h5>
             <p>End to end projects</p>
@@ -139,7 +286,7 @@
         <div class="proplems_cards col-lg-10 mx-auto">
           <div class="row align-items-center">
             <div class="col-sm-12 col-lg-6 order2intablet">
-              <div class="proplems_card_content text-center">
+              <div class="proplems_card_content text-center" data-aos="fade-down" data-aos-duration="500">
                 <img src="./assets/images/icon1.svg" alt="">
                 <h5>Build your perfect development team</h5>
                 <p class="">
@@ -153,7 +300,7 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-6 order1intablet">
-              <div class="proplems_card_img">
+              <div class="proplems_card_img" data-aos="fade-up" data-aos-duration="500">
                 <div class="card_img">
                   <div class="img_parent">
                     <img src="./assets/images/Rectangle 1.png" alt="">
@@ -164,7 +311,7 @@
           </div>
           <div class="row align-items-center">
             <div class="col-sm-12 col-lg-6">
-              <div class="proplems_card_img">
+              <div class="proplems_card_img" data-aos="fade-up" data-aos-duration="500">
                 <div class="card_img">
                   <div class="img_parent">
                     <img src="./assets/images/Rectangle 2.png" alt="">
@@ -173,7 +320,7 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-6">
-              <div class="proplems_card_content text-center">
+              <div class="proplems_card_content text-center" data-aos="fade-down" data-aos-duration="500">
                 <img src="./assets/images/icon2.svg" alt="">
                 <h5>Adopt digital transformations</h5>
                 <p class="">
@@ -189,7 +336,7 @@
           </div>
           <div class="row align-items-center">
             <div class="col-sm-12 col-lg-6 order2intablet">
-              <div class="proplems_card_content text-center">
+              <div class="proplems_card_content text-center" data-aos="fade-down" data-aos-duration="500">
                 <img src="./assets/images/icon3.svg" alt="">
                 <h5>business Investment</h5>
                 <p class="">
@@ -203,7 +350,7 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-6 order1intablet">
-              <div class="proplems_card_img">
+              <div class="proplems_card_img" data-aos="fade-up" data-aos-duration="500">
                 <div class="card_img">
                   <div class="img_parent">
                     <img src="./assets/images/Rectangle 3.png" alt="">
@@ -221,10 +368,10 @@
   <div class="our_vision_strip">
     <div class="container">
       <div class="our_vision_strip_wrapper d-flex align-items-center justify-content-between">
-        <div class="title">
+        <div class="title" data-aos="fade-up" data-aos-duration="500">
           <h5>Ready to realise your products visions?</h5>
         </div>
-        <div class="link">
+        <div class="link" data-aos="fade-up" data-aos-duration="500">
           <a href="">
             <span>Partner with us</span>
             <img src="./assets/images/arrow.svg" alt="">
@@ -241,7 +388,7 @@
         <div class="proplems_cards">
           <div class="row align-items-center">
             <div class="col-sm-12 col-lg-6">
-              <div class="proplems_card_content">
+              <div class="proplems_card_content" data-aos="fade-up" data-aos-duration="500">
                 <h5>Our Vision</h5>
                 <p class="">
                   Our belief in creating tangible value for our customers is what we
@@ -254,7 +401,7 @@
               </div>
             </div>
             <div class="col-sm-12 col-lg-6">
-              <div class="proplems_card_img">
+              <div class="proplems_card_img" data-aos="fade-down" data-aos-duration="500">
                 <div class="card_img">
                   <div class="img_parent">
                     <img src="./assets/images/Rectangle 4.png" alt="">
@@ -274,7 +421,7 @@
     <div class="container-fluid pd-150">
       <div class="our_nearshore_wrapper">
         <div class="row align-items-end">
-          <div class="col-sm-12 col-lg-5">
+          <div class="col-sm-12 col-lg-5" data-aos="fade-up" data-aos-duration="500">
             <h5>Our Nearshore Teams</h5>
             <p>
               With ELEKS nearshore software development team, you get access to a talent pool
@@ -285,14 +432,14 @@
           </div>
           <div class="col-sm-12 col-lg-1"></div>
           <div class="col-sm-12 col-lg-4">
-            <h6>
+            <h6 data-aos="fade-up" data-aos-duration="500">
               We offer flexible cooperation models
               that fit your goals, resources and
               timeline
             </h6>
           </div>
           <div class="col-sm-12 col-lg-2 text-right">
-            <a href="">
+            <a href="" data-aos="fade-up" data-aos-duration="500">
               <span>Learn more</span>
               <img src="./assets/images/arrow.svg" alt="">
             </a>
@@ -303,7 +450,7 @@
     </div>
   </div>
 
-  <div class="our_presence">
+  <div class="our_presence" data-aos="fade-up" data-aos-duration="500">
     <div class="container-fluid pd-150">
       <div class="our_presence_wrapper">
         <div class="section_header">
@@ -341,7 +488,7 @@
     </div>
   </div>
 
-  <div class="locations">
+  <div class="locations" data-aos="fade-down" data-aos-duration="500">
     <div class="container-fluid">
       <div class="locations_wrapper">
         <div class="locations_wrapper_slider">
@@ -421,7 +568,7 @@
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-            <div class="diffrent_card">
+            <div class="diffrent_card" data-aos="fade-up" data-aos-duration="500">
               <img src="./assets/images/icon5.svg" alt="">
               <h5>Engineering with passion</h5>
               <p>
@@ -432,7 +579,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-            <div class="diffrent_card">
+            <div class="diffrent_card" data-aos="fade-up" data-aos-duration="1000">
               <img src="./assets/images/icon6.svg" alt="">
               <h5>Engineering with passion</h5>
               <p>
@@ -443,7 +590,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 p-0">
-            <div class="diffrent_card last_card">
+            <div class="diffrent_card last_card" data-aos="fade-up" data-aos-duration="1500">
               <img src="./assets/images/icon4.svg" alt="">
               <h5>Engineering with passion</h5>
               <p>
@@ -505,7 +652,7 @@
           <form action="" class="form_style">
             <div class="row">
               <div class="col-sm-12 col-lg-3">
-                <div class="contact_us_contnet">
+                <div class="contact_us_contnet" data-aos="fade-left" data-aos-duration="500">
                   <h5>Contact Us</h5>
                   <div class="content">
                     <h6>Sales and general inquires</h6>
@@ -522,44 +669,45 @@
                 <div class="contact_us_form">
                   <div class="row">
                     <div class="col-sm-12 col-lg-6">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500" data-aos="fade-up"
+                        data-aos-duration="500">
                         <label for="">Full Name *</label>
                         <input type="text" name="" id="" class="form-control">
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500">
                         <label for="">Email *</label>
                         <input type="text" name="" id="" class="form-control">
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500">
                         <label for="">Phone Number *</label>
                         <input type="text" name="" id="" class="form-control">
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-6">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500">
                         <label for="">Country *</label>
                         <input type="text" name="" id="" class="form-control">
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-12">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500">
                         <label for="">Company *</label>
                         <input type="text" name="" id="" class="form-control">
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-12">
-                      <div class="form-group">
+                      <div class="form-group" data-aos="fade-up" data-aos-duration="500">
                         <label for="">Message *</label>
                         <textarea name="" id="" class="form-control"></textarea>
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-12">
                       <input type="file" id="imageInput">
-                      <label for="imageInput" class="imageInput_label">
+                      <label for="imageInput" class="imageInput_label" data-aos="fade-up" data-aos-duration="500">
                         <div class="file_link">
                           <img src="./assets/images/filelink.svg" alt="">
                         </div>
@@ -569,7 +717,7 @@
                       <span class="file_name"></span>
                     </div>
                     <div class="col-sm-12 col-lg-12">
-                      <div class="conditions">
+                      <div class="conditions" data-aos="fade-up" data-aos-duration="500">
                         <input type="checkbox" name="" id="approveconditions">
                         <label for="approveconditions">I want to receive news and updates once in a while</label>
                         <p>
@@ -580,7 +728,7 @@
                       </div>
                     </div>
                     <div class="col-sm-12 col-lg-12">
-                      <div class="btn_submit">
+                      <div class="btn_submit" data-aos="fade-up" data-aos-duration="500">
                         <a href="" class="btn_style">
                           Send Message
                         </a>
@@ -597,7 +745,9 @@
     </div>
   </div>
 
-  <footer>
+
+  <!-- change footer from tag to div class footer -->
+  <div class="footer">
     <div class="container-fluid pd-150">
       <div class="footer_wrapper">
         <div class="contact_us_wrap">
@@ -637,66 +787,94 @@
                   <div class="col-6 col-md-3 col-lg-3">
                     <h5>Company</h5>
                     <ul class="list-unstyled">
-                      <li><a href="">About us</a></li>
-                      <li><a href="">Services</a></li>
-                      <li><a href="">How we work</a></li>
-                      <li><a href="">Awards and partners</a></li>
-                      <li><a href="">Our clients</a></li>
-                      <li><a href="">Case studies</a></li>
-                      <li><a href="">Blog</a></li>
-                      <li><a href="">Careers</a></li>
-                      <li><a href="">Contact Us</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="100"><a href="">About us</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="200"><a href="">Services</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="300"><a href="">How we work</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="400"><a href="">Awards and
+                          partners</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="500"><a href="">Our clients</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="600"><a href="">Case studies</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="700"><a href="">Blog</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="800"><a href="">Careers</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="900"><a href="">Contact Us</a></li>
                     </ul>
                   </div>
                   <div class="col-6 col-md-3 col-lg-3 order3inmobile">
                     <h5>Services</h5>
                     <ul class="list-unstyled">
-                      <li><a href="">Product and service design</a></li>
-                      <li><a href="">Data science</a></li>
-                      <li><a href="">Cyber security</a></li>
-                      <li><a href="">Technical feasibility study</a></li>
-                      <li><a href="">Data strategy</a></li>
-                      <li><a href="">Sustainability consulting</a></li>
-                      <li><a href="">PoC development</a></li>
-                      <li><a href="">Application development</a></li>
-                      <li><a href="">Enterprise applications</a></li>
-                      <li><a href="">ERP consulting</a></li>
-                      <li><a href="">CRM consulting</a></li>
-                      <li><a href="">Application re‑engineering</a></li>
-                      <li><a href="">Cloud migration</a></li>
-                      <li><a href="">Smart team</a></li>
-                      <li><a href="">Software audit</a></li>
-                      <li><a href="">Quality assurance</a></li>
-                      <li><a href="">Support</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="100"><a href="">Product and service
+                          design</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="200"><a href="">Data science</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="300"><a href="">Cyber security</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="400"><a href="">Technical
+                          feasibility study</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="500"><a href="">Data strategy</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="600"><a href="">Sustainability
+                          consulting</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="700"><a href="">PoC development</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="800"><a href="">Application
+                          development</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="900"><a href="">Enterprise
+                          applications</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1000"><a href="">ERP consulting</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1100"><a href="">CRM consulting</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1200"><a href="">Application
+                          re‑engineering</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1300"><a href="">Cloud
+                          migration</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1400"><a href="">Smart team</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1500"><a href="">Software audit</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1600"><a href="">Quality
+                          assurance</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1700"><a href="">Support</a></li>
                     </ul>
                   </div>
                   <div class="col-6 col-md-3 col-lg-3 order2inmobile">
                     <h5>Industries</h5>
                     <ul class="list-unstyled">
-                      <li><a href="">Logistics</a></li>
-                      <li><a href="">Fintech</a></li>
-                      <li><a href="">Retail</a></li>
-                      <li><a href="">Insurance</a></li>
-                      <li><a href="">Automotive</a></li>
-                      <li><a href="">Healthcare</a></li>
-                      <li><a href="">Agriculture</a></li>
-                      <li><a href="">Energy</a></li>
-                      <li><a href="">Media & Entertainment</a></li>
-                      <li><a href="">Government</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="100"><a href="">Logistics</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="200"><a href="">Fintech</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="300"><a href="">Retail</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="400"><a href="">Insurance</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="500"><a href="">Automotive</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="600"><a href="">Healthcare</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="700"><a href="">Agriculture</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="800"><a href="">Energy</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="900"><a href="">Media &
+                          Entertainment</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="1000"><a href="">Government</a>
+                      </li>
                     </ul>
                   </div>
                   <div class="col-6 col-md-3 col-lg-3">
                     <h5>Expertise</h5>
                     <ul class="list-unstyled">
-                      <li><a href="">DevOps</a></li>
-                      <li><a href="">VR/AR/MR</a></li>
-                      <li><a href="">IoT</a></li>
-                      <li><a href="">Market research</a></li>
-                      <li><a href="">Blockchain</a></li>
-                      <li><a href="">Digital enterprise</a></li>
-                      <li><a href="">UX consulting</a></li>
-                      <li><a href="">Nearshore development</a></li>
-                      <li><a href="">Software Development</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="100"><a href="">DevOps</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="200"><a href="">VR/AR/MR</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="300"><a href="">IoT</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="400"><a href="">Market research</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="500"><a href="">Blockchain</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="600"><a href="">Digital
+                          enterprise</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="700"><a href="">UX consulting</a>
+                      </li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="800"><a href="">Nearshore
+                          development</a></li>
+                      <li data-aos="fade-up" data-aos-offset="10" data-aos-duration="900"><a href="">Software
+                          Development</a></li>
                     </ul>
                   </div>
                 </div>
@@ -706,7 +884,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </div>
 
   <div class="copy_write">
     <div class="container">
@@ -733,8 +911,22 @@
   <script src="./assets/js/jquery.nice-select.min.js"></script>
   <script src="./assets/js/wow.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
   <script src="./assets/js/slick.min.js"></script>
+
+  <!-- for loading page -->
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+
+  <!-- for image or video popup -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+  <!-- for menue in mobile -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.js"
+    integrity="sha512-l2fHTYCLVbhRDc5CZWrkKJ06JWFjG5etNQ4G85PbyRiHP769IiVDmhwI0BYSFOXYJUYRmaq5PvfaxacZm9eqhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- for animation -->
+  <script src="./assets/js/aos.js"></script>
+
   <script src="./assets/js/main.js"></script>
 </body>
 
