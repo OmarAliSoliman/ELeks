@@ -401,6 +401,9 @@ p {
 .custom_navbar .submenu_parent {
   position: relative;
 }
+.custom_navbar .submenu_parent > a {
+  cursor: pointer;
+}
 .custom_navbar .submenu_parent .submenu_arrow {
   position: absolute;
   top: 67px;

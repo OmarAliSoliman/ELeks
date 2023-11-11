@@ -501,7 +501,10 @@ p {
 
   .submenu_parent {
     position: relative;
-
+    > a{
+      // pointer-events: none;
+      cursor: pointer;
+    }
     .submenu_arrow {
       position: absolute;
       top: 67px;
