@@ -2842,6 +2842,11 @@ p {
   box-shadow: unset;
   position: relative;
   transition: all 0.3s ease-in-out;
+  max-height: 250px;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .awards_partnater .awards_partnater_wrapper .awards_partners_navs .tab_content_logo .logo_card .card_link {
   position: absolute;
@@ -2859,7 +2864,7 @@ p {
 }
 .awards_partnater .awards_partnater_wrapper .awards_partners_navs .tab_content_logo .logo_card .img_wrapper img {
   height: auto;
-  width: auto;
+  width: 120px;
 }
 .awards_partnater .awards_partnater_wrapper .awards_partners_navs .tab_content_logo .logo_card p {
   color: #000;
