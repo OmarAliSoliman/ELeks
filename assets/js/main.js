@@ -650,12 +650,6 @@ $(window).on("load", function () {
   setTimeout(() => {
     animateOut();
   }, 2000);
-});
-
-$(window).on("load", function () {
-  $("html").removeClass("splash-active");
-  $(".splashscreen").addClass("splashscreen_none");
-
   new Mmenu("#menu", {
     offCanvas: {
       slidingSubmenus: false,
@@ -666,4 +660,11 @@ $(window).on("load", function () {
       add: true,
     },
   });
+});
+
+$(window).on("load", function () {
+  // $("html").removeClass("splash-active");
+  // $(".splashscreen").addClass("splashscreen_none");
+
+
 });
