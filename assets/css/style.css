@@ -8003,10 +8003,30 @@ p {
     margin-right: 0;
     margin: 20px 1%;
   }
+  .industries_page .our_finance_tabs .fintech_tab_content {
+    padding: 20px;
+    width: 100%;
+  }
+  .industries_page .our_finance_tabs .nav {
+    overflow: auto;
+  }
+  .industries_page .our_finance_tabs .nav .nav-item {
+    min-width: 200px;
+  }
+  .energy_page .what_you_get_with .section_header {
+    padding: 0 60px;
+  }
 }
 @media (max-width: 600px) {
   .home_header .home_header_content h5 {
     font-size: 2rem;
+  }
+  .industries_page .our_finance_tabs .fintech_tab_content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .industries_page .our_finance_tabs .fintech_tab_content p {
+    margin-left: 0;
   }
   .headers_logo .headers_logo_wrapper ul {
     flex-wrap: wrap;
@@ -8287,6 +8307,39 @@ p {
   }
   .digital_transformation_card {
     width: 100%;
+  }
+  .industries_page .industries_our_software .industries_our_software_tabs .nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .industries_page .industries_our_software .industries_our_software_tabs .nav-item .nav-link {
+    width: 100%;
+  }
+  .industries_header .header_wrapper .header_title {
+    font-size: 2.3rem;
+  }
+  .industries_header .header_wrapper .header_bottom .header_bottom_img {
+    padding-right: 0;
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+  .energy_page .what_you_get_with .section_header {
+    padding: 0 20px;
+  }
+  .industries_page .what_you_get_with .section_header h5 {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 40px;
+  }
+  .energy_page .four_boxes ul li {
+    width: 100%;
+  }
+  .energy_page .four_boxes ul::before, .energy_page .four_boxes ul::after {
+    display: none;
+  }
+  .energy_page .four_boxes .single_box {
+    padding: 40px 0;
   }
 }
 @media (max-width: 320px) {
