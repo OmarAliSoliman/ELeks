@@ -6565,6 +6565,8 @@ p {
   margin-top: 100px;
   display: flex;
   align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .industries_page .industries_our_success .industries_our_success_content .link span {
   color: #252525;

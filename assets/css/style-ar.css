@@ -1268,13 +1268,13 @@ p {
   border-radius: 10px;
 }
 
-.nice-select:after{
+.nice-select:after {
   border-right: 2px solid #999;
   border-left: unset;
   left: 12px;
   right: unset;
 }
-.nice-select{
+.nice-select {
   padding-left: 30px;
   padding-right: 0;
 }
@@ -1772,6 +1772,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  transform: rotate(180deg);
 }
 .service_card.custom_service_card {
   width: 262px;
@@ -1818,6 +1819,7 @@ p {
 }
 .service_card.custom_service_card .card_footer a img {
   margin-right: 5px;
+  transform: rotate(180deg);
 }
 .service_card:hover {
   border-radius: 30px;
@@ -1877,6 +1879,7 @@ p {
 }
 .industries_card .arrow {
   text-align: left;
+  transform: rotate(180deg);
 }
 .industries_card:hover {
   background-color: #fff;
@@ -2061,7 +2064,6 @@ p {
   margin-bottom: 25px;
 }
 
-
 .our_client .filter .nice_select {
   width: 445px;
   height: 58px;
@@ -2100,7 +2102,7 @@ p {
   border-right: 2px solid #fff;
 }
 
-.our_client .filter .nice_select .option{
+.our_client .filter .nice_select .option {
   text-align: right !important;
 }
 
@@ -2147,6 +2149,7 @@ p {
   position: absolute;
   top: 21px;
   left: 21px;
+  transform: rotate(180deg);
 }
 
 /* ================================================================ */
@@ -2639,6 +2642,14 @@ p {
   margin-right: 10px;
   cursor: pointer;
 }
+.how_we_work_page .custom_progress_arrows .custom_arrow_next img{
+  transform: rotate(180deg);
+}
+
+.how_we_work_page .custom_progress_arrows .custom_arrow_prev img{
+  transform: rotate(180deg);
+}
+
 .how_we_work_page .what_you_get_slider_progressbar {
   display: block;
   width: 100%;
@@ -3529,7 +3540,7 @@ p {
 .our_product_card .card_img {
   background: lightgray 50%;
   border-radius: 12px;
-  height: 450px;
+  height: 400px;
 }
 .our_product_card .card_body {
   margin-top: 32px;
@@ -3615,6 +3626,7 @@ p {
 }
 .product_service_advisory .will_help_you .custom_progress_arrows img {
   width: 25px;
+  transform: rotate(180deg);
 }
 .product_service_advisory
   .will_help_you
@@ -3777,6 +3789,7 @@ p {
 }
 .product_service_advisory .three_element_expanded ul li .expand_card .link img {
   filter: none;
+  transform: rotate(180deg);
 }
 .product_service_advisory
   .three_element_expanded
@@ -3950,6 +3963,15 @@ p {
   display: block;
   text-align: left;
 }
+
+.product_service_advisory
+  .product_strategy_consulting
+  .product_strategy_consulting_content
+  .link
+  img {
+  transform: rotate(180deg);
+}
+
 .product_service_advisory
   .product_strategy_consulting
   .product_strategy_consulting_content
@@ -4125,7 +4147,7 @@ p {
   padding: 0 30px;
 }
 
-.our_product_design_card .arrow_link img{
+.our_product_design_card .arrow_link img {
   transform: rotate(180deg);
 }
 
@@ -4196,6 +4218,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(180deg);
 }
 
 .accordion .accordion-item {
@@ -4376,6 +4399,10 @@ p {
   line-height: 30px;
   /* 166.667% */
   margin-left: 10px;
+}
+
+.data_science_service .create_and_manage .link img {
+  transform: rotate(180deg);
 }
 
 .what_get_card {
@@ -4956,6 +4983,7 @@ p {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
   padding: 37px 12px;
   margin: 0 15px;
+  direction: rtl;
 }
 .testemonial_card .person_info {
   display: flex;
@@ -5032,6 +5060,9 @@ p {
   justify-content: center;
   border-radius: 50%;
   margin-right: 5px;
+}
+.testemonial_card .card_footer .link .arrow img {
+  transform: rotate(180deg);
 }
 .testemonial_card .card_footer .link span {
   color: #252525;
@@ -5214,6 +5245,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  transform: rotate(180deg);
 }
 .enterprise_application_developer
   .secure_your_software
@@ -5585,6 +5617,7 @@ p {
   border: 0;
   background-color: transparent;
   border-bottom: 1px solid rgba(55, 55, 55, 0.101);
+  text-align: right !important;
 }
 .filterby_page .nice_select::before {
   content: "";
@@ -6415,6 +6448,7 @@ p {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+  transform: rotate(180deg);
 }
 
 /* ================================================================ */
@@ -6490,7 +6524,7 @@ p {
   align-items: center;
 }
 
-.row_image_content_2 .row_content a img{
+.row_image_content_2 .row_content a img {
   transform: rotate(180deg);
 }
 
@@ -6893,6 +6927,7 @@ p {
 .industries_page .our_software_card .card_icon {
   position: absolute;
   right: 0;
+  transform: rotate(180deg);
 }
 .industries_page .our_software_card h5 {
   color: #252525;
@@ -7070,6 +7105,12 @@ p {
   background-color: #fff;
   margin-top: -15px;
 }
+
+.industries_page .devops_process .scroll-container .scroll-right i,
+.industries_page .devops_process .scroll-container .scroll-left i {
+  transform: rotate(180deg);
+}
+
 .industries_page .devops_process .scroll-container .scroll-left:hover,
 .industries_page .devops_process .scroll-container .scroll-right:hover {
   background-color: #082eb5;
@@ -7168,7 +7209,12 @@ p {
   bottom: 40px;
 }
 
-.industries_page .ux_whitepaper .ux_whitepaper_content .ux_whitepaper_link .arrow img{
+.industries_page
+  .ux_whitepaper
+  .ux_whitepaper_content
+  .ux_whitepaper_link
+  .arrow
+  img {
   transform: rotate(180deg);
 }
 
@@ -7282,6 +7328,7 @@ p {
   margin-top: 100px;
   display: flex;
   align-items: center;
+  width: fit-content;
 }
 .industries_page
   .industries_our_success
@@ -7305,6 +7352,7 @@ p {
   align-items: center;
   justify-content: center;
   margin-right: 10px;
+
 }
 .industries_page
   .industries_our_success
@@ -7313,6 +7361,7 @@ p {
   .arrow
   i {
   color: #252525;
+  transform: rotate(180deg);
 }
 .industries_page .industries_page_digital_transformation {
   padding: 180px 0;
@@ -7923,6 +7972,7 @@ p {
 }
 .energy_page .row_image_content .energy_row_list li img {
   margin-top: 15px;
+  transform: rotateY(180deg);
 }
 .energy_page .row_image_content .energy_row_list p {
   padding-right: 0;
@@ -8154,6 +8204,7 @@ p {
 }
 .industries_header .devopes_industries_header_icon {
   width: 100% !important;
+  right: 80%;
 }
 .industries_header .iot_industries_header_icon {
   transform: translate(0%, 0%);
@@ -9266,7 +9317,7 @@ p {
   .about_header .header_content h5 {
     font-size: 1.8rem;
   }
-  .about_header .header_content{
+  .about_header .header_content {
     padding-bottom: 30px !important;
   }
 }

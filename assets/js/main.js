@@ -113,6 +113,7 @@ $(document).ready(function () {
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
+      rtl: currentDir === "rtl" ? true : false,
       autoplay: true,
       centerMode: true,
       prevArrow: $(".custom_arrow_next"),
@@ -231,6 +232,7 @@ $(document).ready(function () {
       dots: false,
       speed: 300,
       infinite: true,
+      rtl: currentDir === "rtl" ? true : false,
       autoplaySpeed: 5000,
       autoplay: true,
       centerMode: false,
@@ -415,6 +417,7 @@ $(document).ready(function () {
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
+      // rtl: currentDir === "rtl" ? true : false,
       autoplay: true,
       centerMode: true,
       responsive: [
@@ -485,6 +488,7 @@ $(document).ready(function () {
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
+      rtl: currentDir === "rtl" ? true : false,
       autoplay: true,
       centerMode: true,
       responsive: [
