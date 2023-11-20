@@ -358,7 +358,7 @@ p {
 
 /* ================================================================ */
 .custom_navbar {
-  padding: 35px 0;
+  padding: 30px 0;
   background-color: #fff;
   box-shadow: 0px 13px 40px 0px rgba(0, 0, 0, 0.13);
 }
@@ -386,6 +386,21 @@ p {
   border: 1px solid #252525;
   color: #252525;
   border-radius: 10px;
+  padding: 12px 22px;
+  height: 43px;
+}
+.custom_navbar .navbar_wrapper .contact_us_btn:hover {
+  background-color: #252525;
+  color: #fff;
+}
+.custom_navbar .navbar_wrapper .eleks_btn {
+  background-color: #252525;
+  color: #fff;
+  margin-right: 10px;
+}
+.custom_navbar .navbar_wrapper .eleks_btn:hover {
+  background-color: #fff;
+  color: #252525;
 }
 .custom_navbar .navbar_wrapper .otherlinks span.search {
   margin: 0 2.2rem;
@@ -7630,6 +7645,11 @@ p {
     flex-wrap: wrap;
   }
 }
+@media (max-width: 1400px) {
+  .custom_navbar .navbar_wrapper .nav_item {
+    margin: 0 1.3rem;
+  }
+}
 @media (max-width: 1280px) {
   html {
     font-size: 13px;
@@ -7646,6 +7666,14 @@ p {
   }
   .proplems_cards .proplems_card_content {
     padding: 0 0;
+  }
+}
+@media (max-width: 1200px) {
+  .custom_navbar .navbar_wrapper .nav_item {
+    margin: 0 1rem;
+  }
+  .custom_navbar .navbar_wrapper .nav_item .nav_link span {
+    font-size: 0.9rem;
   }
 }
 /* ================================================================ */
