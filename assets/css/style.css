@@ -6814,6 +6814,7 @@ p {
   margin-bottom: 32px;
   transition: all 0.3s ease-in-out;
   display: block;
+  min-height: 350px;
 }
 .nearshore_service_card h5 {
   color: #252525;
@@ -7287,6 +7288,7 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  width: 90%;
   /* 150% */
 }
 .industries_header .header_wrapper .header_bottom {
@@ -7317,6 +7319,7 @@ p {
   line-height: 30px;
   /* 150% */
   margin-top: 24px;
+  width: 90%;
 }
 .industries_header .text-left {
   text-align: left !important;
@@ -8057,6 +8060,10 @@ p {
     width: 65%;
     margin: 10px auto;
   }
+  .industries_header .header_wrapper .header_text,
+  .industries_header .header_wrapper .header_bottom_content .header_text_2 {
+    width: 100%;
+  }
 }
 @media (max-width: 600px) {
   .home_header .home_header_content h5 {
@@ -8376,7 +8383,8 @@ p {
   .energy_page .four_boxes ul li {
     width: 100%;
   }
-  .energy_page .four_boxes ul::before, .energy_page .four_boxes ul::after {
+  .energy_page .four_boxes ul::before,
+  .energy_page .four_boxes ul::after {
     display: none;
   }
   .energy_page .four_boxes .single_box {
@@ -8401,6 +8409,42 @@ p {
   }
   .about_header .header_content {
     padding-bottom: 30px !important;
+  }
+  .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_left .wrap {
+    flex-direction: column;
+  }
+  .trusted_by .trusted_by_wrapper .trusted_by_logos li {
+    width: 100%;
+    border: 0 !important;
+  }
+  .trusted_by .trusted_by_wrapper .trusted_by_logos li .trust_logo::before,
+  .trusted_by .trusted_by_wrapper .trusted_by_logos li .trust_logo::after {
+    display: none;
+  }
+  .industries_page .nearshore_softwere_tabs .nav .nav-link {
+    margin-bottom: 13px;
+  }
+  .industries_page .nearshore_softwere_tabs .nav {
+    justify-content: center;
+  }
+  .industries_page .nearshore_softwere_tabs .nav .nav-link {
+    margin-right: 10px;
+  }
+  .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_left,
+  .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_right {
+    padding: 20px;
+  }
+  .industries_page .what_you_get_half_sentences .stripred_content {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    line-height: 35px;
+  }
+  .product_service_advisory .section_header h5 {
+    font-size: 2rem;
+  }
+  .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_left .wrap .card_img {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 320px) {
