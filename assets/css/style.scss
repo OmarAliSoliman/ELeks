@@ -2534,6 +2534,7 @@ p {
 .blog_page {
   .section_header {
     margin-bottom: 50px;
+    margin-top: 0;
   }
 
   .recent_blogs {
@@ -2685,6 +2686,7 @@ p {
 
     nav {
       li {
+        margin: 0 5px;
         a {
           display: flex;
           width: 40px;
@@ -10081,6 +10083,15 @@ p {
   .energy_page .what_you_get_with .section_header{
     padding: 0 60px;
   }
+  .error_page .img404{
+    display: none;
+  }
+  .error_page{
+    .error_page_img{
+      width: 65%;
+      margin: 10px auto;
+    }
+  }
 }
 
 @media (max-width: 600px) {
@@ -10553,6 +10564,28 @@ p {
   }
   .energy_page .four_boxes .single_box{
     padding: 40px 0;
+  }
+
+  .article_detals_page .article_detals_page_strip .strip_col2 h6{
+    margin-top: 20px;
+  }
+  .tags_social .tags > ul{
+    // overflow: auto;
+    flex-wrap: wrap;
+  }
+
+  .tags_social .tags > ul li{
+    min-width: max-content;
+    margin-bottom: 5px;
+    a{
+      margin-left: 0 !important;
+    }
+  }
+  .about_header .header_content h5{
+    font-size: 1.8rem;
+  }
+  .about_header .header_content{
+    padding-bottom: 30px !important;
   }
 }
 

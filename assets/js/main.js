@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var currentDir = $("a").css("direction");
+  var currentDir = $("body").css("direction");
   console.log(currentDir);
 
   if ($(".awards_logo_slider").length) {
@@ -9,6 +9,7 @@ $(document).ready(function () {
       arrows: true,
       dots: false,
       speed: 300,
+      rtl: currentDir === "rtl" ? true : false,
       infinite: true,
       autoplaySpeed: 5000,
       autoplay: true,
@@ -56,6 +57,7 @@ $(document).ready(function () {
       dots: true,
       speed: 300,
       infinite: true,
+      // rtl: currentDir === "rtl" ? true : false,
       autoplaySpeed: 5000,
       autoplay: true,
       centerMode: true,
@@ -167,6 +169,7 @@ $(document).ready(function () {
       infinite: true,
       autoplaySpeed: 5000,
       autoplay: true,
+      // rtl: currentDir === "rtl" ? true : false,
       centerMode: true,
       prevArrow: $(".custom_arrow_next"),
       nextArrow: $(".custom_arrow_prev"),
@@ -284,6 +287,7 @@ $(document).ready(function () {
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
+      rtl: currentDir === "rtl" ? true : false,
       autoplay: true,
       centerMode: false,
       prevArrow: $(".our_product_design_successـcustom_arrow_next"),
@@ -339,6 +343,7 @@ $(document).ready(function () {
       speed: 300,
       infinite: true,
       autoplaySpeed: 5000,
+      rtl: currentDir === "rtl" ? true : false,
       autoplay: true,
       centerMode: false,
       prevArrow: $(".custom_our_blog_custom_arrow_next"),
@@ -374,6 +379,7 @@ $(document).ready(function () {
       dots: false,
       speed: 300,
       infinite: true,
+      rtl: currentDir === "rtl" ? true : false,
       autoplaySpeed: 5000,
       autoplay: true,
       centerMode: false,
@@ -442,6 +448,7 @@ $(document).ready(function () {
       dots: true,
       speed: 300,
       infinite: true,
+      rtl: currentDir === "rtl" ? true : false,
       autoplaySpeed: 5000,
       autoplay: true,
       centerMode: true,
@@ -509,7 +516,9 @@ $(document).ready(function () {
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: true,
+      arrows: false,
       speed: 300,
+      rtl: currentDir === "rtl" ? true : false,
       infinite: true,
       autoplaySpeed: 5000,
       autoplay: true,
@@ -541,6 +550,7 @@ $(document).ready(function () {
       arrows: true,
       dots: false,
       speed: 300,
+      rtl: currentDir === "rtl" ? true : false,
       infinite: true,
       prevArrow: $(".our_ofices_sectionـcustom_arrow_next"),
       nextArrow: $(".our_ofices_sectionـcustom_arrow_prev"),
@@ -610,8 +620,6 @@ $(document).ready(function () {
     });
   }
 
-  
-
   AOS.init();
 });
 
@@ -647,13 +655,14 @@ TweenLite.to(Cont, 15, {
 });
 
 $(window).on("load", function () {
+  var currentDir = $("body").css("direction");
   setTimeout(() => {
     animateOut();
   }, 2000);
   new Mmenu("#menu", {
     offCanvas: {
       slidingSubmenus: false,
-      position: "right-front",
+      position: currentDir == "rtl" ? "left-front" : "right-front"
     },
     theme: "light",
     counters: {

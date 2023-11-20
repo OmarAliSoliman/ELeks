@@ -1,5 +1,8 @@
+var currentDir = $("body").css("direction");
+
+
 $(".slider").slick({
-  infinite: true,
+  infinite: false,
   arrows: false,
   dots: false,
   autoplay: false,
