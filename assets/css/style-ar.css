@@ -3288,7 +3288,8 @@ p {
 .leadership_team_card .content {
   position: absolute;
   top: 31px;
-  right: 32px;
+  left: 0px;
+  width: 40%;
 }
 .leadership_team_card .content h5 {
   color: #252525;
@@ -8963,8 +8964,33 @@ p {
   .industries_header .header_wrapper .header_text, .industries_header .header_wrapper .header_bottom_content .header_text_2{
     width: 100%;
   }
-  .smart_tem_header.services_header_with_boxes_down .header_boxes_down{
-    display: none !important;
+  .smart_tem_header.about_header {
+    flex-direction: column !important;
+  }
+  .smart_tem_header.about_header .header_boxes_down {
+    position: relative;
+    bottom: 0;
+    margin-top: 15px;
+  }
+  .smart_tem_header.about_header ul {
+    flex-wrap: wrap;
+  }
+  .smart_tem_header.about_header li {
+    width: 50%;
+    padding: 10px 10px;
+    min-height: auto;
+    border-bottom: 1px solid #00267b;
+  }
+  .services_header_with_boxes_down .header_boxes_down li::after {
+    height: 100%;
+  }
+  .services_header_with_images .content_img {
+    flex-wrap: wrap;
+  }
+  .services_header_with_images .content_img img {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 20px;
   }
 }
 @media (max-width: 600px) {
@@ -9365,9 +9391,6 @@ p {
   .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_left .wrap .card_img{
     width: 100%;
     margin-bottom: 20px;
-  }
-  .smart_tem_header.services_header_with_boxes_down .header_boxes_down{
-    display: none !important;
   }
 }
 @media (max-width: 320px) {
