@@ -8064,6 +8064,9 @@ p {
   .industries_header .header_wrapper .header_bottom_content .header_text_2 {
     width: 100%;
   }
+  .smart_tem_header.services_header_with_boxes_down .header_boxes_down {
+    display: none !important;
+  }
 }
 @media (max-width: 600px) {
   .home_header .home_header_content h5 {
