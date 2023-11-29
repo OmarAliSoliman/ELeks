@@ -16,6 +16,10 @@
   <link rel="stylesheet" href="./assets/css/slick.css">
   <link rel="stylesheet" href="./assets/css/slick-theme.css">
 
+  <!-- for menue in mobile -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.css"
+    integrity="sha512-nNatP1G6CEh43irXY/GN4cDcLRX/R0jAYAV/ulFZcotSXcuIQE5Do4TuDOYNAD2SCIpmIbaYSllyjTysSCkpEw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- for animation -->
   <link rel="stylesheet" href="./assets/css/aos.css">
@@ -28,37 +32,526 @@
 
 <body>
 
+  <!-- mobile menu -->
+  <nav id="menu">
+    <ul>
+      <li><span>About us</span>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Awards And Partners</a></li>
+          <li><a href="#">Our Products</a></li>
+          <li><a href="#">How We Work</a></li>
+          <li><a href="#">Leadership Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">CSR</a></li>
+          <li><a href="#">Press Kit</a></li>
+        </ul>
+      </li>
+      <li><span>Services</span>
+        <ul>
+          <li>
+            <span>Services</span>
+            <ul>
+              <li><a href="">Product And Service Design</a></li>
+              <li><a href="">Data Science</a></li>
+              <li><a href="">Cyber Security</a></li>
+              <li><a href="">Technical Feasibility Study</a></li>
+              <li><a href="">Data Strategy</a></li>
+              <li><a href="">Sustainability Consulting</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Solutions</span>
+            <ul>
+              <li><a href="">PoC</a></li>
+              <li><a href="">Application Development</a></li>
+              <li>
+                <span>Enterprise Applications</span>
+                <ul>
+                  <li><a href="">ERP Consulting</a></li>
+                  <li><a href="">CRM Consulting</a></li>
+                </ul>
+              </li>
+              <li><a href="">Application Re-engineering</a></li>
+              <li><a href="">Cloud Migration</a></li>
+              <li><a href="">Smart Team</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <span>Technologies</span>
+            <ul>
+              <li><a href="">Software Audit</a></li>
+              <li><a href="">Quality Assurance</a></li>
+              <li><a href="">Support</a></li>
+
+            </ul>
+          </li>
+
+          <li>
+            <span>BY Role</span>
+            <ul>
+              <li><a href="">CEO</a></li>
+              <li><a href="">CFO</a></li>
+              <li><a href="">COO</a></li>
+              <li><a href="">CMO</a></li>
+              <li><a href="">CTO</a></li>
+              <li><a href="">Product Leader</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </li>
+      <li>
+        <span>Industries & Expertise</span>
+        <ul>
+          <li>
+            <span>Industries</span>
+            <ul>
+              <li><a href="">Logistics</a></li>
+              <li><a href="">Retail</a></li>
+              <li><a href="">Automative</a></li>
+              <li><a href="">Agriculture</a></li>
+              <li><a href="">Media & Entertainment</a></li>
+              <li><a href="">Fintech</a></li>
+              <li><a href="">Insurance</a></li>
+              <li><a href="">Healthcare</a></li>
+              <li><a href="">Energy</a></li>
+              <li><a href="">Government</a></li>
+            </ul>
+          </li>
+          <li>
+            <span>Expertise</span>
+            <ul>
+              <li><a href="">DevOps</a></li>
+              <li><a href="">IoT</a></li>
+              <li><a href="">Blockchain</a></li>
+              <li><a href="">UX Consulting</a></li>
+              <li><a href="">VR/AR/MR</a></li>
+              <li><a href="">Market Research</a></li>
+              <li><a href="">Digital Enterprise</a></li>
+              <li><a href="">Nearshore Development</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <span>Clients</span>
+        <ul>
+          <li><a href="">Our Clients</a></li>
+          <li><a href="">Case Studies</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="">Blog</a>
+      </li>
+
+      <li>
+        <a href="">Contact Us</a>
+      </li>
+
+      <li>
+        <span>Language</span>
+        <ul>
+          <li><a href="">AR</a></li>
+        </ul>
+      </li>
+
+    </ul>
+  </nav>
+
+  <div class="splashoverlay">
+    <div class="overlay-loader">
+      <img src="./assets/images/logoelex2.svg" alt="">
+    </div>
+    <div id="counter"><span>0</span></div>
+  </div>
+
   <div class="custom_navbar">
-    <div class="container">
+    <div class="container-fluid pd-150">
       <div class="navbar_wrapper d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href=""><img src="./assets/images/logo.svg" alt=""></a>
         </div>
         <div class="links">
           <ul class="list-unstyled d-flex align-items-center mb-0">
-            <li class="nav_item">
+            <li class="nav_item submenu_parent">
               <a href="" class="nav_link">
                 <span>About us</span>
                 <i class="fas fas fa-sort-down"></i>
               </a>
+              <div class="submenu_arrow">
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+              <div class="submenu about_us_submenu">
+                <ul class="list-unstyled sub_list">
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>About Us</p>
+                      <span>Learn More about ELEKS</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>Awards And Partners</p>
+                      <span>Our real value </span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>Our Products</p>
+                      <span>Successful products we have</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>How We Work</p>
+                      <span>Unique Delivery Framework</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>Leadership Team</p>
+                      <span>See our amazing team</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>Careers</p>
+                      <span>Join our amazing team</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>CSR</p>
+                      <span>Covering as many aspects</span>
+                    </a>
+                  </li>
+                  <li class="sub_item">
+                    <a href="" class="sub_link">
+                      <p>Press Kit</p>
+                      <span>Updated information about ELEKS</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="testemonial">
+                  <div class="testemonial_slider">
+                    <div class="slider_item">
+                      <div class="nav_testemonial_card testemonial_card">
+                        <div class="testominl_img">
+                          <img src="./assets/images/colo.svg" alt="">
+                        </div>
+                        <div class="p card_text">
+                          ELEKS has been involved in the development of a number of our consumer-facing websites and
+                          mobile applications. We've appreciated the level of ELEKS' expertise, responsiveness and
+                          attention to details.
+                        </div>
+                        <div class="testomon_info d-flex align-items-center">
+                          <div class="card_img">
+                            <div class="img_parent">
+                              <img src="./assets/images/person.png" alt="">
+                            </div>
+                          </div>
+                          <div class="card_body">
+                            <h5 class="mb-0">Samer awajan, </h5>
+                            <h5 class="mb-0">CTO, Aramex</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="slider_item">
+                      <div class="nav_testemonial_card testemonial_card">
+                        <div class="testominl_img">
+                          <img src="./assets/images/colo.svg" alt="">
+                        </div>
+                        <div class="p card_text">
+                          ELEKS has been involved in the development of a number of our consumer-facing websites and
+                          mobile applications. We've appreciated the level of ELEKS' expertise, responsiveness and
+                          attention to details.
+                        </div>
+                        <div class="testomon_info d-flex align-items-center">
+                          <div class="card_img">
+                            <div class="img_parent">
+                              <img src="./assets/images/person.png" alt="">
+                            </div>
+                          </div>
+                          <div class="card_body">
+                            <h5 class="mb-0">Samer awajan, </h5>
+                            <h5 class="mb-0">CTO, Aramex</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="slider_item">
+                      <div class="nav_testemonial_card testemonial_card">
+                        <div class="testominl_img">
+                          <img src="./assets/images/colo.svg" alt="">
+                        </div>
+                        <div class="p card_text">
+                          ELEKS has been involved in the development of a number of our consumer-facing websites and
+                          mobile applications. We've appreciated the level of ELEKS' expertise, responsiveness and
+                          attention to details.
+                        </div>
+                        <div class="testomon_info d-flex align-items-center">
+                          <div class="card_img">
+                            <div class="img_parent">
+                              <img src="./assets/images/person.png" alt="">
+                            </div>
+                          </div>
+                          <div class="card_body">
+                            <h5 class="mb-0">Samer awajan, </h5>
+                            <h5 class="mb-0">CTO, Aramex</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="nav_item">
+            <li class="nav_item submenu_parent">
               <a href="" class="nav_link">
                 <span>Services</span>
                 <i class="fas fas fa-sort-down"></i>
               </a>
+              <div class="submenu_arrow">
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+              <div class="submenu services_submenu">
+                <div class="services_submenu_wrapper d-flex justify-content-between">
+                  <div class="service_col">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                      <li class="sub_item"><a class="sub_link" href="">Product And Service Design</a></li>
+                      <li class="sub_item"><a class="sub_link" href="">Data Science</a></li>
+                      <li class="sub_item"><a class="sub_link" href="">Cyber Security</a></li>
+                      <li class="sub_item"><a class="sub_link" href="">Technical Feasibility Study</a></li>
+                      <li class="sub_item"><a class="sub_link" href="">Data Strategy</a></li>
+                      <li class="sub_item"><a class="sub_link" href="">Sustainability Consulting</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="service_col">
+                    <h5>Solutions</h5>
+                    <ul class="list-unstyled">
+                      <li class="sub_item"><a class="sub_link" href=""><span>PoC</span></a></li>
+                      <li class="sub_item">
+                        <a href="" class="sub_link">
+                          <span>Enterprise Applications</span>
+                          <ul>
+                            <li class="sub_sub_item"><a class="sub_sub_link" href=""><span>ERP Consulting</span></a>
+                            </li>
+                            <li class="sub_sub_item"><a class="sub_sub_link" href=""><span>CRM Consulting</span></a>
+                            </li>
+                          </ul>
+                        </a>
+                      </li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Cyber Security</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Technical Feasibility Study</span></a>
+                      </li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Data Strategy</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Sustainability Consulting</span></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="service_col">
+                    <h5>Technologies</h5>
+                    <ul class="list-unstyled">
+                      <li class="sub_item"><a class="sub_link" href=""><span>Software Audit</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Quality Assurance</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Quality Assurance</span></a></li>
+                    </ul>
+                  </div>
+
+                  <div class="service_col">
+                    <h5>BY Role</h5>
+                    <ul class="list-unstyled">
+                      <li class="sub_item"><a class="sub_link" href=""><span>CEO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>CFO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>COO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>CMO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>CTO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>CTO</span></a></li>
+                      <li class="sub_item"><a class="sub_link" href=""><span>Product Leader</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="articles_box">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="articles_titles">
+                        <h5 class="head">Articles</h5>
+                        <ul class="list-unstyled">
+                          <li>
+                            <a href="" class="d-flex align-items-center">
+                              <img src="./assets/images/Flyout/Icon/Solid/Insight.svg" alt="">
+                              <p class="mb-0">Debugging with product analytics</p>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="d-flex align-items-center">
+                              <img src="./assets/images/Flyout/Icon/Solid/Insight.svg" alt="">
+                              <p class="mb-0">Why it’s never too early to add product ana...</p>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="d-flex align-items-center">
+                              <img src="./assets/images/Flyout/Icon/Solid/Insight.svg" alt="">
+                              <p class="mb-0">Data implementation, starting with the ‘why’</p>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="d-flex align-items-center">
+                              <img src="./assets/images/Flyout/Icon/Solid/Insight.svg" alt="">
+                              <p class="mb-0">Data implementation, starting with the ‘why’</p>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="d-flex align-items-center">
+                              <img src="./assets/images/Flyout/Icon/Solid/Insight.svg" alt="">
+                              <p class="mb-0">Data implementation, starting with the ‘why’</p>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </li>
+
+                        </ul>
+                        <a href="" class="d-block mt-4 seeall_link">
+                          <span>See all</span>
+                          <i class="fas fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="listed_eleks d-flex align-items-center">
+                        <div class="cardimg">
+                          <img src="./assets/images/image 44.png" alt="">
+                        </div>
+                        <div class="cardtitle">
+                          <h5>ELEKS listed on the 2023 Global Outsourcing 100</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </li>
-            <li class="nav_item">
+            <li class="nav_item submenu_parent">
               <a href="" class="nav_link">
                 <span>Industries & Expertise</span>
                 <i class="fas fas fa-sort-down"></i>
               </a>
+              <div class="submenu_arrow">
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+              <div class="submenu industriesexpertise_submenu">
+                <div class="industriesexpertise_submenu_wrapper">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="industries_wrapper">
+                        <h5 class="head">Industries</h5>
+                        <ul class="list-unstyled d-flex align-items-center flex-wrap">
+                          <li class="sub_item"><a class="sub_link" href="">Logistics</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Fintech</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Retail</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Insurance</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Automative</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Healthcare</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Agriculture</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Energy</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Media & Entertainment</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Government</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="industries_wrapper expertise_wrapper">
+                        <h5 class="head">Expertise</h5>
+                        <ul class="list-unstyled d-flex align-items-center flex-wrap">
+                          <li class="sub_item"><a class="sub_link" href="">DevOps</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">VR/AR/MR</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">IoT</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Market Research</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Blockchain</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Digital Enterprise</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">UX Consulting</a></li>
+                          <li class="sub_item"><a class="sub_link" href="">Nearshore Development</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="articles_box_2">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="article_card d-flex align-items-center">
+                          <div class="card_img">
+                            <div class="img_parent">
+                              <img src="./assets/images/Rectangle 1598.png" alt="">
+                            </div>
+                          </div>
+                          <div class="card_title">
+                            <h5>Are You Looking for an accurate estimate of your software development project budget?
+                            </h5>
+                            <a href="">
+                              <span>Try our calculator </span>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+                        <div class="article_card article_card_2 d-flex align-items-center">
+                          <div class="card_img">
+                            <div class="img_parent">
+                              <img src="./assets/images/Rectangle 1598.png" alt="">
+                            </div>
+                          </div>
+                          <div class="card_title">
+                            <h5>Are You Looking for an accurate estimate of your software development project budget?
+                            </h5>
+                            <a href="">
+                              <span>Try our calculator </span>
+                              <i class="fas fa-chevron-right"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li class="nav_item">
+            <li class="nav_item submenu_parent">
               <a href="" class="nav_link">
                 <span>Clients</span>
                 <i class="fas fas fa-sort-down"></i>
               </a>
+              <div class="submenu_arrow">
+                <i class="fa-solid fa-caret-up"></i>
+              </div>
+              <div class="submenu clients_submenu">
+                <div class="clients_submenu_wrapper">
+                  <ul class="list-unstyled">
+                    <li class="sub_item"><a class="sub_link" href="">Our Clients</a></li>
+                    <li class="sub_item"><a class="sub_link" href="">Case Studies</a></li>
+                  </ul>
+                </div>
+              </div>
             </li>
             <li class="nav_item">
               <a href="" class="nav_link">
@@ -68,6 +561,7 @@
           </ul>
         </div>
         <div class="otherlinks d-flex align-items-center justify-content-between">
+          <a href="https://eleks.com/" target="_blank" class="contact_us_btn eleks_btn btn_style">eleks.com</a>
           <a href="" class="contact_us_btn btn_style">Contact Us</a>
           <span class="search"><img src="./assets/images/search.svg" alt=""></span>
           <div class="lang">
@@ -78,6 +572,9 @@
               <option value="">JA</option>
             </select>
           </div>
+        </div>
+        <div class="burger_menu">
+          <a href="#menu"><i class="fa-solid fa-bars-staggered"></i></a>
         </div>
       </div>
     </div>
@@ -708,6 +1205,15 @@
 
   <!-- for animation -->
   <script src="./assets/js/aos.js"></script>
+
+
+  <!-- for loading page -->
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+
+  <!-- for menue in mobile -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.js"
+    integrity="sha512-l2fHTYCLVbhRDc5CZWrkKJ06JWFjG5etNQ4G85PbyRiHP769IiVDmhwI0BYSFOXYJUYRmaq5PvfaxacZm9eqhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- for counter -->
   <script src="./assets/js/jquery.counterup.min.js"></script>

@@ -116,6 +116,14 @@ p {
   font-size: 2rem;
 }
 
+body.modal-open {
+  padding-right: 0 !important;
+}
+
+body.modal-open .mm-slideout {
+  z-index: auto;
+}
+
 /* menu icon */
 .menu_icon {
   right: 0;
