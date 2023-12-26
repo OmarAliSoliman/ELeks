@@ -876,6 +876,14 @@ body.modal-open .mm-slideout {
   border-top: 2px solid #d9d9d9;
   cursor: pointer;
 }
+.headers_logo .headers_logo_wrapper ul li .img_wrap {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 .headers_logo .headers_logo_wrapper ul li span {
   top: -3px;
   right: 0;
@@ -883,11 +891,17 @@ body.modal-open .mm-slideout {
 }
 .headers_logo .headers_logo_wrapper ul li img {
   display: block;
+  width: 30%;
 }
 .headers_logo .headers_logo_wrapper ul li:last-child {
   border-right: 0;
 }
 
+@media (max-width: 991px) {
+  .headers_logo .headers_logo_wrapper ul li img {
+    width: 25%;
+  }
+}
 .home_awards {
   padding: 190px 0 65px 0;
 }

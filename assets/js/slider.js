@@ -2,7 +2,7 @@ var currentDir = $("body").css("direction");
 
 
 $(".slider").slick({
-  infinite: false,
+  infinite: true,
   arrows: false,
   dots: false,
   autoplay: false,

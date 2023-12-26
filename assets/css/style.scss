@@ -130,10 +130,12 @@ p {
   }
 }
 
-body.modal-open{
+body.modal-open {
   padding-right: 0 !important;
 }
-body.modal-open .mm-slideout { z-index:auto;}
+body.modal-open .mm-slideout {
+  z-index: auto;
+}
 
 /* menu icon */
 .menu_icon {
@@ -1053,7 +1055,16 @@ body.modal-open .mm-slideout { z-index:auto;}
         position: relative;
         border-top: 2px solid #d9d9d9;
         cursor: pointer;
-
+        // overflow: hidden;
+        .img_wrap {
+          width: 100%;
+          height: 80px;
+          display: flex;
+          // border: 1px solid #000;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+        }
         span {
           top: -3px;
           right: 0;
@@ -1062,6 +1073,7 @@ body.modal-open .mm-slideout { z-index:auto;}
 
         img {
           display: block;
+          width: 30%;
         }
 
         &:last-child {
@@ -1069,6 +1081,12 @@ body.modal-open .mm-slideout { z-index:auto;}
         }
       }
     }
+  }
+}
+
+@media (max-width: 991px) {
+  .headers_logo .headers_logo_wrapper ul li img {
+    width: 25%;
   }
 }
 
@@ -10106,29 +10124,29 @@ body.modal-open .mm-slideout { z-index:auto;}
   //   display: none !important;
   // }
 
-  .smart_tem_header.about_header{
+  .smart_tem_header.about_header {
     flex-direction: column !important;
-    .header_boxes_down{
+    .header_boxes_down {
       position: relative;
       bottom: 0;
       margin-top: 15px;
     }
-    ul{
+    ul {
       flex-wrap: wrap;
     }
-    li{
+    li {
       width: 50%;
       padding: 10px 10px;
       min-height: auto;
       border-bottom: 1px solid #00267b;
     }
   }
-  .services_header_with_boxes_down .header_boxes_down li::after{
+  .services_header_with_boxes_down .header_boxes_down li::after {
     height: 100%;
   }
-  .services_header_with_images .content_img{
+  .services_header_with_images .content_img {
     flex-wrap: wrap;
-    img{
+    img {
       margin-bottom: 10px;
       margin-left: 0;
       margin-right: 20px;
@@ -10658,19 +10676,22 @@ body.modal-open .mm-slideout { z-index:auto;}
   .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_right {
     padding: 20px;
   }
-  .industries_page .what_you_get_half_sentences .stripred_content{
+  .industries_page .what_you_get_half_sentences .stripred_content {
     font-size: 1.4rem;
     margin-top: 20px;
     line-height: 35px;
   }
-  .product_service_advisory .section_header h5{
+  .product_service_advisory .section_header h5 {
     font-size: 2rem;
   }
-  .industries_page .nearshore_vs_offshore .nearshore_vs_offshore_left .wrap .card_img{
+  .industries_page
+    .nearshore_vs_offshore
+    .nearshore_vs_offshore_left
+    .wrap
+    .card_img {
     width: 100%;
     margin-bottom: 20px;
   }
- 
 }
 
 @media (max-width: 320px) {
