@@ -1511,6 +1511,36 @@ body.modal-open .mm-slideout {
   }
 }
 
+.new_breadcrumb_img{
+  position: relative;
+  .img_breadcrumb{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    .card_img{
+      height: 100%;
+      .img_parent{
+        position: unset;
+        img{
+          object-fit: unset;
+          margin: 0 0 !important;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:600px){
+  .new_breadcrumb_img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .proplems_we_help_wrapper {
   padding: 100px 0;
 
@@ -1557,8 +1587,14 @@ body.modal-open .mm-slideout {
   }
 
   .proplems_card_img {
+    .img_parent {
+      position: unset;
+    }
     .card_img {
-      height: 500px;
+      height: auto;
+      img {
+        object-fit: contain;
+      }
     }
   }
 }
@@ -2879,8 +2915,14 @@ body.modal-open .mm-slideout {
   margin-bottom: 50px;
 
   .card_img {
-    height: 240px;
+    height: 250px;
     margin-bottom: 32px;
+    .img_parent{
+      position: unset;
+      img{
+        object-fit: unset;
+      }
+    }
   }
 
   span {
@@ -7680,8 +7722,14 @@ body.modal-open .mm-slideout {
     }
 
     .industries_our_retail_img {
+      .img_parent{
+        position: unset;
+      }
       .card_img {
-        height: 467px;
+        height: auto;
+        img{
+          object-fit: unset;
+        }
       }
     }
 

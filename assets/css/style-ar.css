@@ -1426,6 +1426,37 @@ body.modal-open .mm-slideout { z-index:auto;}
   color: #fff;
 }
 
+.new_breadcrumb_img {
+  position: relative;
+}
+.new_breadcrumb_img .img_breadcrumb {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.new_breadcrumb_img .img_breadcrumb .card_img {
+  height: 100%;
+}
+.new_breadcrumb_img .img_breadcrumb .card_img .img_parent {
+  position: unset;
+}
+.new_breadcrumb_img .img_breadcrumb .card_img .img_parent img {
+  -o-object-fit: unset;
+     object-fit: unset;
+  margin: 0 0 !important;
+}
+
+@media (max-width: 600px) {
+  .new_breadcrumb_img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
 .proplems_we_help_wrapper {
   padding: 100px 0;
 }
@@ -1463,8 +1494,15 @@ body.modal-open .mm-slideout { z-index:auto;}
 .proplems_cards .proplems_card_content p a {
   color: #0045e6;
 }
+.proplems_cards .proplems_card_img .img_parent {
+  position: unset;
+}
 .proplems_cards .proplems_card_img .card_img {
-  height: 500px;
+  height: auto;
+}
+.proplems_cards .proplems_card_img .card_img img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .our_vision_strip {
@@ -2559,8 +2597,15 @@ body.modal-open .mm-slideout { z-index:auto;}
   margin-bottom: 50px;
 }
 .categry_card .card_img {
-  height: 240px;
+  height: 250px;
   margin-bottom: 32px;
+}
+.categry_card .card_img .img_parent {
+  position: unset;
+}
+.categry_card .card_img .img_parent img {
+  -o-object-fit: unset;
+     object-fit: unset;
 }
 .categry_card span {
   color: #0045e6;
@@ -6875,8 +6920,15 @@ body.modal-open .mm-slideout { z-index:auto;}
   font-style: normal;
   font-weight: 700;
 }
+.industries_page .industries_our_retail .industries_our_retail_img .img_parent {
+  position: unset;
+}
 .industries_page .industries_our_retail .industries_our_retail_img .card_img {
-  height: 467px;
+  height: auto;
+}
+.industries_page .industries_our_retail .industries_our_retail_img .card_img img {
+  -o-object-fit: unset;
+     object-fit: unset;
 }
 .industries_page
   .industries_our_retail
