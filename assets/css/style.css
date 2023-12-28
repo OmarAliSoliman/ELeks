@@ -3319,22 +3319,23 @@ body.modal-open .mm-slideout {
   margin-right: 35px;
   position: relative;
 }
-.services_header .pageslinks li::after {
-  position: absolute;
-  content: "\f105";
-  right: -19px;
-  top: 50%;
-  transform: translate(0, -50%);
-  color: rgba(255, 255, 255, 0.743);
-}
 .services_header .pageslinks li a {
   color: #fff;
   font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
 }
-.services_header .pageslinks li:last-child::after {
-  content: "";
+.services_header .pageslinks li a i {
+  position: absolute;
+  content: "\f105";
+  right: -19px;
+  top: 50%;
+  transform: translate(0, -50%);
+  color: rgba(255, 255, 255, 0.743);
+  font-size: 0.9rem;
+}
+.services_header .pageslinks li:last-child a i {
+  display: none;
 }
 
 .product_service_advisory .section_header {
@@ -8562,7 +8563,7 @@ body.modal-open .mm-slideout {
   background-size: cover;
 }
 
-.locations .slick-prev::before, .locations .slick-next:before, .how_we_work_page .what_you_get_slider .slick-arrow::before, .services_header .pageslinks li::after {
+.locations .slick-prev::before, .locations .slick-next:before, .how_we_work_page .what_you_get_slider .slick-arrow::before, .services_header .pageslinks li a i {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
