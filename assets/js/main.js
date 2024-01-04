@@ -624,7 +624,16 @@ $(document).ready(function () {
     });
   }
 
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 220){
+      $(".custom_navbar").addClass("fixed_navbar");
+    }else{
+      $(".custom_navbar").removeClass("fixed_navbar");
+    }
+  })
+
   AOS.init();
+
 });
 
 // document.addEventListener("DOMContentLoaded", () => {
