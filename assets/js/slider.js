@@ -6,7 +6,7 @@ $(".slider").slick({
   arrows: false,
   dots: false,
   autoplay: false,
-  fade: true,
+  fade: false,
   speed: 800,
   slidesToShow: 1,
   slidesToScroll: 1
@@ -70,3 +70,26 @@ $(".item").click(function () {
   $(".single-item").slick("slickGoTo", goToThisIndex, false);
   startProgressbar();
 });
+
+
+// set event listener to execute on timeupdate. This gets invoked every ~250ms or so
+// $('video#full-vid').on('timeupdate',function() {
+//   // use parseInt to round to whole seconds
+//   var ct = parseInt(this.currentTime);
+//   // only eval once per second inc, since timeupdate pops ~4 times per second
+//   if (this.lastTime!=ct) {
+//     // if current time is divisible by 10 then an inc of 10s has passed
+//     if (ct%10===0) {
+//       console.log(ct,'seconds have passed');    
+//     }
+//   }
+//   this.lastTime=ct;
+// });
+
+$(".headers_logo .item").on('click', function(){
+  const headervideo = $(this).closest(".home_header_slider_container").find("video");
+  const videoTime = $(this).attr("data-curreenttime");
+  $(headervideo)[0].currentTime = videoTime;
+  console.log(headervideo);
+  
+})
