@@ -627,8 +627,14 @@ $(document).ready(function () {
   $(window).scroll(function(){
     if($(this).scrollTop() > 220){
       $(".custom_navbar").addClass("fixed_navbar");
+      if($(".navbar_class_cheacker").hasClass("index_navbar")){
+        $(".navbar_class_cheacker").removeClass("index_navbar")
+      }
     }else{
       $(".custom_navbar").removeClass("fixed_navbar");
+      if(!$(".navbar_class_cheacker").hasClass("index_navbar")){
+        $(".navbar_class_cheacker").addClass("index_navbar")
+      }
     }
   })
 
